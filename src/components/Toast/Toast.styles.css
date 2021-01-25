@@ -1,0 +1,53 @@
+.toast-box {
+    position: fixed;
+    top: 1.2rem;
+    right: 1.2rem;
+    margin-left: 1.2rem;
+    transition: transform .6s ease-in-out;
+    animation: toast-in-right .7s;
+    z-index: 50;
+}
+
+.notification {
+    display: flex;
+    align-items: center;
+    background: #121212;
+	transition: .3s ease;
+	position: relative;
+	overflow: hidden;
+	padding: 1rem;
+    width: auto;
+    border: solid 1px wheat;
+	box-shadow: 0 0 5px #7b7b7b;
+	color: #fff;
+	opacity: .9;
+}
+
+.notification-icon {
+    color: wheat;
+    font-size: 3rem;
+    height: 5rem;
+    width: 5rem;
+    padding: .5rem;
+    margin-right: 1rem;
+}
+
+.notification-text {
+    display: flex;
+    flex-direction: column;
+    font-size: 2rem;
+}
+
+.notification-title {
+    font-weight: 600;
+}
+
+@keyframes toast-in-right {
+	from {
+	  transform: translateX(100%);
+	  
+	}
+	to {
+	  transform: translateX(0);
+	}
+}

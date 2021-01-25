@@ -1,0 +1,12 @@
+.item-title {
+    width: 60%;
+}
+
+.item-remove {
+    width: 2rem;
+}
+
+.svg-button {
+    width: 1rem;
+    color: red;
+}

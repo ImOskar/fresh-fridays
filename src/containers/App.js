@@ -1,114 +1,167 @@
-import React from 'react';
-import Header from '../components/Header';
-import ReleaseList from '../components/ReleaseList';
+import React, { useEffect, useState } from 'react';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faBars } from '@fortawesome/free-solid-svg-icons'
+import Header from '../components/Header/Header';
+import ReleaseList from '../components/ReleaseList/ReleaseList';
+import Playlist from '../components/Playlist/Playlist';
+import Tracklist from '../components/Tracklist/Tracklist';
+import Toast from '../components/Toast/Toast';
+import savePlaylist from '../utils/spotifyApi';
+import * as tc from '../utils/constants';
 import './App.css';
 
-class App extends React.Component {
-  constructor() {
-    super();
-    this.state = {
-      releases: [],
-      searchfield: '',
-      genre: ''
+
+function App() {
+  
+  const [token, setToken] = useState('');
+  const [releases, setReleases] = useState([]);
+  const [playlist, setPlaylist] = useState([]);
+  const [tracklist, setTracklist] = useState(0);
+  const [playlistToggle, setPlaylistToggle] = useState(false);
+  const [tracklistToggle, setTracklistToggle] = useState(false);
+  const [releaseType, setReleaseType] = useState(true);
+  const [toast, setToast] = useState({ message: '', show: false, type: '', title: ''});
+
+  useEffect(() => {
+    getReleases();
+  }, []);
+
+  useEffect(() => {
+    let searchParams = new URLSearchParams(window.location.hash);
+    if (searchParams.has('#access_token')){
+      let userToken = searchParams.get('#access_token');
+      addToken(userToken);
     }
+    window.location.hash = "";
+  }, [])
+
+  const addToken = (token) => {
+    setToken(token);
   }
 
-  componentDidMount() {
-    const dummyReleases = [
-      {
-        name: 'The Smiths',
-        album: 'Meat Is Murder',
-        image: 'https://www.nme.com/wp-content/uploads/2016/10/254.TheSmiths_MeatIsMurder_141013-1.jpg'
-      },
-      {
-        name: 'Amy Winehouse',
-        album: 'Back To Black',
-        image: 'https://www.nme.com/wp-content/uploads/2016/10/28.AmyWinehouse_Backtoblack_161013-2.jpg'
-      },
-      {
-        name: 'Nirvana',
-        album: 'Nevermind',
-        image: 'https://www.nme.com/wp-content/uploads/2016/10/2014Nirvana_Nevermind_150414-2.jpg'
-      },
-      {
-        name: 'Radiohead',
-        album: 'Kid A',
-        image: 'https://www.nme.com/wp-content/uploads/2016/10/114.Radiohead_KidA_151013.jpg'
-      },
-      {
-        name: 'The Clash',
-        album: 'London Calling',
-        image: 'https://www.nme.com/wp-content/uploads/2016/10/39.clash_londoncalling_161014-1.jpg'
-      },
-      {
-        name: 'The Smiths',
-        album: 'Meat Is Murder',
-        image: 'https://www.nme.com/wp-content/uploads/2016/10/254.TheSmiths_MeatIsMurder_141013-1.jpg'
-      },
-      {
-        name: 'Amy Winehouse',
-        album: 'Back To Black',
-        image: 'https://www.nme.com/wp-content/uploads/2016/10/28.AmyWinehouse_Backtoblack_161013-2.jpg'
-      },
-      {
-        name: 'Nirvana',
-        album: 'Nevermind',
-        image: 'https://www.nme.com/wp-content/uploads/2016/10/2014Nirvana_Nevermind_150414-2.jpg'
-      },
-      {
-        name: 'Radiohead',
-        album: 'Kid A',
-        image: 'https://www.nme.com/wp-content/uploads/2016/10/114.Radiohead_KidA_151013.jpg'
-      },
-      {
-        name: 'The Clash',
-        album: 'London Calling',
-        image: 'https://www.nme.com/wp-content/uploads/2016/10/39.clash_londoncalling_161014-1.jpg'
-      },
-    ];
-    this.setState({releases: dummyReleases});
-
-    window.addEventListener("scroll", this.shrinkHeaderOnScroll);
-  
-}
-    
-shrinkHeaderOnScroll = () => {
-      const distanceY = window.pageYOffset || document.documentElement.scrollTop,
-        shrinkOn = 50,
-        header = document.getElementById("header");
-  
-      if (distanceY > shrinkOn) {
-        header.classList.add("shrink");
-      } else {
-        header.classList.remove("shrink");
-      }
-}
-
-  onSearchChange = (event) => {
-    this.setState({searchfield: event.target.value});
+  const getReleases = () => {
+    fetch('releases.json')
+    .then((response) => response.json())
+    .then((releases) => {
+      setReleases(releases);
+    });
   }
 
-  onSelectChange = (event) => {
-    this.setState({genre: event.target.value});
+  const handlePlaylistToggle = () => {
+    setPlaylistToggle(!playlistToggle);
   }
 
-  render() {
-    const { releases, searchfield} = this.state;
-    const filteredReleases = releases.filter(release => {
-      return release.name.toLowerCase().includes(searchfield.toLowerCase()) || 
-        release.album.toLowerCase().includes(searchfield.toLowerCase());
-    })
-    return !releases.length ? 
-      <h1>Searching for new releases...</h1> :
-        (
+  const handleTracklistToggle = (tracks) => {
+    setTracklistToggle(!tracklistToggle);
+    if (tracklistToggle) return;
+    setTracklist(tracks);
+  }
+
+  const handleAddToPlaylist = ( name, title, uri) => {
+    if (playlist.some(item => item.uri === uri)) {
+      displayToast(name + ' - ' + title, tc.DUP_MESSAGE, tc.DUPLICATE);
+      return;
+    }
+    let playlistItem = {
+      artist: name,
+      title,
+      uri
+    }
+    setPlaylist(playlist => [...playlist, playlistItem]);
+  }
+
+  const handleDeleteFromPlaylist = (uri) => {
+    setPlaylist(playlist => (playlist.filter(item => item.uri !== uri)));
+  }
+
+  const handleSavePLaylist = () => {
+    if (!token || !playlist.length) {
+      displayToast(tc.LOGIN_MESSAGE, tc.PL_ERROR_MESSAGE, tc.ERROR);
+      return;
+    }
+    saveToSpotify();
+  }
+
+  const saveToSpotify = () => {
+    let uris = playlist.map(item => item.uri);
+    savePlaylist(token, uris)
+      .then(res => {if(res.status < 400) displayToast('', tc.PL_SUCCESS_MESSAGE, tc.SUCCESS)})
+      .catch(error => {if(error) displayToast(tc.LOGIN_MESSAGE, tc.PL_ERROR_MESSAGE, tc.ERROR)})
+    handlePlaylistToggle();
+    setPlaylist([]);
+  }
+
+  const handleSelectorButton = (e) => {
+    let albumButton = document.querySelector('.left');
+    let singleButton = document.querySelector('.right');
+    let switchSpan = document.querySelector('.active');
+    switch(e.target.value) {
+      case 'albums': 
+        setReleaseType(true);
+        singleButton.classList.remove('active-case');
+        albumButton.classList.add('active-case');
+        switchSpan.style.left = '0%';
+        break;
+      case 'singles':
+        setReleaseType(false);
+        albumButton.classList.remove('active-case');
+        singleButton.classList.add('active-case');
+        switchSpan.style.left = '50%';
+        break;
+      default: break;
+    } 
+  }
+
+  const displayToast = (message, title, type) => {
+    setToast({message: message, show: true, type: type, title: title});
+    setTimeout(() => {
+      setToast({message: '', show: false, type: '', title: ''});
+    }, 3000);
+  }
+
+    return (
           <div className='container'>
             <Header/>
-            <div className='content'>
-              <ReleaseList releases={filteredReleases} /> 
-            </div>
+            <main id='content'>
+              <section className='content-header'>
+                <div className='switch-button'>
+                  <span className='active'></span>
+                  <button value='albums' className='switch-button-case left active-case' 
+                      onClick={handleSelectorButton}>Albums</button>
+                  <button value='singles' className='switch-button-case right' 
+                      onClick={handleSelectorButton}>Singles</button>
+                </div>
+              </section>
+              {!releases.length ? 
+                (<h1>Searching for new releases...</h1>) :
+                (<ReleaseList clickHandler={handleAddToPlaylist} 
+                  albumClick={handleTracklistToggle} releases={releases} releaseType={releaseType}/>) 
+              }
+              {playlistToggle && 
+                <Playlist handleDelete={handleDeleteFromPlaylist} 
+                  handleSave={handleSavePLaylist} 
+                  tracks={playlist}/> 
+              }          
+              <button onClick={handlePlaylistToggle} className='playlist-button btn'>
+                <FontAwesomeIcon icon={faBars} />
+              </button>
+              {tracklistToggle && 
+                <Tracklist clickHandler={handleAddToPlaylist} 
+                  albumClick={handleTracklistToggle} list={tracklist}/>
+              }
+              {toast.show &&
+                <Toast {...toast}/>
+              }
+            </main>
+            <footer className='footer'>
+              <span>Photo by 
+                <a href='https://www.pexels.com/@suzyhazelwood'> Suzy Hazelwood </a>
+                from 
+                <a href='https://www.pexels.com/'> Pexels </a></span>
+            </footer>
           </div>
         )
-  };
+
 }
 
 export default App;

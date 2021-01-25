@@ -12,6 +12,7 @@
 html {
   box-sizing: border-box;
   font-size: 62.5%; /* 1rem = 10px, 10px/16px = 62.5% */
+  scroll-behavior: smooth;
 }
 
 body {
@@ -20,8 +21,19 @@ body {
   line-height: 1.6;
   
   color: wheat;
-  background-color: rgb(25, 27, 27);
+  background-color: rgb(33, 33, 33);
   
+}
+
+
+a,
+a:visited {
+  text-decoration: none;
+  color: inherit;
+}
+
+a:hover {
+  color: white;
 }
 
 .container {
@@ -29,10 +41,117 @@ body {
   flex-wrap: wrap;
   align-items: center;
   justify-content: center;
-
-  margin-top: 37rem;
 }
 
-.content {
-  
+.release-links {
+  display: flex;
+  flex-direction: column;
+  font-size: 4rem;
+}
+
+.content-header {
+  height: 15rem;
+  position: relative;
+}
+
+.btn {
+  all: unset;
+  cursor: pointer;
+  line-height: 1.15;
+}
+
+.playlist-button {
+  position: fixed;
+  font-size: 4rem;
+  right: 2rem;
+  bottom: 2rem;
+  height: 4rem;
+  width: 4rem;
+  z-index: 100;
+}
+
+.playlist-button:hover {
+  color: white;
+}
+
+.spotify-btn {
+  background: #1DB954;
+  border-radius: 20px;
+  width: 25rem;
+  height: 4rem;
+  margin: 1rem;
+  color: white;
+  border: none;
+  transition: .3s ease all;
+  letter-spacing: 3px;
+}
+
+.spotify-btn:hover {
+  color:black;
+  cursor: pointer;
+}
+
+.spotify-btn:focus {
+  outline: none;
+}
+
+.switch-button {
+  width: 40rem;
+  height: 4rem;
+  text-align: center;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate3d(-50%, -50%, 0);
+  will-change: transform;
+  cursor: pointer;
+  transition: .3s ease all;
+  border: 1px solid wheat;
+}
+
+.switch-button-case {
+  display: inline-block;
+  background: none;
+  width: 49%;
+  height: 100%;
+  color: white;
+  position: relative;
+  border: none;
+  transition: .3s ease all;
+  text-transform: uppercase;
+  letter-spacing: 5px;
+  padding-bottom: 1px;
+}
+
+.switch-button-case:hover {
+  color: grey;
+  cursor: pointer;
+}
+
+.switch-button-case:focus {
+  outline: none;
+}
+
+.active-case {
+  color: #151515;
+}
+
+.active {
+  color: #15151515;
+  background-color: wheat;
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 50%;
+  height: 100%;
+  z-index: -1;
+  transition: .3s ease-out all;
+}
+
+.footer {
+  height: 20rem;
+  font-size: 1.5rem;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
 }
