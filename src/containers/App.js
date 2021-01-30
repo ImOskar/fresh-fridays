@@ -21,6 +21,7 @@ function App() {
   const [tracklistToggle, setTracklistToggle] = useState(false);
   const [releaseType, setReleaseType] = useState(true);
   const [toast, setToast] = useState({ message: '', show: false, type: '', title: ''});
+  const [preview, setPreview] = useState({ uri: '', url: '', audio: '', play: ''});
 
   useEffect(() => {
     getReleases();
@@ -34,6 +35,19 @@ function App() {
     }
     window.location.hash = "";
   }, [])
+
+  useEffect(() => {
+    if (preview.play) {
+      preview.audio.play();
+      preview.audio.addEventListener("ended", onPlayEnded);
+    } else if (!preview.play && preview.audio) {
+      preview.audio.pause();
+    }
+  }, [preview]);
+
+  const onPlayEnded = () => {
+    setPreview({ uri: '', url: '', audio: '', play: false})
+  }
 
   const addToken = (token) => {
     setToken(token);
@@ -91,6 +105,19 @@ function App() {
     setPlaylist([]);
   }
 
+  const handlePlayPreview = (url, uri) => {
+    if (url === preview.url && preview.play) {
+      setPreview({uri:'', url:'', audio: preview.audio, play: !preview.play});
+    }
+    else if (url !== preview.url && preview.play){
+      preview.audio.pause();
+      setPreview({uri:uri, url:url, audio: new Audio(url), play: preview.play});
+    }  
+    else {
+      setPreview({uri:uri, url:url, audio: new Audio(url), play: !preview.play});
+    }
+  }
+
   const handleSelectorButton = (e) => {
     let albumButton = document.querySelector('.left');
     let singleButton = document.querySelector('.right');
@@ -135,7 +162,8 @@ function App() {
               {!releases.length ? 
                 (<h1>Searching for new releases...</h1>) :
                 (<ReleaseList clickHandler={handleAddToPlaylist} 
-                  albumClick={handleTracklistToggle} releases={releases} releaseType={releaseType}/>) 
+                  albumClick={handleTracklistToggle} previewClick={handlePlayPreview} 
+                  playing={preview.uri} releases={releases} releaseType={releaseType}/>) 
               }
               {playlistToggle && 
                 <Playlist handleDelete={handleDeleteFromPlaylist} 
@@ -147,7 +175,10 @@ function App() {
               </button>
               {tracklistToggle && 
                 <Tracklist clickHandler={handleAddToPlaylist} 
-                  albumClick={handleTracklistToggle} list={tracklist}/>
+                  albumClick={handleTracklistToggle}
+                  previewClick={handlePlayPreview} 
+                  playing={preview.uri}
+                  list={tracklist}/>
               }
               {toast.show &&
                 <Toast {...toast}/>

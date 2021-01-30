@@ -2,7 +2,7 @@ import React from 'react';
 import Release from '../Release/Release';
 import './ReleaseList.styles.css';
 
-const Releaselist = ({ releases, clickHandler, albumClick, releaseType }) => {
+const Releaselist = ({ releases, clickHandler, albumClick, previewClick, playing, releaseType }) => {
     if (releaseType) releases = releases[0].releases;
     else releases = releases[1].releases;
     return ( 
@@ -14,6 +14,8 @@ const Releaselist = ({ releases, clickHandler, albumClick, releaseType }) => {
                             addClick={clickHandler} 
                             {...release}
                             albumClick={albumClick}
+                            previewClick={previewClick} 
+                            playing={playing}
                             album={releaseType}/>
                     );
                 })

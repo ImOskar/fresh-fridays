@@ -3,8 +3,8 @@
     opacity: 0.9;
     z-index: 20;
     top: 10%;
-    left: 10%;
-    width: 80%; 
+    left: 5%;
+    width: 90%; 
     height: 80%;
     color: white;
     background: #121212;
@@ -20,16 +20,67 @@
     padding: 1rem;
 }
 
-.add-svg {
-    color: wheat;
+.play-svg {
+    color: rgb(65, 255, 81);
+    font-size: 2rem;
 }
 
+.add-svg {
+    color: wheat;
+    font-size: 2rem;
+}
+
+.play-svg:hover,
 .add-svg:hover {
     color: #fff;
 }
 
+.tracklist-table {
+    margin-left: auto;
+    margin-right: auto;
+}
 
 .tracklist-header {
+    display: flex;
+    flex-direction: column;
+}
+
+.tracklist-header-title {
     font-size: 3rem;
     color: wheat;
+    text-align: center;
+}
+
+.title-margin {
+    margin-top: 4rem;
+}
+
+.tracklist-title {
+    width: 90%;
+}
+
+.tracklist-play {
+    padding: 1rem;
+}
+
+.pulse-btn {
+    box-shadow: 0 0 0 0 rgba(41, 255, 22, .5);
+    -webkit-animation: pulse 1.5s infinite;
+    animation: pulse 1.5s infinite;
+    -webkit-border-radius: 50%;
+    border-radius: 50%;
+}
+
+@keyframes pulse {
+    0%{
+        transform: scale(.9);
+    }
+    70%{
+        transform: scale(1);
+        box-shadow: 0 0 0 15px hsla(115, 100%, 54%, 0);
+    }
+    90%{
+        transform: scale(.9);
+        box-shadow: 0 0 0 0 rgba(41, 255, 22, 0);
+    }
 }
