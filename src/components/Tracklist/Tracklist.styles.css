@@ -1,86 +1,104 @@
 .tracklist {
-    position: fixed;
-    opacity: 0.9;
-    z-index: 20;
-    top: 10%;
-    left: 5%;
-    width: 90%; 
-    height: 80%;
-    color: white;
-    background: #121212;
-    overflow-y: scroll;
-    font-size: 3rem;
+  position: fixed;
+  opacity: 0.9;
+  z-index: 20;
+  top: 10%;
+  left: 25%;
+  width: 50%;
+  height: 80%;
+  color: white;
+  background: #121212;
+  overflow-y: scroll;
+  font-size: 3rem;
 }
 
 .close-btn {
-    position: fixed;
-    top: 10%;
-    font-size: 3rem;
-    color: #fff;
-    padding: 1rem;
+  font-size: 3rem;
+  color: #fff;
+}
+
+.close-container {
+  align-self: flex-start;
+  position: fixed;
+  margin: 1rem !important;
 }
 
 .play-svg {
-    color: rgb(65, 255, 81);
-    font-size: 2rem;
+  color: #e9ff70;
+  font-size: 3rem;
 }
 
 .add-svg {
-    color: wheat;
-    font-size: 2rem;
-}
-
-.play-svg:hover,
-.add-svg:hover {
-    color: #fff;
+  color: #40e0d0;
+  font-size: 3rem;
 }
 
 .tracklist-table {
-    margin-left: auto;
-    margin-right: auto;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .tracklist-header {
-    display: flex;
-    flex-direction: column;
+  display: flex;
+  flex-direction: column;
 }
 
 .tracklist-header-title {
-    font-size: 3rem;
-    color: wheat;
-    text-align: center;
+  font-size: 3rem;
+  color: wheat;
+  text-align: center;
 }
 
 .title-margin {
-    margin-top: 4rem;
+  margin-top: 4rem;
 }
 
 .tracklist-title {
-    width: 90%;
+  width: 90%;
 }
 
 .tracklist-play {
-    padding: 1rem;
+  padding: 1rem;
 }
 
 .pulse-btn {
-    box-shadow: 0 0 0 0 rgba(41, 255, 22, .5);
-    -webkit-animation: pulse 1.5s infinite;
-    animation: pulse 1.5s infinite;
-    -webkit-border-radius: 50%;
-    border-radius: 50%;
+  box-shadow: 0 0 0 0 rgba(233, 255, 112, 0.5);
+  backface-visibility: hidden;
+  perspective: 1000;
+  -webkit-animation: pulse 1.5s infinite;
+  animation: pulse 1.5s infinite;
+  border-radius: 50%;
 }
 
 @keyframes pulse {
-    0%{
-        transform: scale(.9);
-    }
-    70%{
-        transform: scale(1);
-        box-shadow: 0 0 0 15px hsla(115, 100%, 54%, 0);
-    }
-    90%{
-        transform: scale(.9);
-        box-shadow: 0 0 0 0 rgba(41, 255, 22, 0);
-    }
+  0% {
+    transform: scale(0.9);
+  }
+  70% {
+    transform: scale(1);
+    -webkit-box-shadow: 0 0 0 15px hsla(115, 100%, 54%, 0);
+  }
+  90% {
+    transform: scale(0.9);
+    -webkit-box-shadow: 0 0 0 0 rgba(41, 255, 22, 0);
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .tracklist {
+    left: 2.5%;
+    width: 95%;
+  }
+}
+
+@media (hover: hover) {
+  .play-svg:hover,
+  .add-svg:hover {
+    color: #fff;
+  }
+}
+
+.play-svg:active,
+.add-svg:active {
+  color: #fff;
 }

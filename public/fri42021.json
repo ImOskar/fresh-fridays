@@ -1,0 +1,2632 @@
+[
+    {
+        "type": "albums",
+        "releases": [
+            {
+                "artist": "Arlo Parks",
+                "title": "Collapsed In Sunbeams",
+                "image": "https://i.scdn.co/image/ab67616d00001e020869a7bb597fe38cb1b98102",
+                "url": "https://open.spotify.com/album/42joEEymK7EIHODfNB4yug",
+                "uri": "spotify:album:42joEEymK7EIHODfNB4yug",
+                "tracks": [
+                    {
+                        "artist": "Arlo Parks",
+                        "title": "Collapsed In Sunbeams",
+                        "image": "https://i.scdn.co/image/ab67616d00001e020869a7bb597fe38cb1b98102",
+                        "url": "https://open.spotify.com/track/6mX9vCy6Mie9QBlSpa7AGp",
+                        "uri": "spotify:track:6mX9vCy6Mie9QBlSpa7AGp",
+                        "preview": "https://p.scdn.co/mp3-preview/e26e867eaea36e331248c68b7eec81c455427fdb?cid=9485f9c2860243c3849a8e8ac0d34e57"
+                    },
+                    {
+                        "artist": "Arlo Parks",
+                        "title": "Hurt",
+                        "image": "https://i.scdn.co/image/ab67616d00001e020869a7bb597fe38cb1b98102",
+                        "url": "https://open.spotify.com/track/6ZVVax9sMTB6HPKu36eYZs",
+                        "uri": "spotify:track:6ZVVax9sMTB6HPKu36eYZs",
+                        "preview": "https://p.scdn.co/mp3-preview/a0e99f63109b9640d447cb8eef5367f3a4bbba4b?cid=9485f9c2860243c3849a8e8ac0d34e57"
+                    },
+                    {
+                        "artist": "Arlo Parks",
+                        "title": "Too Good",
+                        "image": "https://i.scdn.co/image/ab67616d00001e020869a7bb597fe38cb1b98102",
+                        "url": "https://open.spotify.com/track/1HHIv96gVeVkoOBzQeH9d8",
+                        "uri": "spotify:track:1HHIv96gVeVkoOBzQeH9d8",
+                        "preview": "https://p.scdn.co/mp3-preview/2453de228ef7f1b5eb77267a50ba73de9423927e?cid=9485f9c2860243c3849a8e8ac0d34e57"
+                    },
+                    {
+                        "artist": "Arlo Parks",
+                        "title": "Hope",
+                        "image": "https://i.scdn.co/image/ab67616d00001e020869a7bb597fe38cb1b98102",
+                        "url": "https://open.spotify.com/track/23bwujVYKeGdbcLd2LQxVo",
+                        "uri": "spotify:track:23bwujVYKeGdbcLd2LQxVo",
+                        "preview": "https://p.scdn.co/mp3-preview/e15df76f2c2eeb1f963adc24054f4775f860c25f?cid=9485f9c2860243c3849a8e8ac0d34e57"
+                    },
+                    {
+                        "artist": "Arlo Parks",
+                        "title": "Caroline",
+                        "image": "https://i.scdn.co/image/ab67616d00001e020869a7bb597fe38cb1b98102",
+                        "url": "https://open.spotify.com/track/6xTp4nC8NBRSYMxGqIikSh",
+                        "uri": "spotify:track:6xTp4nC8NBRSYMxGqIikSh",
+                        "preview": "https://p.scdn.co/mp3-preview/2318c9513ecd2412b3d1ff8955a3edc78f240e92?cid=9485f9c2860243c3849a8e8ac0d34e57"
+                    },
+                    {
+                        "artist": "Arlo Parks",
+                        "title": "Black Dog",
+                        "image": "https://i.scdn.co/image/ab67616d00001e020869a7bb597fe38cb1b98102",
+                        "url": "https://open.spotify.com/track/37pShAS4iuRXJeRAa9k6xw",
+                        "uri": "spotify:track:37pShAS4iuRXJeRAa9k6xw",
+                        "preview": "https://p.scdn.co/mp3-preview/ba13ddb3c978396b0c9aa43a3aa6c107ade2d088?cid=9485f9c2860243c3849a8e8ac0d34e57"
+                    },
+                    {
+                        "artist": "Arlo Parks",
+                        "title": "Green Eyes",
+                        "image": "https://i.scdn.co/image/ab67616d00001e020869a7bb597fe38cb1b98102",
+                        "url": "https://open.spotify.com/track/5iwTDcZSrVq71HjMjNno5c",
+                        "uri": "spotify:track:5iwTDcZSrVq71HjMjNno5c",
+                        "preview": "https://p.scdn.co/mp3-preview/670eca5bfe630bd11765d6d93c7e3ea4e755f532?cid=9485f9c2860243c3849a8e8ac0d34e57"
+                    },
+                    {
+                        "artist": "Arlo Parks",
+                        "title": "Just Go",
+                        "image": "https://i.scdn.co/image/ab67616d00001e020869a7bb597fe38cb1b98102",
+                        "url": "https://open.spotify.com/track/2szxIrlLVWJ7JRxDAGdzzc",
+                        "uri": "spotify:track:2szxIrlLVWJ7JRxDAGdzzc",
+                        "preview": "https://p.scdn.co/mp3-preview/d60af24586c7723cb0bd10bac537efe06da115ce?cid=9485f9c2860243c3849a8e8ac0d34e57"
+                    },
+                    {
+                        "artist": "Arlo Parks",
+                        "title": "For Violet",
+                        "image": "https://i.scdn.co/image/ab67616d00001e020869a7bb597fe38cb1b98102",
+                        "url": "https://open.spotify.com/track/2T8OC0ciyqQWxvrHShD6iT",
+                        "uri": "spotify:track:2T8OC0ciyqQWxvrHShD6iT",
+                        "preview": "https://p.scdn.co/mp3-preview/bcc7e25d77942fe2dcf6d68c55cd9127b3274b6e?cid=9485f9c2860243c3849a8e8ac0d34e57"
+                    },
+                    {
+                        "artist": "Arlo Parks",
+                        "title": "Eugene",
+                        "image": "https://i.scdn.co/image/ab67616d00001e020869a7bb597fe38cb1b98102",
+                        "url": "https://open.spotify.com/track/0sT4slW2xWai3EwVSiuL9Y",
+                        "uri": "spotify:track:0sT4slW2xWai3EwVSiuL9Y",
+                        "preview": "https://p.scdn.co/mp3-preview/743be888e9496cb2e933e22ee941a11464b719c6?cid=9485f9c2860243c3849a8e8ac0d34e57"
+                    },
+                    {
+                        "artist": "Arlo Parks",
+                        "title": "Bluish",
+                        "image": "https://i.scdn.co/image/ab67616d00001e020869a7bb597fe38cb1b98102",
+                        "url": "https://open.spotify.com/track/2xJAj1Q2IQBzGN39fNPdK8",
+                        "uri": "spotify:track:2xJAj1Q2IQBzGN39fNPdK8",
+                        "preview": "https://p.scdn.co/mp3-preview/246f402f76acbe25bcb114faf743b95a647ec692?cid=9485f9c2860243c3849a8e8ac0d34e57"
+                    },
+                    {
+                        "artist": "Arlo Parks",
+                        "title": "Portra 400",
+                        "image": "https://i.scdn.co/image/ab67616d00001e020869a7bb597fe38cb1b98102",
+                        "url": "https://open.spotify.com/track/7cMBZ7xDUb25N1We6DyoPk",
+                        "uri": "spotify:track:7cMBZ7xDUb25N1We6DyoPk",
+                        "preview": "https://p.scdn.co/mp3-preview/bf17601a3cd90ade84fe176fba041aedc5452d42?cid=9485f9c2860243c3849a8e8ac0d34e57"
+                    }
+                ]
+            },
+            {
+                "artist": "Chip",
+                "title": "Snakes & Ladders",
+                "image": "https://i.scdn.co/image/ab67616d00001e020aebd0b9d899332a9154b3f3",
+                "url": "https://open.spotify.com/album/61KrONcgww3TKrlX2qJKzV",
+                "uri": "spotify:album:61KrONcgww3TKrlX2qJKzV",
+                "tracks": [
+                    {
+                        "artist": "Chip",
+                        "title": "No Goat",
+                        "image": "https://i.scdn.co/image/ab67616d00001e020aebd0b9d899332a9154b3f3",
+                        "url": "https://open.spotify.com/track/6XJLSNh0Wlw2JmA0OIi2a2",
+                        "uri": "spotify:track:6XJLSNh0Wlw2JmA0OIi2a2",
+                        "preview": "https://p.scdn.co/mp3-preview/e31b5917aff17f48f5402680bb4eaa0e630c2f5c?cid=9485f9c2860243c3849a8e8ac0d34e57"
+                    },
+                    {
+                        "artist": "Chip",
+                        "title": "Allow It",
+                        "image": "https://i.scdn.co/image/ab67616d00001e020aebd0b9d899332a9154b3f3",
+                        "url": "https://open.spotify.com/track/40T2cSnslDGK2p4Cmb9Xcv",
+                        "uri": "spotify:track:40T2cSnslDGK2p4Cmb9Xcv",
+                        "preview": "https://p.scdn.co/mp3-preview/2959f3b210ebbf80f4b129557476ce5eecab0153?cid=9485f9c2860243c3849a8e8ac0d34e57"
+                    },
+                    {
+                        "artist": "Chip",
+                        "title": "See Through",
+                        "image": "https://i.scdn.co/image/ab67616d00001e020aebd0b9d899332a9154b3f3",
+                        "url": "https://open.spotify.com/track/4G3MjZTnwVDxmemf4I9vWb",
+                        "uri": "spotify:track:4G3MjZTnwVDxmemf4I9vWb",
+                        "preview": "https://p.scdn.co/mp3-preview/5d702dd496519b86e48ffa15d22e03a04e68570f?cid=9485f9c2860243c3849a8e8ac0d34e57"
+                    },
+                    {
+                        "artist": "Chip",
+                        "title": "Ignite",
+                        "image": "https://i.scdn.co/image/ab67616d00001e020aebd0b9d899332a9154b3f3",
+                        "url": "https://open.spotify.com/track/4cGywJRvsy8ZVGsvWz5Hdk",
+                        "uri": "spotify:track:4cGywJRvsy8ZVGsvWz5Hdk",
+                        "preview": "https://p.scdn.co/mp3-preview/f9918bf2b069021b0a212c692c75f5fe8ff8c723?cid=9485f9c2860243c3849a8e8ac0d34e57"
+                    },
+                    {
+                        "artist": "Chip",
+                        "title": "Grown Flex",
+                        "image": "https://i.scdn.co/image/ab67616d00001e020aebd0b9d899332a9154b3f3",
+                        "url": "https://open.spotify.com/track/7CZHlTZRKTSntwEmsWS258",
+                        "uri": "spotify:track:7CZHlTZRKTSntwEmsWS258",
+                        "preview": "https://p.scdn.co/mp3-preview/c66648574cb44773353a30f5bb6850749a4fe2f0?cid=9485f9c2860243c3849a8e8ac0d34e57"
+                    },
+                    {
+                        "artist": "Chip",
+                        "title": "Done Know",
+                        "image": "https://i.scdn.co/image/ab67616d00001e020aebd0b9d899332a9154b3f3",
+                        "url": "https://open.spotify.com/track/3UDz5rxWKYIzBhV37XLFK7",
+                        "uri": "spotify:track:3UDz5rxWKYIzBhV37XLFK7",
+                        "preview": "https://p.scdn.co/mp3-preview/4304c5d6137af821f5cd42b7a781b6954dfdb5af?cid=9485f9c2860243c3849a8e8ac0d34e57"
+                    },
+                    {
+                        "artist": "Chip",
+                        "title": "100K",
+                        "image": "https://i.scdn.co/image/ab67616d00001e020aebd0b9d899332a9154b3f3",
+                        "url": "https://open.spotify.com/track/3MuddFEvIhLDLrlTCmigQf",
+                        "uri": "spotify:track:3MuddFEvIhLDLrlTCmigQf",
+                        "preview": "https://p.scdn.co/mp3-preview/a730b979b386f5a2032773ec6de68b6b2453be2c?cid=9485f9c2860243c3849a8e8ac0d34e57"
+                    },
+                    {
+                        "artist": "Chip",
+                        "title": "Give Tanks",
+                        "image": "https://i.scdn.co/image/ab67616d00001e020aebd0b9d899332a9154b3f3",
+                        "url": "https://open.spotify.com/track/6jWXMnT6JUjJKhthB5gY7d",
+                        "uri": "spotify:track:6jWXMnT6JUjJKhthB5gY7d",
+                        "preview": "https://p.scdn.co/mp3-preview/24e95491e438b43fdc83d394f103ceef28493f95?cid=9485f9c2860243c3849a8e8ac0d34e57"
+                    },
+                    {
+                        "artist": "Chip",
+                        "title": "Top Shelf",
+                        "image": "https://i.scdn.co/image/ab67616d00001e020aebd0b9d899332a9154b3f3",
+                        "url": "https://open.spotify.com/track/5eHZ1WJqXmP3UnDpVvYOAl",
+                        "uri": "spotify:track:5eHZ1WJqXmP3UnDpVvYOAl",
+                        "preview": "https://p.scdn.co/mp3-preview/ac91c6c26b21c84477b3b6bf6fe8f422729e5b82?cid=9485f9c2860243c3849a8e8ac0d34e57"
+                    },
+                    {
+                        "artist": "Chip",
+                        "title": "Skeletons (Interlude)",
+                        "image": "https://i.scdn.co/image/ab67616d00001e020aebd0b9d899332a9154b3f3",
+                        "url": "https://open.spotify.com/track/0tOAu44JKCY5sQF1YTMeev",
+                        "uri": "spotify:track:0tOAu44JKCY5sQF1YTMeev",
+                        "preview": "https://p.scdn.co/mp3-preview/bcf8cf5205751af6ede7a166b73528ce58919480?cid=9485f9c2860243c3849a8e8ac0d34e57"
+                    },
+                    {
+                        "artist": "Chip",
+                        "title": "Eskimo Dance",
+                        "image": "https://i.scdn.co/image/ab67616d00001e020aebd0b9d899332a9154b3f3",
+                        "url": "https://open.spotify.com/track/5AYXjgMbSKKVoNBLF7oSza",
+                        "uri": "spotify:track:5AYXjgMbSKKVoNBLF7oSza",
+                        "preview": "https://p.scdn.co/mp3-preview/014613acc1106cebc3c2492e3e42a6e8a3cd897d?cid=9485f9c2860243c3849a8e8ac0d34e57"
+                    },
+                    {
+                        "artist": "Chip",
+                        "title": "No Reason",
+                        "image": "https://i.scdn.co/image/ab67616d00001e020aebd0b9d899332a9154b3f3",
+                        "url": "https://open.spotify.com/track/3ZzSZYoIc9RyPRK8S0bi2H",
+                        "uri": "spotify:track:3ZzSZYoIc9RyPRK8S0bi2H",
+                        "preview": "https://p.scdn.co/mp3-preview/d4c894095b77cf1b951771a8b51750f7f8a73ca4?cid=9485f9c2860243c3849a8e8ac0d34e57"
+                    },
+                    {
+                        "artist": "Chip",
+                        "title": "Killer MC",
+                        "image": "https://i.scdn.co/image/ab67616d00001e020aebd0b9d899332a9154b3f3",
+                        "url": "https://open.spotify.com/track/0ixCqLjAC1GJeDEhc44mzM",
+                        "uri": "spotify:track:0ixCqLjAC1GJeDEhc44mzM",
+                        "preview": "https://p.scdn.co/mp3-preview/343ab105d04e5e76de8bd74fc1e89431f557d55e?cid=9485f9c2860243c3849a8e8ac0d34e57"
+                    },
+                    {
+                        "artist": "Chip",
+                        "title": "Lumidee",
+                        "image": "https://i.scdn.co/image/ab67616d00001e020aebd0b9d899332a9154b3f3",
+                        "url": "https://open.spotify.com/track/4YerpGIptVJrBa1TOd8nH8",
+                        "uri": "spotify:track:4YerpGIptVJrBa1TOd8nH8",
+                        "preview": "https://p.scdn.co/mp3-preview/3f48804bbeca43e84642f1e08b96431ba6f7cf32?cid=9485f9c2860243c3849a8e8ac0d34e57"
+                    },
+                    {
+                        "artist": "Chip",
+                        "title": "Hersheys",
+                        "image": "https://i.scdn.co/image/ab67616d00001e020aebd0b9d899332a9154b3f3",
+                        "url": "https://open.spotify.com/track/6653PDvlSd6RfCqo4Zltqj",
+                        "uri": "spotify:track:6653PDvlSd6RfCqo4Zltqj",
+                        "preview": "https://p.scdn.co/mp3-preview/bde4dc507cd80cbf50422e3f0303ddf3d40ff3a5?cid=9485f9c2860243c3849a8e8ac0d34e57"
+                    },
+                    {
+                        "artist": "Chip",
+                        "title": "Party Ah Keep",
+                        "image": "https://i.scdn.co/image/ab67616d00001e020aebd0b9d899332a9154b3f3",
+                        "url": "https://open.spotify.com/track/7cLzhg7Sdpq1ngUDFU8eO4",
+                        "uri": "spotify:track:7cLzhg7Sdpq1ngUDFU8eO4",
+                        "preview": "https://p.scdn.co/mp3-preview/e8afc35a323744de85bb529b13ffa4fc3edac89c?cid=9485f9c2860243c3849a8e8ac0d34e57"
+                    },
+                    {
+                        "artist": "Chip",
+                        "title": "Own World",
+                        "image": "https://i.scdn.co/image/ab67616d00001e020aebd0b9d899332a9154b3f3",
+                        "url": "https://open.spotify.com/track/7CjiwTYhU8xoYg5KLERATi",
+                        "uri": "spotify:track:7CjiwTYhU8xoYg5KLERATi",
+                        "preview": "https://p.scdn.co/mp3-preview/aa8b46f57c06c3d958594479c51ed41c929bb7ec?cid=9485f9c2860243c3849a8e8ac0d34e57"
+                    },
+                    {
+                        "artist": "Chip",
+                        "title": "0420",
+                        "image": "https://i.scdn.co/image/ab67616d00001e020aebd0b9d899332a9154b3f3",
+                        "url": "https://open.spotify.com/track/3sO00g6nIXiopmcqrLydg9",
+                        "uri": "spotify:track:3sO00g6nIXiopmcqrLydg9",
+                        "preview": "https://p.scdn.co/mp3-preview/737aff4b85aea3f29bf0f8191e1ea06f8a4545a0?cid=9485f9c2860243c3849a8e8ac0d34e57"
+                    },
+                    {
+                        "artist": "Chip",
+                        "title": "Hot 97 (OUTRO)",
+                        "image": "https://i.scdn.co/image/ab67616d00001e020aebd0b9d899332a9154b3f3",
+                        "url": "https://open.spotify.com/track/7o8Et00jeRIiIWmQde13oj",
+                        "uri": "spotify:track:7o8Et00jeRIiIWmQde13oj",
+                        "preview": "https://p.scdn.co/mp3-preview/19fc8c8be76cc7d7881426fdaa74c26707ae340c?cid=9485f9c2860243c3849a8e8ac0d34e57"
+                    },
+                    {
+                        "artist": "Chip",
+                        "title": "Flowers (Bonus Track)",
+                        "image": "https://i.scdn.co/image/ab67616d00001e020aebd0b9d899332a9154b3f3",
+                        "url": "https://open.spotify.com/track/2BbJyHACeyGQcWrLhd6qAn",
+                        "uri": "spotify:track:2BbJyHACeyGQcWrLhd6qAn",
+                        "preview": "https://p.scdn.co/mp3-preview/5b168c9df9b56cfa8ef26f0dc27776b5a98e33fe?cid=9485f9c2860243c3849a8e8ac0d34e57"
+                    },
+                    {
+                        "artist": "Chip",
+                        "title": "Daily Duppy (Bonus Track)",
+                        "image": "https://i.scdn.co/image/ab67616d00001e020aebd0b9d899332a9154b3f3",
+                        "url": "https://open.spotify.com/track/5yYpG3xJgKtbHGKdkKUXsX",
+                        "uri": "spotify:track:5yYpG3xJgKtbHGKdkKUXsX",
+                        "preview": "https://p.scdn.co/mp3-preview/cbb2d168f5487fc4660a3c40a5b2bf0f928cfa97?cid=9485f9c2860243c3849a8e8ac0d34e57"
+                    }
+                ]
+            },
+            {
+                "artist": "Madlib",
+                "title": "Sound Ancestors",
+                "image": "https://i.scdn.co/image/ab67616d00001e02e29fab5766887dfc51422d34",
+                "url": "https://open.spotify.com/album/5ftKZ7X2vjjJ1HFQYQn1UF",
+                "uri": "spotify:album:5ftKZ7X2vjjJ1HFQYQn1UF",
+                "tracks": [
+                    {
+                        "artist": "Madlib",
+                        "title": "There Is No Time - Prelude",
+                        "image": "https://i.scdn.co/image/ab67616d00001e02e29fab5766887dfc51422d34",
+                        "url": "https://open.spotify.com/track/75UDuZSnltCcdK5RIKEPvO",
+                        "uri": "spotify:track:75UDuZSnltCcdK5RIKEPvO",
+                        "preview": "https://p.scdn.co/mp3-preview/ee1ffa262400ddbc80bccdbbd46c414aa4f48692?cid=9485f9c2860243c3849a8e8ac0d34e57"
+                    },
+                    {
+                        "artist": "Madlib",
+                        "title": "The Call",
+                        "image": "https://i.scdn.co/image/ab67616d00001e02e29fab5766887dfc51422d34",
+                        "url": "https://open.spotify.com/track/6ihRQT4eNRbvDS4V9oNoZE",
+                        "uri": "spotify:track:6ihRQT4eNRbvDS4V9oNoZE",
+                        "preview": "https://p.scdn.co/mp3-preview/64195df05ce2f30315205f61546336144730f960?cid=9485f9c2860243c3849a8e8ac0d34e57"
+                    },
+                    {
+                        "artist": "Madlib",
+                        "title": "Theme De Crabtree",
+                        "image": "https://i.scdn.co/image/ab67616d00001e02e29fab5766887dfc51422d34",
+                        "url": "https://open.spotify.com/track/41eWu1fcTG3jqjMthBvaja",
+                        "uri": "spotify:track:41eWu1fcTG3jqjMthBvaja",
+                        "preview": "https://p.scdn.co/mp3-preview/8341afc731ef28583adc5e85f0dad3b3f40f3641?cid=9485f9c2860243c3849a8e8ac0d34e57"
+                    },
+                    {
+                        "artist": "Madlib",
+                        "title": "Road Of The Lonely Ones",
+                        "image": "https://i.scdn.co/image/ab67616d00001e02e29fab5766887dfc51422d34",
+                        "url": "https://open.spotify.com/track/026pfPaB52WIGawu0PzN5j",
+                        "uri": "spotify:track:026pfPaB52WIGawu0PzN5j",
+                        "preview": "https://p.scdn.co/mp3-preview/7ffccb4702c94aa568257f0a2ed03909cf4fcbfe?cid=9485f9c2860243c3849a8e8ac0d34e57"
+                    },
+                    {
+                        "artist": "Madlib",
+                        "title": "Loose Goose",
+                        "image": "https://i.scdn.co/image/ab67616d00001e02e29fab5766887dfc51422d34",
+                        "url": "https://open.spotify.com/track/4DJ6Aw9QtUTY16FGSxgl94",
+                        "uri": "spotify:track:4DJ6Aw9QtUTY16FGSxgl94",
+                        "preview": "https://p.scdn.co/mp3-preview/3de758df9f34dbb606f9c394cb536df3e21d42b8?cid=9485f9c2860243c3849a8e8ac0d34e57"
+                    },
+                    {
+                        "artist": "Madlib",
+                        "title": "Dirtknock",
+                        "image": "https://i.scdn.co/image/ab67616d00001e02e29fab5766887dfc51422d34",
+                        "url": "https://open.spotify.com/track/0YDKs79BKbglQu8DNZA5KQ",
+                        "uri": "spotify:track:0YDKs79BKbglQu8DNZA5KQ",
+                        "preview": "https://p.scdn.co/mp3-preview/f62354e180295f1996894021477e5302d0afebe1?cid=9485f9c2860243c3849a8e8ac0d34e57"
+                    },
+                    {
+                        "artist": "Madlib",
+                        "title": "Hopprock",
+                        "image": "https://i.scdn.co/image/ab67616d00001e02e29fab5766887dfc51422d34",
+                        "url": "https://open.spotify.com/track/2AfuPiYn8Ua5RsztuVOjgP",
+                        "uri": "spotify:track:2AfuPiYn8Ua5RsztuVOjgP",
+                        "preview": "https://p.scdn.co/mp3-preview/61e0a781ee33e225075d8cfb80c0a7de818a6d6d?cid=9485f9c2860243c3849a8e8ac0d34e57"
+                    },
+                    {
+                        "artist": "Madlib",
+                        "title": "Riddim Chant",
+                        "image": "https://i.scdn.co/image/ab67616d00001e02e29fab5766887dfc51422d34",
+                        "url": "https://open.spotify.com/track/3HsInsCvtn0HojfzXkIfDr",
+                        "uri": "spotify:track:3HsInsCvtn0HojfzXkIfDr",
+                        "preview": "https://p.scdn.co/mp3-preview/70a667d6503ee0cba225f68afddfa7c52a5ef8f2?cid=9485f9c2860243c3849a8e8ac0d34e57"
+                    },
+                    {
+                        "artist": "Madlib",
+                        "title": "Sound Ancestors",
+                        "image": "https://i.scdn.co/image/ab67616d00001e02e29fab5766887dfc51422d34",
+                        "url": "https://open.spotify.com/track/4WFIJMRi7DQrQ35jmaov9s",
+                        "uri": "spotify:track:4WFIJMRi7DQrQ35jmaov9s",
+                        "preview": "https://p.scdn.co/mp3-preview/e442a93d36b9dc091a6d753b31bc30347bdf74a4?cid=9485f9c2860243c3849a8e8ac0d34e57"
+                    },
+                    {
+                        "artist": "Madlib",
+                        "title": "One For Quartabê / Right Now",
+                        "image": "https://i.scdn.co/image/ab67616d00001e02e29fab5766887dfc51422d34",
+                        "url": "https://open.spotify.com/track/4sjMb1ZnDsUV1CZkbb6FGb",
+                        "uri": "spotify:track:4sjMb1ZnDsUV1CZkbb6FGb",
+                        "preview": "https://p.scdn.co/mp3-preview/b3e8735f4f269c70f4f07c960ce0490532677759?cid=9485f9c2860243c3849a8e8ac0d34e57"
+                    },
+                    {
+                        "artist": "Madlib",
+                        "title": "Hang Out (Phone Off)",
+                        "image": "https://i.scdn.co/image/ab67616d00001e02e29fab5766887dfc51422d34",
+                        "url": "https://open.spotify.com/track/7ujpvaMlfeIYssu8mxPqB3",
+                        "uri": "spotify:track:7ujpvaMlfeIYssu8mxPqB3",
+                        "preview": "https://p.scdn.co/mp3-preview/5f15a99a3ff83fb24256fba6bdc2661b81957d09?cid=9485f9c2860243c3849a8e8ac0d34e57"
+                    },
+                    {
+                        "artist": "Madlib",
+                        "title": "Two for 2 - For Dilla",
+                        "image": "https://i.scdn.co/image/ab67616d00001e02e29fab5766887dfc51422d34",
+                        "url": "https://open.spotify.com/track/0QNC3y9arOsMX5STsC1EJ9",
+                        "uri": "spotify:track:0QNC3y9arOsMX5STsC1EJ9",
+                        "preview": "https://p.scdn.co/mp3-preview/f650ad9bf2121eed0845e3c57bb444da29859277?cid=9485f9c2860243c3849a8e8ac0d34e57"
+                    },
+                    {
+                        "artist": "Madlib",
+                        "title": "Latino Negro",
+                        "image": "https://i.scdn.co/image/ab67616d00001e02e29fab5766887dfc51422d34",
+                        "url": "https://open.spotify.com/track/3dh7qPjDq4q8QGD1s2obeC",
+                        "uri": "spotify:track:3dh7qPjDq4q8QGD1s2obeC",
+                        "preview": "https://p.scdn.co/mp3-preview/6b4f982589df6b8fec477514a5f582c24ee6f247?cid=9485f9c2860243c3849a8e8ac0d34e57"
+                    },
+                    {
+                        "artist": "Madlib",
+                        "title": "The New Normal",
+                        "image": "https://i.scdn.co/image/ab67616d00001e02e29fab5766887dfc51422d34",
+                        "url": "https://open.spotify.com/track/7llj3CelJOkh7DXt1fXCo7",
+                        "uri": "spotify:track:7llj3CelJOkh7DXt1fXCo7",
+                        "preview": "https://p.scdn.co/mp3-preview/d71c657915137ca85dba07c8f1fb234deb6eb7ed?cid=9485f9c2860243c3849a8e8ac0d34e57"
+                    },
+                    {
+                        "artist": "Madlib",
+                        "title": "Chino",
+                        "image": "https://i.scdn.co/image/ab67616d00001e02e29fab5766887dfc51422d34",
+                        "url": "https://open.spotify.com/track/6CiNspIQrtm4KMPVQNy5IH",
+                        "uri": "spotify:track:6CiNspIQrtm4KMPVQNy5IH",
+                        "preview": "https://p.scdn.co/mp3-preview/24017e373f2a5c480ef0b3c3c01aff528f09d2b1?cid=9485f9c2860243c3849a8e8ac0d34e57"
+                    },
+                    {
+                        "artist": "Madlib",
+                        "title": "Duumbiyay",
+                        "image": "https://i.scdn.co/image/ab67616d00001e02e29fab5766887dfc51422d34",
+                        "url": "https://open.spotify.com/track/0tx0K8WxQPYPVuT2iPGOWC",
+                        "uri": "spotify:track:0tx0K8WxQPYPVuT2iPGOWC",
+                        "preview": "https://p.scdn.co/mp3-preview/f88d16f61a52598c75a908a9303ce429446f6a5b?cid=9485f9c2860243c3849a8e8ac0d34e57"
+                    }
+                ]
+            },
+            {
+                "artist": "Bronze Nazareth",
+                "title": "Bundle Raps",
+                "image": "https://i.scdn.co/image/ab67616d00001e028088ec48d383ab26b4ca3efb",
+                "url": "https://open.spotify.com/album/0YKGBAKkvhFMVcf6CKzWJy",
+                "uri": "spotify:album:0YKGBAKkvhFMVcf6CKzWJy",
+                "tracks": [
+                    {
+                        "artist": "Bronze Nazareth",
+                        "title": "Think Carefully (Intro)",
+                        "image": "https://i.scdn.co/image/ab67616d00001e028088ec48d383ab26b4ca3efb",
+                        "url": "https://open.spotify.com/track/5Bx7Bazbr48MN8E3GByLFO",
+                        "uri": "spotify:track:5Bx7Bazbr48MN8E3GByLFO",
+                        "preview": "https://p.scdn.co/mp3-preview/2a9b0370389c4ee850788434a584c4553f35e950?cid=9485f9c2860243c3849a8e8ac0d34e57"
+                    },
+                    {
+                        "artist": "Bronze Nazareth",
+                        "title": "Theatre Speak",
+                        "image": "https://i.scdn.co/image/ab67616d00001e028088ec48d383ab26b4ca3efb",
+                        "url": "https://open.spotify.com/track/1CgkFXGrvojPs7xMRpwCPe",
+                        "uri": "spotify:track:1CgkFXGrvojPs7xMRpwCPe",
+                        "preview": "https://p.scdn.co/mp3-preview/9476d159c309590b0b3a5f1f61f3e28ab7a69b47?cid=9485f9c2860243c3849a8e8ac0d34e57"
+                    },
+                    {
+                        "artist": "Bronze Nazareth",
+                        "title": "It's On",
+                        "image": "https://i.scdn.co/image/ab67616d00001e028088ec48d383ab26b4ca3efb",
+                        "url": "https://open.spotify.com/track/703OE88avgMdL2UPoaYLSC",
+                        "uri": "spotify:track:703OE88avgMdL2UPoaYLSC",
+                        "preview": "https://p.scdn.co/mp3-preview/e330dddfab00e1d07f07bc736e706e46b119ff6b?cid=9485f9c2860243c3849a8e8ac0d34e57"
+                    },
+                    {
+                        "artist": "Bronze Nazareth",
+                        "title": "Madman",
+                        "image": "https://i.scdn.co/image/ab67616d00001e028088ec48d383ab26b4ca3efb",
+                        "url": "https://open.spotify.com/track/7KohkzpcNdR4wTJzWL2TbZ",
+                        "uri": "spotify:track:7KohkzpcNdR4wTJzWL2TbZ",
+                        "preview": "https://p.scdn.co/mp3-preview/f3438dc99e45dd3be4adae863c748167e22f232b?cid=9485f9c2860243c3849a8e8ac0d34e57"
+                    },
+                    {
+                        "artist": "Bronze Nazareth",
+                        "title": "A Wise Wakening (Interlude)",
+                        "image": "https://i.scdn.co/image/ab67616d00001e028088ec48d383ab26b4ca3efb",
+                        "url": "https://open.spotify.com/track/3dvg0MZARYRa1lUKieQv3d",
+                        "uri": "spotify:track:3dvg0MZARYRa1lUKieQv3d",
+                        "preview": "https://p.scdn.co/mp3-preview/6ccd2bf409b9225bba003396c5e1bb946a939605?cid=9485f9c2860243c3849a8e8ac0d34e57"
+                    },
+                    {
+                        "artist": "Bronze Nazareth",
+                        "title": "The War on Us",
+                        "image": "https://i.scdn.co/image/ab67616d00001e028088ec48d383ab26b4ca3efb",
+                        "url": "https://open.spotify.com/track/0aHHRcsyMf3ECb1K6OGKAV",
+                        "uri": "spotify:track:0aHHRcsyMf3ECb1K6OGKAV",
+                        "preview": "https://p.scdn.co/mp3-preview/db3d2b30a3b769bc813c99df31d9b40532a6ff52?cid=9485f9c2860243c3849a8e8ac0d34e57"
+                    },
+                    {
+                        "artist": "Bronze Nazareth",
+                        "title": "Lisbon Dinners",
+                        "image": "https://i.scdn.co/image/ab67616d00001e028088ec48d383ab26b4ca3efb",
+                        "url": "https://open.spotify.com/track/1vhrqoPJHYD6QTewVxvQwX",
+                        "uri": "spotify:track:1vhrqoPJHYD6QTewVxvQwX",
+                        "preview": "https://p.scdn.co/mp3-preview/c752d85b3fd0c1ebe2757bd12dfde5fe06828a42?cid=9485f9c2860243c3849a8e8ac0d34e57"
+                    },
+                    {
+                        "artist": "Bronze Nazareth",
+                        "title": "Burnt Leaf (Interlude)",
+                        "image": "https://i.scdn.co/image/ab67616d00001e028088ec48d383ab26b4ca3efb",
+                        "url": "https://open.spotify.com/track/3eJ60ZeCgSYRtyHQsH43TQ",
+                        "uri": "spotify:track:3eJ60ZeCgSYRtyHQsH43TQ",
+                        "preview": "https://p.scdn.co/mp3-preview/cf35fafcce2e4aea84a698e3edfdeaad43c14a2a?cid=9485f9c2860243c3849a8e8ac0d34e57"
+                    },
+                    {
+                        "artist": "Bronze Nazareth",
+                        "title": "Get It Myself",
+                        "image": "https://i.scdn.co/image/ab67616d00001e028088ec48d383ab26b4ca3efb",
+                        "url": "https://open.spotify.com/track/6RcwsvBg79rZfZZL3Xke4w",
+                        "uri": "spotify:track:6RcwsvBg79rZfZZL3Xke4w",
+                        "preview": "https://p.scdn.co/mp3-preview/229871c3e30ea94cc90135b7f900869d51aa2554?cid=9485f9c2860243c3849a8e8ac0d34e57"
+                    },
+                    {
+                        "artist": "Bronze Nazareth",
+                        "title": "Lyrical Wars",
+                        "image": "https://i.scdn.co/image/ab67616d00001e028088ec48d383ab26b4ca3efb",
+                        "url": "https://open.spotify.com/track/2HymS4WuuypLZdhHISFTuE",
+                        "uri": "spotify:track:2HymS4WuuypLZdhHISFTuE",
+                        "preview": "https://p.scdn.co/mp3-preview/4d9811590899e3fd3c9396cd8a3f00cd28d0d796?cid=9485f9c2860243c3849a8e8ac0d34e57"
+                    },
+                    {
+                        "artist": "Bronze Nazareth",
+                        "title": "The Deranged",
+                        "image": "https://i.scdn.co/image/ab67616d00001e028088ec48d383ab26b4ca3efb",
+                        "url": "https://open.spotify.com/track/44puNmv52UQTDXkPIIuDXQ",
+                        "uri": "spotify:track:44puNmv52UQTDXkPIIuDXQ",
+                        "preview": "https://p.scdn.co/mp3-preview/80311c739accc5e14a234b8795a38fa07c59870f?cid=9485f9c2860243c3849a8e8ac0d34e57"
+                    },
+                    {
+                        "artist": "Bronze Nazareth",
+                        "title": "Grime Lords",
+                        "image": "https://i.scdn.co/image/ab67616d00001e028088ec48d383ab26b4ca3efb",
+                        "url": "https://open.spotify.com/track/3WFbegD1z7ZB3ihocy0JQb",
+                        "uri": "spotify:track:3WFbegD1z7ZB3ihocy0JQb",
+                        "preview": "https://p.scdn.co/mp3-preview/e57a40fdfe20604ed8feaa018dab7bf877f1d42d?cid=9485f9c2860243c3849a8e8ac0d34e57"
+                    },
+                    {
+                        "artist": "Bronze Nazareth",
+                        "title": "J My Man!",
+                        "image": "https://i.scdn.co/image/ab67616d00001e028088ec48d383ab26b4ca3efb",
+                        "url": "https://open.spotify.com/track/6yJATtphJOnD2lsQrTRlgn",
+                        "uri": "spotify:track:6yJATtphJOnD2lsQrTRlgn",
+                        "preview": "https://p.scdn.co/mp3-preview/2124388913e76b092ea022a4ef863ca36135a214?cid=9485f9c2860243c3849a8e8ac0d34e57"
+                    },
+                    {
+                        "artist": "Bronze Nazareth",
+                        "title": "The Immaculate",
+                        "image": "https://i.scdn.co/image/ab67616d00001e028088ec48d383ab26b4ca3efb",
+                        "url": "https://open.spotify.com/track/2Lykv76GzPrKpSwGSxRdJm",
+                        "uri": "spotify:track:2Lykv76GzPrKpSwGSxRdJm",
+                        "preview": "https://p.scdn.co/mp3-preview/bc894ffdae9747f1d19cd4e283062d4322395ca4?cid=9485f9c2860243c3849a8e8ac0d34e57"
+                    },
+                    {
+                        "artist": "Bronze Nazareth",
+                        "title": "No Turning Back (Outro)",
+                        "image": "https://i.scdn.co/image/ab67616d00001e028088ec48d383ab26b4ca3efb",
+                        "url": "https://open.spotify.com/track/7r8C8fYVbbiftARQCUgth7",
+                        "uri": "spotify:track:7r8C8fYVbbiftARQCUgth7",
+                        "preview": "https://p.scdn.co/mp3-preview/1ba76823864cc717d6d645e3de1a4b1a9a4694f4?cid=9485f9c2860243c3849a8e8ac0d34e57"
+                    }
+                ]
+            },
+            {
+                "artist": "Yxng Bane",
+                "title": "Dancing On Ice (feat. Nafe Smallz & M Huncho)",
+                "image": "https://i.scdn.co/image/ab67616d00001e02a542675b5d3ff0954df5d3fd",
+                "url": "https://open.spotify.com/album/7orWO4t6P5iNNB6K5hQ80E",
+                "uri": "spotify:album:7orWO4t6P5iNNB6K5hQ80E",
+                "tracks": [
+                    {
+                        "artist": "Yxng Bane",
+                        "title": "Dancing On Ice (feat. Nafe Smallz & M Huncho)",
+                        "image": "https://i.scdn.co/image/ab67616d00001e02a542675b5d3ff0954df5d3fd",
+                        "url": "https://open.spotify.com/track/2GzIlFiI42N11SDbnh4VjN",
+                        "uri": "spotify:track:2GzIlFiI42N11SDbnh4VjN",
+                        "preview": "https://p.scdn.co/mp3-preview/299b71eb1593d45aa46f55631055a821f18c1fb7?cid=9485f9c2860243c3849a8e8ac0d34e57"
+                    }
+                ]
+            },
+            {
+                "artist": "Lil Durk",
+                "title": "The Voice (Deluxe)",
+                "image": "https://i.scdn.co/image/ab67616d00001e02084e89d056e9d1466d0686b0",
+                "url": "https://open.spotify.com/album/47kzblYQZC439seeROq90P",
+                "uri": "spotify:album:47kzblYQZC439seeROq90P",
+                "tracks": [
+                    {
+                        "artist": "Lil Durk",
+                        "title": "Intro",
+                        "image": "https://i.scdn.co/image/ab67616d00001e02084e89d056e9d1466d0686b0",
+                        "url": "https://open.spotify.com/track/7lYcoFrn9w4DK7YRwLdzR7",
+                        "uri": "spotify:track:7lYcoFrn9w4DK7YRwLdzR7",
+                        "preview": null
+                    },
+                    {
+                        "artist": "Lil Durk",
+                        "title": "Finesse Out The Gang Way (feat. Lil Baby)",
+                        "image": "https://i.scdn.co/image/ab67616d00001e02084e89d056e9d1466d0686b0",
+                        "url": "https://open.spotify.com/track/15bnyEOUVRkwWlxR4F7xzF",
+                        "uri": "spotify:track:15bnyEOUVRkwWlxR4F7xzF",
+                        "preview": null
+                    },
+                    {
+                        "artist": "Lil Durk",
+                        "title": "Switched Up",
+                        "image": "https://i.scdn.co/image/ab67616d00001e02084e89d056e9d1466d0686b0",
+                        "url": "https://open.spotify.com/track/2tJ5ef0vgUSAVdrPenDNIa",
+                        "uri": "spotify:track:2tJ5ef0vgUSAVdrPenDNIa",
+                        "preview": null
+                    },
+                    {
+                        "artist": "Lil Durk",
+                        "title": "Let Em Know",
+                        "image": "https://i.scdn.co/image/ab67616d00001e02084e89d056e9d1466d0686b0",
+                        "url": "https://open.spotify.com/track/0LpqJIIdnwumfIIN01j9tb",
+                        "uri": "spotify:track:0LpqJIIdnwumfIIN01j9tb",
+                        "preview": null
+                    },
+                    {
+                        "artist": "Lil Durk",
+                        "title": "Should've Ducked (feat. Pooh Shiesty)",
+                        "image": "https://i.scdn.co/image/ab67616d00001e02084e89d056e9d1466d0686b0",
+                        "url": "https://open.spotify.com/track/2tKkPDbXCDZzhpJgY338dt",
+                        "uri": "spotify:track:2tKkPDbXCDZzhpJgY338dt",
+                        "preview": null
+                    },
+                    {
+                        "artist": "Lil Durk",
+                        "title": "When I'm Lonely",
+                        "image": "https://i.scdn.co/image/ab67616d00001e02084e89d056e9d1466d0686b0",
+                        "url": "https://open.spotify.com/track/2Ia05SOqgPlpUWIWZJ9rBc",
+                        "uri": "spotify:track:2Ia05SOqgPlpUWIWZJ9rBc",
+                        "preview": null
+                    },
+                    {
+                        "artist": "Lil Durk",
+                        "title": "Every Freakin' Day",
+                        "image": "https://i.scdn.co/image/ab67616d00001e02084e89d056e9d1466d0686b0",
+                        "url": "https://open.spotify.com/track/59J78J7ywtfBteaKQHMmEc",
+                        "uri": "spotify:track:59J78J7ywtfBteaKQHMmEc",
+                        "preview": null
+                    },
+                    {
+                        "artist": "Lil Durk",
+                        "title": "Love You (feat. Sydny August)",
+                        "image": "https://i.scdn.co/image/ab67616d00001e02084e89d056e9d1466d0686b0",
+                        "url": "https://open.spotify.com/track/0tlM7xs322cDOr7rls1fr9",
+                        "uri": "spotify:track:0tlM7xs322cDOr7rls1fr9",
+                        "preview": null
+                    },
+                    {
+                        "artist": "Lil Durk",
+                        "title": "I Don't Know",
+                        "image": "https://i.scdn.co/image/ab67616d00001e02084e89d056e9d1466d0686b0",
+                        "url": "https://open.spotify.com/track/7yBfRQ7sKoLSWwUiZGQaEk",
+                        "uri": "spotify:track:7yBfRQ7sKoLSWwUiZGQaEk",
+                        "preview": null
+                    },
+                    {
+                        "artist": "Lil Durk",
+                        "title": "Movement",
+                        "image": "https://i.scdn.co/image/ab67616d00001e02084e89d056e9d1466d0686b0",
+                        "url": "https://open.spotify.com/track/6StnGhgux4fQCMDhAZB0dF",
+                        "uri": "spotify:track:6StnGhgux4fQCMDhAZB0dF",
+                        "preview": null
+                    },
+                    {
+                        "artist": "Lil Durk",
+                        "title": "Last Minute",
+                        "image": "https://i.scdn.co/image/ab67616d00001e02084e89d056e9d1466d0686b0",
+                        "url": "https://open.spotify.com/track/15mLbIWowLwcnEkbZxe8nR",
+                        "uri": "spotify:track:15mLbIWowLwcnEkbZxe8nR",
+                        "preview": null
+                    },
+                    {
+                        "artist": "Lil Durk",
+                        "title": "Kanye Krazy",
+                        "image": "https://i.scdn.co/image/ab67616d00001e02084e89d056e9d1466d0686b0",
+                        "url": "https://open.spotify.com/track/4m5sWoIMKI8yi4b6eMGhle",
+                        "uri": "spotify:track:4m5sWoIMKI8yi4b6eMGhle",
+                        "preview": null
+                    },
+                    {
+                        "artist": "Lil Durk",
+                        "title": "Redman",
+                        "image": "https://i.scdn.co/image/ab67616d00001e02084e89d056e9d1466d0686b0",
+                        "url": "https://open.spotify.com/track/5MRhc0jrfE6YHNLxB9Pdf1",
+                        "uri": "spotify:track:5MRhc0jrfE6YHNLxB9Pdf1",
+                        "preview": null
+                    },
+                    {
+                        "artist": "Lil Durk",
+                        "title": "Refugee",
+                        "image": "https://i.scdn.co/image/ab67616d00001e02084e89d056e9d1466d0686b0",
+                        "url": "https://open.spotify.com/track/0l2QQzDuDzwy8NVOWp6WnP",
+                        "uri": "spotify:track:0l2QQzDuDzwy8NVOWp6WnP",
+                        "preview": null
+                    },
+                    {
+                        "artist": "Lil Durk",
+                        "title": "Death Ain't Easy",
+                        "image": "https://i.scdn.co/image/ab67616d00001e02084e89d056e9d1466d0686b0",
+                        "url": "https://open.spotify.com/track/2TZ0faRAw3ZeJ0OLTPl6eb",
+                        "uri": "spotify:track:2TZ0faRAw3ZeJ0OLTPl6eb",
+                        "preview": null
+                    },
+                    {
+                        "artist": "Lil Durk",
+                        "title": "The Voice",
+                        "image": "https://i.scdn.co/image/ab67616d00001e02084e89d056e9d1466d0686b0",
+                        "url": "https://open.spotify.com/track/2kVfglhsMK1CBJl85CbCe5",
+                        "uri": "spotify:track:2kVfglhsMK1CBJl85CbCe5",
+                        "preview": null
+                    },
+                    {
+                        "artist": "Lil Durk",
+                        "title": "Backdoor",
+                        "image": "https://i.scdn.co/image/ab67616d00001e02084e89d056e9d1466d0686b0",
+                        "url": "https://open.spotify.com/track/2Ntnjpd4ycYd1XTkalI87c",
+                        "uri": "spotify:track:2Ntnjpd4ycYd1XTkalI87c",
+                        "preview": null
+                    },
+                    {
+                        "artist": "Lil Durk",
+                        "title": "Still Trappin' (with King Von)",
+                        "image": "https://i.scdn.co/image/ab67616d00001e02084e89d056e9d1466d0686b0",
+                        "url": "https://open.spotify.com/track/6cnxe7pplF3eRUPZAEu159",
+                        "uri": "spotify:track:6cnxe7pplF3eRUPZAEu159",
+                        "preview": null
+                    },
+                    {
+                        "artist": "Lil Durk",
+                        "title": "Stay Down (with 6LACK & Young Thug)",
+                        "image": "https://i.scdn.co/image/ab67616d00001e02084e89d056e9d1466d0686b0",
+                        "url": "https://open.spotify.com/track/2dNMeXpQBF7EZKm8hqfRhh",
+                        "uri": "spotify:track:2dNMeXpQBF7EZKm8hqfRhh",
+                        "preview": null
+                    },
+                    {
+                        "artist": "Lil Durk",
+                        "title": "Free Jamell (with YNW Melly)",
+                        "image": "https://i.scdn.co/image/ab67616d00001e02084e89d056e9d1466d0686b0",
+                        "url": "https://open.spotify.com/track/0OgaAD55Rb6kC9u9smHpWD",
+                        "uri": "spotify:track:0OgaAD55Rb6kC9u9smHpWD",
+                        "preview": null
+                    },
+                    {
+                        "artist": "Lil Durk",
+                        "title": "Misunderstood",
+                        "image": "https://i.scdn.co/image/ab67616d00001e02084e89d056e9d1466d0686b0",
+                        "url": "https://open.spotify.com/track/3jZHf2hY1e9PDwpCEZdS8b",
+                        "uri": "spotify:track:3jZHf2hY1e9PDwpCEZdS8b",
+                        "preview": null
+                    },
+                    {
+                        "artist": "Lil Durk",
+                        "title": "Not The Same",
+                        "image": "https://i.scdn.co/image/ab67616d00001e02084e89d056e9d1466d0686b0",
+                        "url": "https://open.spotify.com/track/4Be5SY5W3whPt43TxkA40m",
+                        "uri": "spotify:track:4Be5SY5W3whPt43TxkA40m",
+                        "preview": null
+                    },
+                    {
+                        "artist": "Lil Durk",
+                        "title": "India Pt. 3",
+                        "image": "https://i.scdn.co/image/ab67616d00001e02084e89d056e9d1466d0686b0",
+                        "url": "https://open.spotify.com/track/5jZ0fAXyDOq3QgYcZQs6ep",
+                        "uri": "spotify:track:5jZ0fAXyDOq3QgYcZQs6ep",
+                        "preview": null
+                    },
+                    {
+                        "artist": "Lil Durk",
+                        "title": "Coming Clean",
+                        "image": "https://i.scdn.co/image/ab67616d00001e02084e89d056e9d1466d0686b0",
+                        "url": "https://open.spotify.com/track/3R4jJG9NJm2xBI339agjSY",
+                        "uri": "spotify:track:3R4jJG9NJm2xBI339agjSY",
+                        "preview": null
+                    },
+                    {
+                        "artist": "Lil Durk",
+                        "title": "Going Strong",
+                        "image": "https://i.scdn.co/image/ab67616d00001e02084e89d056e9d1466d0686b0",
+                        "url": "https://open.spotify.com/track/2KxfcuMFNNQgVqypfCLISP",
+                        "uri": "spotify:track:2KxfcuMFNNQgVqypfCLISP",
+                        "preview": null
+                    },
+                    {
+                        "artist": "Lil Durk",
+                        "title": "Changes",
+                        "image": "https://i.scdn.co/image/ab67616d00001e02084e89d056e9d1466d0686b0",
+                        "url": "https://open.spotify.com/track/4XP53mJRG2S3XfQ0evLHqu",
+                        "uri": "spotify:track:4XP53mJRG2S3XfQ0evLHqu",
+                        "preview": null
+                    },
+                    {
+                        "artist": "Lil Durk",
+                        "title": "Lamborghini Mirrors (feat. Booka600)",
+                        "image": "https://i.scdn.co/image/ab67616d00001e02084e89d056e9d1466d0686b0",
+                        "url": "https://open.spotify.com/track/1oI0hJNZzW8TiukearZe3T",
+                        "uri": "spotify:track:1oI0hJNZzW8TiukearZe3T",
+                        "preview": null
+                    },
+                    {
+                        "artist": "Lil Durk",
+                        "title": "To Be Honest",
+                        "image": "https://i.scdn.co/image/ab67616d00001e02084e89d056e9d1466d0686b0",
+                        "url": "https://open.spotify.com/track/4KIdUgelvWFPQu9xmCItSP",
+                        "uri": "spotify:track:4KIdUgelvWFPQu9xmCItSP",
+                        "preview": null
+                    }
+                ]
+            },
+            {
+                "artist": "Lapgan",
+                "title": "Duniya Kya Hai",
+                "image": "https://i.scdn.co/image/ab67616d00001e02410717fb6bf64c068376622b",
+                "url": "https://open.spotify.com/album/7uuSE8TYWTQysDt2KaGSso",
+                "uri": "spotify:album:7uuSE8TYWTQysDt2KaGSso",
+                "tracks": [
+                    {
+                        "artist": "Lapgan",
+                        "title": "Intro",
+                        "image": "https://i.scdn.co/image/ab67616d00001e02410717fb6bf64c068376622b",
+                        "url": "https://open.spotify.com/track/3mj4sz96PLBUw91Gg8A4d1",
+                        "uri": "spotify:track:3mj4sz96PLBUw91Gg8A4d1",
+                        "preview": "https://p.scdn.co/mp3-preview/af9bf6e886fac1245db65fbf286ebaafe40d8afe?cid=9485f9c2860243c3849a8e8ac0d34e57"
+                    },
+                    {
+                        "artist": "Lapgan",
+                        "title": "Duniya Kya Hai",
+                        "image": "https://i.scdn.co/image/ab67616d00001e02410717fb6bf64c068376622b",
+                        "url": "https://open.spotify.com/track/6uljWbacBfG4o8aZrxVvNq",
+                        "uri": "spotify:track:6uljWbacBfG4o8aZrxVvNq",
+                        "preview": "https://p.scdn.co/mp3-preview/bd0aa8f9c77cbcaa8771610d03fc4c39bb0559a1?cid=9485f9c2860243c3849a8e8ac0d34e57"
+                    },
+                    {
+                        "artist": "Lapgan",
+                        "title": "Where Am I",
+                        "image": "https://i.scdn.co/image/ab67616d00001e02410717fb6bf64c068376622b",
+                        "url": "https://open.spotify.com/track/6mxLGlG96SVnW2RNBtGccV",
+                        "uri": "spotify:track:6mxLGlG96SVnW2RNBtGccV",
+                        "preview": "https://p.scdn.co/mp3-preview/8d28b763e3b25207a30fe73996f242168c9c2761?cid=9485f9c2860243c3849a8e8ac0d34e57"
+                    },
+                    {
+                        "artist": "Lapgan",
+                        "title": "Don't Drink Darling",
+                        "image": "https://i.scdn.co/image/ab67616d00001e02410717fb6bf64c068376622b",
+                        "url": "https://open.spotify.com/track/5OtYKN2HPVYXz4ZzawaXUN",
+                        "uri": "spotify:track:5OtYKN2HPVYXz4ZzawaXUN",
+                        "preview": "https://p.scdn.co/mp3-preview/9be8c4a5cffaad54b1fbd99aaaa03154d137040f?cid=9485f9c2860243c3849a8e8ac0d34e57"
+                    },
+                    {
+                        "artist": "Lapgan",
+                        "title": "Tune Kaha",
+                        "image": "https://i.scdn.co/image/ab67616d00001e02410717fb6bf64c068376622b",
+                        "url": "https://open.spotify.com/track/1lUcD5MkVladg6N1JXcFyG",
+                        "uri": "spotify:track:1lUcD5MkVladg6N1JXcFyG",
+                        "preview": "https://p.scdn.co/mp3-preview/25385e676e94e8cea2ee5ca202745952b5a0adb3?cid=9485f9c2860243c3849a8e8ac0d34e57"
+                    },
+                    {
+                        "artist": "Lapgan",
+                        "title": "Durga Doesn't Approve",
+                        "image": "https://i.scdn.co/image/ab67616d00001e02410717fb6bf64c068376622b",
+                        "url": "https://open.spotify.com/track/0CY1eMN1Kb00Lb7MThX222",
+                        "uri": "spotify:track:0CY1eMN1Kb00Lb7MThX222",
+                        "preview": "https://p.scdn.co/mp3-preview/2bd25a192822db40cb81479b6364054b05ef4190?cid=9485f9c2860243c3849a8e8ac0d34e57"
+                    },
+                    {
+                        "artist": "Lapgan",
+                        "title": "Don't Trust The Chowkidar",
+                        "image": "https://i.scdn.co/image/ab67616d00001e02410717fb6bf64c068376622b",
+                        "url": "https://open.spotify.com/track/39V8HUNZ8clFp4FzyIRLKK",
+                        "uri": "spotify:track:39V8HUNZ8clFp4FzyIRLKK",
+                        "preview": "https://p.scdn.co/mp3-preview/5333f12e34d61d4e3b93f1e7589b282a92f83f49?cid=9485f9c2860243c3849a8e8ac0d34e57"
+                    },
+                    {
+                        "artist": "Lapgan",
+                        "title": "Miss Lovely",
+                        "image": "https://i.scdn.co/image/ab67616d00001e02410717fb6bf64c068376622b",
+                        "url": "https://open.spotify.com/track/6BaMbADOwIdmqLx8kSsUfp",
+                        "uri": "spotify:track:6BaMbADOwIdmqLx8kSsUfp",
+                        "preview": "https://p.scdn.co/mp3-preview/17d0b1af5c2687f2c97a38c7fee05325542983e5?cid=9485f9c2860243c3849a8e8ac0d34e57"
+                    },
+                    {
+                        "artist": "Lapgan",
+                        "title": "The Guru",
+                        "image": "https://i.scdn.co/image/ab67616d00001e02410717fb6bf64c068376622b",
+                        "url": "https://open.spotify.com/track/47KC2p11SBbNpuPxZDbxKj",
+                        "uri": "spotify:track:47KC2p11SBbNpuPxZDbxKj",
+                        "preview": "https://p.scdn.co/mp3-preview/7040567391391559bc9d51e050efec5ff11298a3?cid=9485f9c2860243c3849a8e8ac0d34e57"
+                    },
+                    {
+                        "artist": "Lapgan",
+                        "title": "Holy",
+                        "image": "https://i.scdn.co/image/ab67616d00001e02410717fb6bf64c068376622b",
+                        "url": "https://open.spotify.com/track/57nOeSQVpemforQdS9vatM",
+                        "uri": "spotify:track:57nOeSQVpemforQdS9vatM",
+                        "preview": "https://p.scdn.co/mp3-preview/d4dda81d13c7c6272010ec98a481b838cc637fbd?cid=9485f9c2860243c3849a8e8ac0d34e57"
+                    },
+                    {
+                        "artist": "Lapgan",
+                        "title": "Groovy Evening",
+                        "image": "https://i.scdn.co/image/ab67616d00001e02410717fb6bf64c068376622b",
+                        "url": "https://open.spotify.com/track/2P0nA2KMBkoibLvjcXzl63",
+                        "uri": "spotify:track:2P0nA2KMBkoibLvjcXzl63",
+                        "preview": "https://p.scdn.co/mp3-preview/b35add5eb3c4c9850471dd760d7506b51f8f7aa4?cid=9485f9c2860243c3849a8e8ac0d34e57"
+                    },
+                    {
+                        "artist": "Lapgan",
+                        "title": "In a Dream",
+                        "image": "https://i.scdn.co/image/ab67616d00001e02410717fb6bf64c068376622b",
+                        "url": "https://open.spotify.com/track/443kyWKe9HVBk485es8Rco",
+                        "uri": "spotify:track:443kyWKe9HVBk485es8Rco",
+                        "preview": "https://p.scdn.co/mp3-preview/7e746b0552b6976c0bcb190c9b4bbaf08653b9c5?cid=9485f9c2860243c3849a8e8ac0d34e57"
+                    },
+                    {
+                        "artist": "Lapgan",
+                        "title": "My Haveli Is Your Haveli",
+                        "image": "https://i.scdn.co/image/ab67616d00001e02410717fb6bf64c068376622b",
+                        "url": "https://open.spotify.com/track/1M3z94SVanSbjbGBykuWee",
+                        "uri": "spotify:track:1M3z94SVanSbjbGBykuWee",
+                        "preview": "https://p.scdn.co/mp3-preview/7eb4efe653d199b1230b3061e181cedf63c65814?cid=9485f9c2860243c3849a8e8ac0d34e57"
+                    },
+                    {
+                        "artist": "Lapgan",
+                        "title": "Naach",
+                        "image": "https://i.scdn.co/image/ab67616d00001e02410717fb6bf64c068376622b",
+                        "url": "https://open.spotify.com/track/4QrjYksm2Xr8Mg8YXyimhB",
+                        "uri": "spotify:track:4QrjYksm2Xr8Mg8YXyimhB",
+                        "preview": "https://p.scdn.co/mp3-preview/8c6c3b2d96f6c35808e085a3ac2e72c3ef7782bc?cid=9485f9c2860243c3849a8e8ac0d34e57"
+                    },
+                    {
+                        "artist": "Lapgan",
+                        "title": "Brown",
+                        "image": "https://i.scdn.co/image/ab67616d00001e02410717fb6bf64c068376622b",
+                        "url": "https://open.spotify.com/track/6fomnFcgpSnv1McouWqNjM",
+                        "uri": "spotify:track:6fomnFcgpSnv1McouWqNjM",
+                        "preview": "https://p.scdn.co/mp3-preview/4406a14ef10ff45a6e72c370d090524cc08aa3a3?cid=9485f9c2860243c3849a8e8ac0d34e57"
+                    },
+                    {
+                        "artist": "Lapgan",
+                        "title": "Rodeo",
+                        "image": "https://i.scdn.co/image/ab67616d00001e02410717fb6bf64c068376622b",
+                        "url": "https://open.spotify.com/track/4BCWFwfVx01ohUm4kueIwB",
+                        "uri": "spotify:track:4BCWFwfVx01ohUm4kueIwB",
+                        "preview": "https://p.scdn.co/mp3-preview/1c947e34eda2911b37ae93e18e68c452394db1bc?cid=9485f9c2860243c3849a8e8ac0d34e57"
+                    },
+                    {
+                        "artist": "Lapgan",
+                        "title": "Saffron Parakeetspeak",
+                        "image": "https://i.scdn.co/image/ab67616d00001e02410717fb6bf64c068376622b",
+                        "url": "https://open.spotify.com/track/3syuGbVeH66Tija3YaCtgF",
+                        "uri": "spotify:track:3syuGbVeH66Tija3YaCtgF",
+                        "preview": "https://p.scdn.co/mp3-preview/76347653f49f81d1ac93351330d4b98f65ea9692?cid=9485f9c2860243c3849a8e8ac0d34e57"
+                    },
+                    {
+                        "artist": "Lapgan",
+                        "title": "Digestives",
+                        "image": "https://i.scdn.co/image/ab67616d00001e02410717fb6bf64c068376622b",
+                        "url": "https://open.spotify.com/track/0iU1OpwvI9ATGCumN75V4X",
+                        "uri": "spotify:track:0iU1OpwvI9ATGCumN75V4X",
+                        "preview": "https://p.scdn.co/mp3-preview/3af37d7f97e335c06257d5ada7d94064d5728c8e?cid=9485f9c2860243c3849a8e8ac0d34e57"
+                    },
+                    {
+                        "artist": "Lapgan",
+                        "title": "Don't Fear",
+                        "image": "https://i.scdn.co/image/ab67616d00001e02410717fb6bf64c068376622b",
+                        "url": "https://open.spotify.com/track/1fHfjBWT8obg02Ds1FRZVo",
+                        "uri": "spotify:track:1fHfjBWT8obg02Ds1FRZVo",
+                        "preview": "https://p.scdn.co/mp3-preview/24a56a266a1c34b94fb2c909fcf5c428fe5b91b5?cid=9485f9c2860243c3849a8e8ac0d34e57"
+                    },
+                    {
+                        "artist": "Lapgan",
+                        "title": "Pray With Your Neighbor",
+                        "image": "https://i.scdn.co/image/ab67616d00001e02410717fb6bf64c068376622b",
+                        "url": "https://open.spotify.com/track/1KsLNIv1oipkUFVxTucw73",
+                        "uri": "spotify:track:1KsLNIv1oipkUFVxTucw73",
+                        "preview": "https://p.scdn.co/mp3-preview/ad6690a437a9a2822474bf30980fac0b7bf1937d?cid=9485f9c2860243c3849a8e8ac0d34e57"
+                    },
+                    {
+                        "artist": "Lapgan",
+                        "title": "Incantation",
+                        "image": "https://i.scdn.co/image/ab67616d00001e02410717fb6bf64c068376622b",
+                        "url": "https://open.spotify.com/track/1edUmy8BbMsflmkHoKVryt",
+                        "uri": "spotify:track:1edUmy8BbMsflmkHoKVryt",
+                        "preview": "https://p.scdn.co/mp3-preview/b784a16536acc863651c8d15f8d974c379ddcc58?cid=9485f9c2860243c3849a8e8ac0d34e57"
+                    }
+                ]
+            },
+            {
+                "artist": "BONES",
+                "title": "BURDEN",
+                "image": "https://i.scdn.co/image/ab67616d00001e026d8a5cbe26a391f1b551c3da",
+                "url": "https://open.spotify.com/album/0wSFuZAb0jQ30K7Pa4g2wO",
+                "uri": "spotify:album:0wSFuZAb0jQ30K7Pa4g2wO",
+                "tracks": [
+                    {
+                        "artist": "BONES",
+                        "title": "Burden",
+                        "image": "https://i.scdn.co/image/ab67616d00001e026d8a5cbe26a391f1b551c3da",
+                        "url": "https://open.spotify.com/track/2t4Wn8X7nH0fE0YAuUysw2",
+                        "uri": "spotify:track:2t4Wn8X7nH0fE0YAuUysw2",
+                        "preview": "https://p.scdn.co/mp3-preview/e442d88824395ad0070be853cfdf90df5ef64c2a?cid=9485f9c2860243c3849a8e8ac0d34e57"
+                    },
+                    {
+                        "artist": "BONES",
+                        "title": "Brimstone (feat. Xavier Wulf)",
+                        "image": "https://i.scdn.co/image/ab67616d00001e026d8a5cbe26a391f1b551c3da",
+                        "url": "https://open.spotify.com/track/2T6mUJ4EI7JWyLeKsQVd12",
+                        "uri": "spotify:track:2T6mUJ4EI7JWyLeKsQVd12",
+                        "preview": "https://p.scdn.co/mp3-preview/18eaeebf3afd16db6fdaa54a542760d8a2bfdcc7?cid=9485f9c2860243c3849a8e8ac0d34e57"
+                    },
+                    {
+                        "artist": "BONES",
+                        "title": "SafeAndSound",
+                        "image": "https://i.scdn.co/image/ab67616d00001e026d8a5cbe26a391f1b551c3da",
+                        "url": "https://open.spotify.com/track/3HaX7pbBbteVkoSQU04Dwo",
+                        "uri": "spotify:track:3HaX7pbBbteVkoSQU04Dwo",
+                        "preview": "https://p.scdn.co/mp3-preview/d03eea13d1f7e3ec2c14b2f0441740e696ef83fc?cid=9485f9c2860243c3849a8e8ac0d34e57"
+                    },
+                    {
+                        "artist": "BONES",
+                        "title": "WannaSeeMyKnifeCollection",
+                        "image": "https://i.scdn.co/image/ab67616d00001e026d8a5cbe26a391f1b551c3da",
+                        "url": "https://open.spotify.com/track/5kHwcuf60w7itn1HcfRqXf",
+                        "uri": "spotify:track:5kHwcuf60w7itn1HcfRqXf",
+                        "preview": "https://p.scdn.co/mp3-preview/3d1f03f027ad6a0c0b9fcb3e35b22aa9599847fd?cid=9485f9c2860243c3849a8e8ac0d34e57"
+                    },
+                    {
+                        "artist": "BONES",
+                        "title": "SecondStarToTheRight",
+                        "image": "https://i.scdn.co/image/ab67616d00001e026d8a5cbe26a391f1b551c3da",
+                        "url": "https://open.spotify.com/track/1JMXRW9qbe4rUN3QkyU91b",
+                        "uri": "spotify:track:1JMXRW9qbe4rUN3QkyU91b",
+                        "preview": "https://p.scdn.co/mp3-preview/45f6ed8ba4f1c35c12814319031eb743056fd111?cid=9485f9c2860243c3849a8e8ac0d34e57"
+                    },
+                    {
+                        "artist": "BONES",
+                        "title": "Aluminum",
+                        "image": "https://i.scdn.co/image/ab67616d00001e026d8a5cbe26a391f1b551c3da",
+                        "url": "https://open.spotify.com/track/33CmPe0eLQZrBzZvXdyEWP",
+                        "uri": "spotify:track:33CmPe0eLQZrBzZvXdyEWP",
+                        "preview": "https://p.scdn.co/mp3-preview/0e272d87e528ec0910c3ff296611d9c7c51a3046?cid=9485f9c2860243c3849a8e8ac0d34e57"
+                    },
+                    {
+                        "artist": "BONES",
+                        "title": "Opal",
+                        "image": "https://i.scdn.co/image/ab67616d00001e026d8a5cbe26a391f1b551c3da",
+                        "url": "https://open.spotify.com/track/2mrkG76Xss3GmXt9bGhSfA",
+                        "uri": "spotify:track:2mrkG76Xss3GmXt9bGhSfA",
+                        "preview": "https://p.scdn.co/mp3-preview/3c24928a1e12c11a09b5dded9c42e73d933ae755?cid=9485f9c2860243c3849a8e8ac0d34e57"
+                    },
+                    {
+                        "artist": "BONES",
+                        "title": "Ethanol",
+                        "image": "https://i.scdn.co/image/ab67616d00001e026d8a5cbe26a391f1b551c3da",
+                        "url": "https://open.spotify.com/track/1an7XRFLBxefQDc4ggFi7h",
+                        "uri": "spotify:track:1an7XRFLBxefQDc4ggFi7h",
+                        "preview": "https://p.scdn.co/mp3-preview/c56a4cb664f7b9968fb7a7c59d9ba057b1a86b44?cid=9485f9c2860243c3849a8e8ac0d34e57"
+                    },
+                    {
+                        "artist": "BONES",
+                        "title": "DejaVu",
+                        "image": "https://i.scdn.co/image/ab67616d00001e026d8a5cbe26a391f1b551c3da",
+                        "url": "https://open.spotify.com/track/08YGGltnySRtAlfVSzdtS9",
+                        "uri": "spotify:track:08YGGltnySRtAlfVSzdtS9",
+                        "preview": "https://p.scdn.co/mp3-preview/3c6bf86c43ad7b5cee15017ee23cb73c59c9636d?cid=9485f9c2860243c3849a8e8ac0d34e57"
+                    },
+                    {
+                        "artist": "BONES",
+                        "title": "TheWaitingGame",
+                        "image": "https://i.scdn.co/image/ab67616d00001e026d8a5cbe26a391f1b551c3da",
+                        "url": "https://open.spotify.com/track/314I2nRSP6p78j9wDyCEAp",
+                        "uri": "spotify:track:314I2nRSP6p78j9wDyCEAp",
+                        "preview": "https://p.scdn.co/mp3-preview/fd15bbc91357c5edd26a801479fd1056addc04f1?cid=9485f9c2860243c3849a8e8ac0d34e57"
+                    },
+                    {
+                        "artist": "BONES",
+                        "title": "DontTellMomTheBabySittersDead (feat. Eddy Baker)",
+                        "image": "https://i.scdn.co/image/ab67616d00001e026d8a5cbe26a391f1b551c3da",
+                        "url": "https://open.spotify.com/track/4xARrlf15GF5XTSkbSm5iE",
+                        "uri": "spotify:track:4xARrlf15GF5XTSkbSm5iE",
+                        "preview": "https://p.scdn.co/mp3-preview/3047b4cb5026e24d8f61308bdba898a711201934?cid=9485f9c2860243c3849a8e8ac0d34e57"
+                    },
+                    {
+                        "artist": "BONES",
+                        "title": "HeyStranger",
+                        "image": "https://i.scdn.co/image/ab67616d00001e026d8a5cbe26a391f1b551c3da",
+                        "url": "https://open.spotify.com/track/4oi81fnbP1vM1BcZYrmUUf",
+                        "uri": "spotify:track:4oi81fnbP1vM1BcZYrmUUf",
+                        "preview": "https://p.scdn.co/mp3-preview/c605fa7a773ac772c8eb6c0c2c87271bdd84217a?cid=9485f9c2860243c3849a8e8ac0d34e57"
+                    },
+                    {
+                        "artist": "BONES",
+                        "title": "MyDearFriend",
+                        "image": "https://i.scdn.co/image/ab67616d00001e026d8a5cbe26a391f1b551c3da",
+                        "url": "https://open.spotify.com/track/6zGv3bv4F3mfo6mGgT9JvR",
+                        "uri": "spotify:track:6zGv3bv4F3mfo6mGgT9JvR",
+                        "preview": "https://p.scdn.co/mp3-preview/80602f8cebc4370fb9f3dd12c29626f8164d9e63?cid=9485f9c2860243c3849a8e8ac0d34e57"
+                    },
+                    {
+                        "artist": "BONES",
+                        "title": "GoneWithTheWind",
+                        "image": "https://i.scdn.co/image/ab67616d00001e026d8a5cbe26a391f1b551c3da",
+                        "url": "https://open.spotify.com/track/2ody28gub7Ug7lY84YYtzr",
+                        "uri": "spotify:track:2ody28gub7Ug7lY84YYtzr",
+                        "preview": "https://p.scdn.co/mp3-preview/658c8634550c71179486d9c43da66031a126eb4f?cid=9485f9c2860243c3849a8e8ac0d34e57"
+                    }
+                ]
+            },
+            {
+                "artist": "Deante' Hitchcock",
+                "title": "Deante' Hitchcock: Live from Quarantine",
+                "image": "https://i.scdn.co/image/ab67616d00001e028210e6ea51ad6af0bf564143",
+                "url": "https://open.spotify.com/album/7r5waHR4O5VECmhqmjxa9K",
+                "uri": "spotify:album:7r5waHR4O5VECmhqmjxa9K",
+                "tracks": [
+                    {
+                        "artist": "Deante' Hitchcock",
+                        "title": "Angels - Live",
+                        "image": "https://i.scdn.co/image/ab67616d00001e028210e6ea51ad6af0bf564143",
+                        "url": "https://open.spotify.com/track/27T9Ne2isBXWXqV9SvBTDW",
+                        "uri": "spotify:track:27T9Ne2isBXWXqV9SvBTDW",
+                        "preview": "https://p.scdn.co/mp3-preview/17b561e2c9d416d0ca4649971083bfa138e49237?cid=9485f9c2860243c3849a8e8ac0d34e57"
+                    },
+                    {
+                        "artist": "Deante' Hitchcock",
+                        "title": "I Got Money Now (feat. JID) - Live",
+                        "image": "https://i.scdn.co/image/ab67616d00001e028210e6ea51ad6af0bf564143",
+                        "url": "https://open.spotify.com/track/2VB41osnT23XkTxy8wteV9",
+                        "uri": "spotify:track:2VB41osnT23XkTxy8wteV9",
+                        "preview": "https://p.scdn.co/mp3-preview/318217138c2d7ccaebbba11ba744b80cd2ae2f7f?cid=9485f9c2860243c3849a8e8ac0d34e57"
+                    },
+                    {
+                        "artist": "Deante' Hitchcock",
+                        "title": "What it Ain't, What It Is - Live",
+                        "image": "https://i.scdn.co/image/ab67616d00001e028210e6ea51ad6af0bf564143",
+                        "url": "https://open.spotify.com/track/52fVy4pLGkOF9IIPPycBw0",
+                        "uri": "spotify:track:52fVy4pLGkOF9IIPPycBw0",
+                        "preview": "https://p.scdn.co/mp3-preview/0a949956e3eec936cf463f91249fb57849a5aaf5?cid=9485f9c2860243c3849a8e8ac0d34e57"
+                    },
+                    {
+                        "artist": "Deante' Hitchcock",
+                        "title": "Attitude (feat. Young Nudy) - Live",
+                        "image": "https://i.scdn.co/image/ab67616d00001e028210e6ea51ad6af0bf564143",
+                        "url": "https://open.spotify.com/track/044s3D0DrXRQjgdt4fQgp4",
+                        "uri": "spotify:track:044s3D0DrXRQjgdt4fQgp4",
+                        "preview": "https://p.scdn.co/mp3-preview/4d1fb8688282a378623b4c6e40cb29c09a4362a3?cid=9485f9c2860243c3849a8e8ac0d34e57"
+                    },
+                    {
+                        "artist": "Deante' Hitchcock",
+                        "title": "Circles - Live",
+                        "image": "https://i.scdn.co/image/ab67616d00001e028210e6ea51ad6af0bf564143",
+                        "url": "https://open.spotify.com/track/0AvfGvUXFDViCScKfXU2EO",
+                        "uri": "spotify:track:0AvfGvUXFDViCScKfXU2EO",
+                        "preview": "https://p.scdn.co/mp3-preview/772deddbec63d50eb2acdc1864453da7af4f2062?cid=9485f9c2860243c3849a8e8ac0d34e57"
+                    },
+                    {
+                        "artist": "Deante' Hitchcock",
+                        "title": "Social Distancing Interlude - Live",
+                        "image": "https://i.scdn.co/image/ab67616d00001e028210e6ea51ad6af0bf564143",
+                        "url": "https://open.spotify.com/track/3HhudRlMKG9MpIrS54r2gn",
+                        "uri": "spotify:track:3HhudRlMKG9MpIrS54r2gn",
+                        "preview": "https://p.scdn.co/mp3-preview/9a176aea107f693eda0dd5df84a4b67914aa7991?cid=9485f9c2860243c3849a8e8ac0d34e57"
+                    },
+                    {
+                        "artist": "Deante' Hitchcock",
+                        "title": "Thinking Bout You - Live",
+                        "image": "https://i.scdn.co/image/ab67616d00001e028210e6ea51ad6af0bf564143",
+                        "url": "https://open.spotify.com/track/5djY7vTe5zjkE716EHjeB0",
+                        "uri": "spotify:track:5djY7vTe5zjkE716EHjeB0",
+                        "preview": "https://p.scdn.co/mp3-preview/2d3acd81a35203aede1e0145ac2848b3ee2e8ea3?cid=9485f9c2860243c3849a8e8ac0d34e57"
+                    },
+                    {
+                        "artist": "Deante' Hitchcock",
+                        "title": "Side Nigga Anthem - Live",
+                        "image": "https://i.scdn.co/image/ab67616d00001e028210e6ea51ad6af0bf564143",
+                        "url": "https://open.spotify.com/track/115bAJgqNqU811GNh5jiFg",
+                        "uri": "spotify:track:115bAJgqNqU811GNh5jiFg",
+                        "preview": "https://p.scdn.co/mp3-preview/c90289f78e4903bae9816d7756291d2eeb319f51?cid=9485f9c2860243c3849a8e8ac0d34e57"
+                    },
+                    {
+                        "artist": "Deante' Hitchcock",
+                        "title": "Shadowman's Interlude - Live",
+                        "image": "https://i.scdn.co/image/ab67616d00001e028210e6ea51ad6af0bf564143",
+                        "url": "https://open.spotify.com/track/0YhWt1z19ySKGaRNWsp0eJ",
+                        "uri": "spotify:track:0YhWt1z19ySKGaRNWsp0eJ",
+                        "preview": "https://p.scdn.co/mp3-preview/e751287b03e6fe49f00fa6056dbbe4780d6444e6?cid=9485f9c2860243c3849a8e8ac0d34e57"
+                    },
+                    {
+                        "artist": "Deante' Hitchcock",
+                        "title": "Flashbacks (feat. Miguel & St. Beauty) - Live",
+                        "image": "https://i.scdn.co/image/ab67616d00001e028210e6ea51ad6af0bf564143",
+                        "url": "https://open.spotify.com/track/399hvIvCRk62htx42fPEIj",
+                        "uri": "spotify:track:399hvIvCRk62htx42fPEIj",
+                        "preview": "https://p.scdn.co/mp3-preview/142be7885b0bc7eeb0c887981eef262ed20c9b56?cid=9485f9c2860243c3849a8e8ac0d34e57"
+                    },
+                    {
+                        "artist": "Deante' Hitchcock",
+                        "title": "No Secret - Live",
+                        "image": "https://i.scdn.co/image/ab67616d00001e028210e6ea51ad6af0bf564143",
+                        "url": "https://open.spotify.com/track/2WJ7iTdG15GiVM6JAbvphr",
+                        "uri": "spotify:track:2WJ7iTdG15GiVM6JAbvphr",
+                        "preview": "https://p.scdn.co/mp3-preview/923ace0bbcaeced4a2ee198cdd870db1785947f6?cid=9485f9c2860243c3849a8e8ac0d34e57"
+                    },
+                    {
+                        "artist": "Deante' Hitchcock",
+                        "title": "NITS (Nights in The South) - Live",
+                        "image": "https://i.scdn.co/image/ab67616d00001e028210e6ea51ad6af0bf564143",
+                        "url": "https://open.spotify.com/track/04pjNKBHC37aDDkhEw5qd4",
+                        "uri": "spotify:track:04pjNKBHC37aDDkhEw5qd4",
+                        "preview": "https://p.scdn.co/mp3-preview/97918154e90bc9bfe2e8da520629deb9fec6f1d4?cid=9485f9c2860243c3849a8e8ac0d34e57"
+                    },
+                    {
+                        "artist": "Deante' Hitchcock",
+                        "title": "How TF (feat. 6LACK) - Live",
+                        "image": "https://i.scdn.co/image/ab67616d00001e028210e6ea51ad6af0bf564143",
+                        "url": "https://open.spotify.com/track/64vS9fCDElM2KbLnIN2ADe",
+                        "uri": "spotify:track:64vS9fCDElM2KbLnIN2ADe",
+                        "preview": "https://p.scdn.co/mp3-preview/18de69300c2cc4885d2b22cf47bd85ba1f736cbb?cid=9485f9c2860243c3849a8e8ac0d34e57"
+                    },
+                    {
+                        "artist": "Deante' Hitchcock",
+                        "title": "Growing Up/Mother God - Live",
+                        "image": "https://i.scdn.co/image/ab67616d00001e028210e6ea51ad6af0bf564143",
+                        "url": "https://open.spotify.com/track/2VppcNjfHYXnFdNOlAHrtt",
+                        "uri": "spotify:track:2VppcNjfHYXnFdNOlAHrtt",
+                        "preview": "https://p.scdn.co/mp3-preview/b10ea5ceb286fa59f50064a35f1e82a43c9f54d0?cid=9485f9c2860243c3849a8e8ac0d34e57"
+                    }
+                ]
+            },
+            {
+                "artist": "Koncept Jack$on",
+                "title": "What's Done in the Dark",
+                "image": "https://i.scdn.co/image/ab67616d00001e02a98933b3bae308559c9edf04",
+                "url": "https://open.spotify.com/album/7JKUZ6fJoStdOnKPaimVm3",
+                "uri": "spotify:album:7JKUZ6fJoStdOnKPaimVm3",
+                "tracks": [
+                    {
+                        "artist": "Koncept Jack$on",
+                        "title": "Rap Is Like Jazz (Intro)",
+                        "image": "https://i.scdn.co/image/ab67616d00001e02a98933b3bae308559c9edf04",
+                        "url": "https://open.spotify.com/track/4Er1Kuq1lsZPgVaWIoFhn1",
+                        "uri": "spotify:track:4Er1Kuq1lsZPgVaWIoFhn1",
+                        "preview": "https://p.scdn.co/mp3-preview/1d302df35552915b9ce176b86c43ffdaf962848f?cid=9485f9c2860243c3849a8e8ac0d34e57"
+                    },
+                    {
+                        "artist": "Koncept Jack$on",
+                        "title": "Alot More",
+                        "image": "https://i.scdn.co/image/ab67616d00001e02a98933b3bae308559c9edf04",
+                        "url": "https://open.spotify.com/track/2EgnzQI82g4lQ1y0roDzcV",
+                        "uri": "spotify:track:2EgnzQI82g4lQ1y0roDzcV",
+                        "preview": "https://p.scdn.co/mp3-preview/031e8580fe6af73555bdf3617347634ae6f7325c?cid=9485f9c2860243c3849a8e8ac0d34e57"
+                    },
+                    {
+                        "artist": "Koncept Jack$on",
+                        "title": "Tell Lie Vision",
+                        "image": "https://i.scdn.co/image/ab67616d00001e02a98933b3bae308559c9edf04",
+                        "url": "https://open.spotify.com/track/2aAvXiKcM0yvCHH2O18hvt",
+                        "uri": "spotify:track:2aAvXiKcM0yvCHH2O18hvt",
+                        "preview": "https://p.scdn.co/mp3-preview/a427a2959cb425cf622c2473bfcb5c54ddf6e54a?cid=9485f9c2860243c3849a8e8ac0d34e57"
+                    },
+                    {
+                        "artist": "Koncept Jack$on",
+                        "title": "Corrupt Professors",
+                        "image": "https://i.scdn.co/image/ab67616d00001e02a98933b3bae308559c9edf04",
+                        "url": "https://open.spotify.com/track/2on8RF2xAuMmgjzmFry9U5",
+                        "uri": "spotify:track:2on8RF2xAuMmgjzmFry9U5",
+                        "preview": "https://p.scdn.co/mp3-preview/57552dcfe46e808d269c000165a2c0e77836fdbd?cid=9485f9c2860243c3849a8e8ac0d34e57"
+                    },
+                    {
+                        "artist": "Koncept Jack$on",
+                        "title": "Deprogrammers",
+                        "image": "https://i.scdn.co/image/ab67616d00001e02a98933b3bae308559c9edf04",
+                        "url": "https://open.spotify.com/track/2Ks8EVSUSGQjITupqtzWpW",
+                        "uri": "spotify:track:2Ks8EVSUSGQjITupqtzWpW",
+                        "preview": "https://p.scdn.co/mp3-preview/db12a992b45516b3ab296f59b677ef3e4bd39db3?cid=9485f9c2860243c3849a8e8ac0d34e57"
+                    },
+                    {
+                        "artist": "Koncept Jack$on",
+                        "title": "Gelato",
+                        "image": "https://i.scdn.co/image/ab67616d00001e02a98933b3bae308559c9edf04",
+                        "url": "https://open.spotify.com/track/52c9JFozyCaLjhQC2Wy0uo",
+                        "uri": "spotify:track:52c9JFozyCaLjhQC2Wy0uo",
+                        "preview": "https://p.scdn.co/mp3-preview/db17e4163e785272f86b8d718324adb2e0087a7b?cid=9485f9c2860243c3849a8e8ac0d34e57"
+                    },
+                    {
+                        "artist": "Koncept Jack$on",
+                        "title": "Gameshark 2021",
+                        "image": "https://i.scdn.co/image/ab67616d00001e02a98933b3bae308559c9edf04",
+                        "url": "https://open.spotify.com/track/5f0Oxe5DokpeSUcRArllcs",
+                        "uri": "spotify:track:5f0Oxe5DokpeSUcRArllcs",
+                        "preview": "https://p.scdn.co/mp3-preview/226f392b8e57162c6430f9a7f3951a705f688fdf?cid=9485f9c2860243c3849a8e8ac0d34e57"
+                    },
+                    {
+                        "artist": "Koncept Jack$on",
+                        "title": "Sbarro (Affirmation Loop)",
+                        "image": "https://i.scdn.co/image/ab67616d00001e02a98933b3bae308559c9edf04",
+                        "url": "https://open.spotify.com/track/2nLRjdAumzXgSwNysgvkX1",
+                        "uri": "spotify:track:2nLRjdAumzXgSwNysgvkX1",
+                        "preview": "https://p.scdn.co/mp3-preview/cbfea2f937410f474e5b2ce9482be6ea472beedc?cid=9485f9c2860243c3849a8e8ac0d34e57"
+                    }
+                ]
+            },
+            {
+                "artist": "Mickey Factz",
+                "title": "Hue: An Audio Last Will & Testament",
+                "image": "https://i.scdn.co/image/ab67616d00001e02ac66757de91c7ea1e35490f6",
+                "url": "https://open.spotify.com/album/0eZfYyRA267vud7wQ0LghA",
+                "uri": "spotify:album:0eZfYyRA267vud7wQ0LghA",
+                "tracks": [
+                    {
+                        "artist": "Mickey Factz",
+                        "title": "Find A Way",
+                        "image": "https://i.scdn.co/image/ab67616d00001e02ac66757de91c7ea1e35490f6",
+                        "url": "https://open.spotify.com/track/5Vm7gFe4VSnE6QJcIqKios",
+                        "uri": "spotify:track:5Vm7gFe4VSnE6QJcIqKios",
+                        "preview": "https://p.scdn.co/mp3-preview/02557c2ef2491ff67c4e9fb97db16811e57e85d4?cid=9485f9c2860243c3849a8e8ac0d34e57"
+                    },
+                    {
+                        "artist": "Mickey Factz",
+                        "title": "Melanin",
+                        "image": "https://i.scdn.co/image/ab67616d00001e02ac66757de91c7ea1e35490f6",
+                        "url": "https://open.spotify.com/track/6f96SXOPNCviWavKPpE6GR",
+                        "uri": "spotify:track:6f96SXOPNCviWavKPpE6GR",
+                        "preview": "https://p.scdn.co/mp3-preview/d3b2362c7b0ab682b3eb70dd03cfdd13888e5d74?cid=9485f9c2860243c3849a8e8ac0d34e57"
+                    },
+                    {
+                        "artist": "Mickey Factz",
+                        "title": "You Can Do It",
+                        "image": "https://i.scdn.co/image/ab67616d00001e02ac66757de91c7ea1e35490f6",
+                        "url": "https://open.spotify.com/track/1hVkYGw2IatZFpPUgdMDX6",
+                        "uri": "spotify:track:1hVkYGw2IatZFpPUgdMDX6",
+                        "preview": "https://p.scdn.co/mp3-preview/677af558b989c2926eb67eabc49961eb29f29d34?cid=9485f9c2860243c3849a8e8ac0d34e57"
+                    },
+                    {
+                        "artist": "Mickey Factz",
+                        "title": "Black Man",
+                        "image": "https://i.scdn.co/image/ab67616d00001e02ac66757de91c7ea1e35490f6",
+                        "url": "https://open.spotify.com/track/3TGGUaXGCNlFmY8e6K8oPw",
+                        "uri": "spotify:track:3TGGUaXGCNlFmY8e6K8oPw",
+                        "preview": "https://p.scdn.co/mp3-preview/cf4a3f8dfaeb827a4ded17fedfc26ab7d6604139?cid=9485f9c2860243c3849a8e8ac0d34e57"
+                    },
+                    {
+                        "artist": "Mickey Factz",
+                        "title": "Living",
+                        "image": "https://i.scdn.co/image/ab67616d00001e02ac66757de91c7ea1e35490f6",
+                        "url": "https://open.spotify.com/track/0gm3muJ4ZpnCAjt5gIkLIk",
+                        "uri": "spotify:track:0gm3muJ4ZpnCAjt5gIkLIk",
+                        "preview": "https://p.scdn.co/mp3-preview/ebe8b3541585e1b19d04df557192f43e5d743317?cid=9485f9c2860243c3849a8e8ac0d34e57"
+                    },
+                    {
+                        "artist": "Mickey Factz",
+                        "title": "Chin Up",
+                        "image": "https://i.scdn.co/image/ab67616d00001e02ac66757de91c7ea1e35490f6",
+                        "url": "https://open.spotify.com/track/42d5zBQVs0hofNGLL1slRE",
+                        "uri": "spotify:track:42d5zBQVs0hofNGLL1slRE",
+                        "preview": "https://p.scdn.co/mp3-preview/c2f64f3cd98cfdabc3fb8dcf9e084e01d55fb1a2?cid=9485f9c2860243c3849a8e8ac0d34e57"
+                    },
+                    {
+                        "artist": "Mickey Factz",
+                        "title": "Lessons",
+                        "image": "https://i.scdn.co/image/ab67616d00001e02ac66757de91c7ea1e35490f6",
+                        "url": "https://open.spotify.com/track/4cx2zc4svRvARsr7qbvJGf",
+                        "uri": "spotify:track:4cx2zc4svRvARsr7qbvJGf",
+                        "preview": "https://p.scdn.co/mp3-preview/3ae67370114e7a4736e61ec67f2f44a8a8b4215d?cid=9485f9c2860243c3849a8e8ac0d34e57"
+                    },
+                    {
+                        "artist": "Mickey Factz",
+                        "title": "Malkia",
+                        "image": "https://i.scdn.co/image/ab67616d00001e02ac66757de91c7ea1e35490f6",
+                        "url": "https://open.spotify.com/track/7wSwDM4wgMOZEAo8NdpL1W",
+                        "uri": "spotify:track:7wSwDM4wgMOZEAo8NdpL1W",
+                        "preview": "https://p.scdn.co/mp3-preview/67d1b7b88967db4571538bdd18ef47fc8d0ce3e8?cid=9485f9c2860243c3849a8e8ac0d34e57"
+                    },
+                    {
+                        "artist": "Mickey Factz",
+                        "title": "The Altar",
+                        "image": "https://i.scdn.co/image/ab67616d00001e02ac66757de91c7ea1e35490f6",
+                        "url": "https://open.spotify.com/track/67SaP3FdwcM9fZsLLit25O",
+                        "uri": "spotify:track:67SaP3FdwcM9fZsLLit25O",
+                        "preview": "https://p.scdn.co/mp3-preview/d75e60b101195f38a6b00a67e2613812bd77905b?cid=9485f9c2860243c3849a8e8ac0d34e57"
+                    },
+                    {
+                        "artist": "Mickey Factz",
+                        "title": "You Are",
+                        "image": "https://i.scdn.co/image/ab67616d00001e02ac66757de91c7ea1e35490f6",
+                        "url": "https://open.spotify.com/track/3IuC0bcJrncTivcSINoaJp",
+                        "uri": "spotify:track:3IuC0bcJrncTivcSINoaJp",
+                        "preview": "https://p.scdn.co/mp3-preview/e0c11fd219cef8a0015110d0b16a7cb1bcefa290?cid=9485f9c2860243c3849a8e8ac0d34e57"
+                    }
+                ]
+            },
+            {
+                "artist": "Ethereal",
+                "title": "Catalys2",
+                "image": "https://i.scdn.co/image/ab67616d00001e0214324a7ee3e5d44676b114fe",
+                "url": "https://open.spotify.com/album/6SfwLTWLZecZ8KS7dwKIkc",
+                "uri": "spotify:album:6SfwLTWLZecZ8KS7dwKIkc",
+                "tracks": [
+                    {
+                        "artist": "Ethereal",
+                        "title": "Wakey",
+                        "image": "https://i.scdn.co/image/ab67616d00001e0214324a7ee3e5d44676b114fe",
+                        "url": "https://open.spotify.com/track/2Q1JyfvDXu98OmmkQMKadm",
+                        "uri": "spotify:track:2Q1JyfvDXu98OmmkQMKadm",
+                        "preview": "https://p.scdn.co/mp3-preview/389dd565ad23a935fc90bb97e0127acbab5c75b7?cid=9485f9c2860243c3849a8e8ac0d34e57"
+                    },
+                    {
+                        "artist": "Ethereal",
+                        "title": "Catalyst (It Me)",
+                        "image": "https://i.scdn.co/image/ab67616d00001e0214324a7ee3e5d44676b114fe",
+                        "url": "https://open.spotify.com/track/7JtrNclVEm0aBQYYqQAwGJ",
+                        "uri": "spotify:track:7JtrNclVEm0aBQYYqQAwGJ",
+                        "preview": "https://p.scdn.co/mp3-preview/4b8cc06beabd63efc27f7f27a5b8dac28b94696d?cid=9485f9c2860243c3849a8e8ac0d34e57"
+                    },
+                    {
+                        "artist": "Ethereal",
+                        "title": "Scraper Pt. 2",
+                        "image": "https://i.scdn.co/image/ab67616d00001e0214324a7ee3e5d44676b114fe",
+                        "url": "https://open.spotify.com/track/0wqgND7PMBb8xhFMMrjT3v",
+                        "uri": "spotify:track:0wqgND7PMBb8xhFMMrjT3v",
+                        "preview": "https://p.scdn.co/mp3-preview/452984a3a708cb054f087a4151f4281c362cf3a6?cid=9485f9c2860243c3849a8e8ac0d34e57"
+                    },
+                    {
+                        "artist": "Ethereal",
+                        "title": "Reaction",
+                        "image": "https://i.scdn.co/image/ab67616d00001e0214324a7ee3e5d44676b114fe",
+                        "url": "https://open.spotify.com/track/3ls3mc8K3No9hV6UPKdMFT",
+                        "uri": "spotify:track:3ls3mc8K3No9hV6UPKdMFT",
+                        "preview": "https://p.scdn.co/mp3-preview/ea27a25421f048def6202e9f057d9356d1469c88?cid=9485f9c2860243c3849a8e8ac0d34e57"
+                    },
+                    {
+                        "artist": "Ethereal",
+                        "title": "Hope Dat Ya Know",
+                        "image": "https://i.scdn.co/image/ab67616d00001e0214324a7ee3e5d44676b114fe",
+                        "url": "https://open.spotify.com/track/4mfloyB0M7U4BahBVbycHy",
+                        "uri": "spotify:track:4mfloyB0M7U4BahBVbycHy",
+                        "preview": "https://p.scdn.co/mp3-preview/af2e69b88e540fab51c64537fd8b6355fba6e9e5?cid=9485f9c2860243c3849a8e8ac0d34e57"
+                    },
+                    {
+                        "artist": "Ethereal",
+                        "title": "Make It Go Zoom",
+                        "image": "https://i.scdn.co/image/ab67616d00001e0214324a7ee3e5d44676b114fe",
+                        "url": "https://open.spotify.com/track/7xIIwIpmyPV1atDlTvF54U",
+                        "uri": "spotify:track:7xIIwIpmyPV1atDlTvF54U",
+                        "preview": "https://p.scdn.co/mp3-preview/32c7edc35f544ea96e349faa0a9b4787224871be?cid=9485f9c2860243c3849a8e8ac0d34e57"
+                    },
+                    {
+                        "artist": "Ethereal",
+                        "title": "Sign",
+                        "image": "https://i.scdn.co/image/ab67616d00001e0214324a7ee3e5d44676b114fe",
+                        "url": "https://open.spotify.com/track/385FpORc6plJp3DhptdjVm",
+                        "uri": "spotify:track:385FpORc6plJp3DhptdjVm",
+                        "preview": "https://p.scdn.co/mp3-preview/7ab792d2091de4ea42c9b0d3f12cea5486660112?cid=9485f9c2860243c3849a8e8ac0d34e57"
+                    },
+                    {
+                        "artist": "Ethereal",
+                        "title": "Reno 9 One One",
+                        "image": "https://i.scdn.co/image/ab67616d00001e0214324a7ee3e5d44676b114fe",
+                        "url": "https://open.spotify.com/track/4fMNPObLRbqCHmHBoxfwp8",
+                        "uri": "spotify:track:4fMNPObLRbqCHmHBoxfwp8",
+                        "preview": "https://p.scdn.co/mp3-preview/435eb9018ec9a158fbbd13a3d7e01e80aff4ede5?cid=9485f9c2860243c3849a8e8ac0d34e57"
+                    },
+                    {
+                        "artist": "Ethereal",
+                        "title": "Run It Up",
+                        "image": "https://i.scdn.co/image/ab67616d00001e0214324a7ee3e5d44676b114fe",
+                        "url": "https://open.spotify.com/track/7rG4KaDwacbI8XodAiJswZ",
+                        "uri": "spotify:track:7rG4KaDwacbI8XodAiJswZ",
+                        "preview": "https://p.scdn.co/mp3-preview/289f5d0dadb9ef94a238c68ef24879ce47d5713d?cid=9485f9c2860243c3849a8e8ac0d34e57"
+                    },
+                    {
+                        "artist": "Ethereal",
+                        "title": "Jump",
+                        "image": "https://i.scdn.co/image/ab67616d00001e0214324a7ee3e5d44676b114fe",
+                        "url": "https://open.spotify.com/track/70q3KcCMEFppAl8WTqpEDa",
+                        "uri": "spotify:track:70q3KcCMEFppAl8WTqpEDa",
+                        "preview": "https://p.scdn.co/mp3-preview/571ad66f29a6126dea76a741ca58139ef161835f?cid=9485f9c2860243c3849a8e8ac0d34e57"
+                    },
+                    {
+                        "artist": "Ethereal",
+                        "title": "Timer",
+                        "image": "https://i.scdn.co/image/ab67616d00001e0214324a7ee3e5d44676b114fe",
+                        "url": "https://open.spotify.com/track/4uEopryPyQ2MoknARDFS1y",
+                        "uri": "spotify:track:4uEopryPyQ2MoknARDFS1y",
+                        "preview": "https://p.scdn.co/mp3-preview/e0e1bd0de6a0f4728c0fec728dbb123075ec5710?cid=9485f9c2860243c3849a8e8ac0d34e57"
+                    }
+                ]
+            },
+            {
+                "artist": "Lil Peep",
+                "title": "CALIFORNIA GIRLS",
+                "image": "https://i.scdn.co/image/ab67616d00001e02ca733061d51ddadda9fca9c3",
+                "url": "https://open.spotify.com/album/4W0UHmB35BRaSp8gge7x73",
+                "uri": "spotify:album:4W0UHmB35BRaSp8gge7x73",
+                "tracks": [
+                    {
+                        "artist": "Lil Peep",
+                        "title": "california world",
+                        "image": "https://i.scdn.co/image/ab67616d00001e02ca733061d51ddadda9fca9c3",
+                        "url": "https://open.spotify.com/track/7kjYPapOatvPuqPuMn4TgM",
+                        "uri": "spotify:track:7kjYPapOatvPuqPuMn4TgM",
+                        "preview": "https://p.scdn.co/mp3-preview/61d5e7d91d37b050d34a5d5c84b5db10870127cd?cid=9485f9c2860243c3849a8e8ac0d34e57"
+                    },
+                    {
+                        "artist": "Lil Peep",
+                        "title": "pray i die",
+                        "image": "https://i.scdn.co/image/ab67616d00001e02ca733061d51ddadda9fca9c3",
+                        "url": "https://open.spotify.com/track/6HYdqZjxe8apLE4pF551h4",
+                        "uri": "spotify:track:6HYdqZjxe8apLE4pF551h4",
+                        "preview": "https://p.scdn.co/mp3-preview/6594357d427eaff0f5776581568a7b38fcbfe3ed?cid=9485f9c2860243c3849a8e8ac0d34e57"
+                    },
+                    {
+                        "artist": "Lil Peep",
+                        "title": "beat it",
+                        "image": "https://i.scdn.co/image/ab67616d00001e02ca733061d51ddadda9fca9c3",
+                        "url": "https://open.spotify.com/track/7yGRdlRrscxNhHsMS5HPAM",
+                        "uri": "spotify:track:7yGRdlRrscxNhHsMS5HPAM",
+                        "preview": "https://p.scdn.co/mp3-preview/d7754a9a8ad136ee18da37f6bccc9aad01490edc?cid=9485f9c2860243c3849a8e8ac0d34e57"
+                    },
+                    {
+                        "artist": "Lil Peep",
+                        "title": "beamer boy",
+                        "image": "https://i.scdn.co/image/ab67616d00001e02ca733061d51ddadda9fca9c3",
+                        "url": "https://open.spotify.com/track/5K5MBX1I7GdYKaaI0zKLno",
+                        "uri": "spotify:track:5K5MBX1I7GdYKaaI0zKLno",
+                        "preview": "https://p.scdn.co/mp3-preview/625474452cd11413f25556d10d6b40d4e77697f6?cid=9485f9c2860243c3849a8e8ac0d34e57"
+                    },
+                    {
+                        "artist": "Lil Peep",
+                        "title": "let me bleed",
+                        "image": "https://i.scdn.co/image/ab67616d00001e02ca733061d51ddadda9fca9c3",
+                        "url": "https://open.spotify.com/track/42CvoNEEBDcUBpfRMnQG16",
+                        "uri": "spotify:track:42CvoNEEBDcUBpfRMnQG16",
+                        "preview": "https://p.scdn.co/mp3-preview/d3d3a19ae4c6190dda19d92422a68f947dc15ed9?cid=9485f9c2860243c3849a8e8ac0d34e57"
+                    },
+                    {
+                        "artist": "Lil Peep",
+                        "title": "lil kennedy",
+                        "image": "https://i.scdn.co/image/ab67616d00001e02ca733061d51ddadda9fca9c3",
+                        "url": "https://open.spotify.com/track/1SISnhVlTM8SU7vh83sqUj",
+                        "uri": "spotify:track:1SISnhVlTM8SU7vh83sqUj",
+                        "preview": "https://p.scdn.co/mp3-preview/f5a603eb5233d7b72f5b0dee09c2f303896d1e21?cid=9485f9c2860243c3849a8e8ac0d34e57"
+                    }
+                ]
+            },
+            {
+                "artist": "Tha God Fahim",
+                "title": "Tha Wolf On Wall St",
+                "image": "https://i.scdn.co/image/ab67616d00001e02ae98e201cff89f1d3e80b549",
+                "url": "https://open.spotify.com/album/41bBQZueZm6V7ellQ37jAA",
+                "uri": "spotify:album:41bBQZueZm6V7ellQ37jAA",
+                "tracks": [
+                    {
+                        "artist": "Tha God Fahim",
+                        "title": "All Bidness",
+                        "image": "https://i.scdn.co/image/ab67616d00001e02ae98e201cff89f1d3e80b549",
+                        "url": "https://open.spotify.com/track/0qYSIdzs22OZre2O1C961Y",
+                        "uri": "spotify:track:0qYSIdzs22OZre2O1C961Y",
+                        "preview": "https://p.scdn.co/mp3-preview/037e548e4cda3803c0c060b60b6792c00398420f?cid=9485f9c2860243c3849a8e8ac0d34e57"
+                    },
+                    {
+                        "artist": "Tha God Fahim",
+                        "title": "Tha Wolf On Wall St",
+                        "image": "https://i.scdn.co/image/ab67616d00001e02ae98e201cff89f1d3e80b549",
+                        "url": "https://open.spotify.com/track/4eADxyiZl6izaP7DZj4lkR",
+                        "uri": "spotify:track:4eADxyiZl6izaP7DZj4lkR",
+                        "preview": "https://p.scdn.co/mp3-preview/fa81c0eb614f5a207d5d5b0647367ee45b6b223d?cid=9485f9c2860243c3849a8e8ac0d34e57"
+                    },
+                    {
+                        "artist": "Tha God Fahim",
+                        "title": "Tha Poverty Bothers Me",
+                        "image": "https://i.scdn.co/image/ab67616d00001e02ae98e201cff89f1d3e80b549",
+                        "url": "https://open.spotify.com/track/4gaiIXKunzSD3FUcuB4Qu5",
+                        "uri": "spotify:track:4gaiIXKunzSD3FUcuB4Qu5",
+                        "preview": "https://p.scdn.co/mp3-preview/ca83e26f2d74bf23ae9a85df4c8e6a5026adf129?cid=9485f9c2860243c3849a8e8ac0d34e57"
+                    },
+                    {
+                        "artist": "Tha God Fahim",
+                        "title": "Cannon",
+                        "image": "https://i.scdn.co/image/ab67616d00001e02ae98e201cff89f1d3e80b549",
+                        "url": "https://open.spotify.com/track/5ZXzv5qGXbpqe13Kv0VTJR",
+                        "uri": "spotify:track:5ZXzv5qGXbpqe13Kv0VTJR",
+                        "preview": "https://p.scdn.co/mp3-preview/a299b9a5d13eac72e9f982dd85d30fec64d7f383?cid=9485f9c2860243c3849a8e8ac0d34e57"
+                    },
+                    {
+                        "artist": "Tha God Fahim",
+                        "title": "Meditation",
+                        "image": "https://i.scdn.co/image/ab67616d00001e02ae98e201cff89f1d3e80b549",
+                        "url": "https://open.spotify.com/track/73PHUjeQB5HEF7WNWzORIx",
+                        "uri": "spotify:track:73PHUjeQB5HEF7WNWzORIx",
+                        "preview": "https://p.scdn.co/mp3-preview/44dd366909e77979239ffe05451f64b1b3c05a32?cid=9485f9c2860243c3849a8e8ac0d34e57"
+                    },
+                    {
+                        "artist": "Tha God Fahim",
+                        "title": "Value",
+                        "image": "https://i.scdn.co/image/ab67616d00001e02ae98e201cff89f1d3e80b549",
+                        "url": "https://open.spotify.com/track/6ZriQIvYr8VtgUurcXGE4U",
+                        "uri": "spotify:track:6ZriQIvYr8VtgUurcXGE4U",
+                        "preview": "https://p.scdn.co/mp3-preview/9b82ca26d5a69279e11366e7379b04833ce69024?cid=9485f9c2860243c3849a8e8ac0d34e57"
+                    },
+                    {
+                        "artist": "Tha God Fahim",
+                        "title": "Gupta",
+                        "image": "https://i.scdn.co/image/ab67616d00001e02ae98e201cff89f1d3e80b549",
+                        "url": "https://open.spotify.com/track/6YDuypUvXPMdqkSI9ak3Ih",
+                        "uri": "spotify:track:6YDuypUvXPMdqkSI9ak3Ih",
+                        "preview": "https://p.scdn.co/mp3-preview/761d661cae3aabcd7f9cb6c0ec1c46c54daef258?cid=9485f9c2860243c3849a8e8ac0d34e57"
+                    },
+                    {
+                        "artist": "Tha God Fahim",
+                        "title": "Stones N Rocs",
+                        "image": "https://i.scdn.co/image/ab67616d00001e02ae98e201cff89f1d3e80b549",
+                        "url": "https://open.spotify.com/track/3J3qszDxRHEaohiQo4PNF5",
+                        "uri": "spotify:track:3J3qszDxRHEaohiQo4PNF5",
+                        "preview": "https://p.scdn.co/mp3-preview/79096568cec8cefcbcbdc68a0d347fae464c3ea6?cid=9485f9c2860243c3849a8e8ac0d34e57"
+                    }
+                ]
+            },
+            {
+                "artist": "The Alchemist",
+                "title": "Carry The Fire",
+                "image": "https://i.scdn.co/image/ab67616d00001e0256a516b9930193236a300b57",
+                "url": "https://open.spotify.com/album/61824hWgdxWH4Gtjk3BBoP",
+                "uri": "spotify:album:61824hWgdxWH4Gtjk3BBoP",
+                "tracks": [
+                    {
+                        "artist": "The Alchemist",
+                        "title": "82 Days",
+                        "image": "https://i.scdn.co/image/ab67616d00001e0256a516b9930193236a300b57",
+                        "url": "https://open.spotify.com/track/73qcPCa9WjjxZBBMTFDva3",
+                        "uri": "spotify:track:73qcPCa9WjjxZBBMTFDva3",
+                        "preview": "https://p.scdn.co/mp3-preview/d1f37690c88fdd6820e046ef00453bfa1e458d19?cid=9485f9c2860243c3849a8e8ac0d34e57"
+                    },
+                    {
+                        "artist": "The Alchemist",
+                        "title": "Water Bed",
+                        "image": "https://i.scdn.co/image/ab67616d00001e0256a516b9930193236a300b57",
+                        "url": "https://open.spotify.com/track/6uIdZ8SiJu2p7EG1NNAxgf",
+                        "uri": "spotify:track:6uIdZ8SiJu2p7EG1NNAxgf",
+                        "preview": "https://p.scdn.co/mp3-preview/d6419b4285f46bf38da7ad1d17b6c0aff6aa2072?cid=9485f9c2860243c3849a8e8ac0d34e57"
+                    },
+                    {
+                        "artist": "The Alchemist",
+                        "title": "Treetops & Pagodas",
+                        "image": "https://i.scdn.co/image/ab67616d00001e0256a516b9930193236a300b57",
+                        "url": "https://open.spotify.com/track/5Mx2r0ax0iX058XGQFC0ba",
+                        "uri": "spotify:track:5Mx2r0ax0iX058XGQFC0ba",
+                        "preview": "https://p.scdn.co/mp3-preview/d25d0aae59743fa17ddaa68be96f50e04a122e28?cid=9485f9c2860243c3849a8e8ac0d34e57"
+                    },
+                    {
+                        "artist": "The Alchemist",
+                        "title": "Carry The Fire",
+                        "image": "https://i.scdn.co/image/ab67616d00001e0256a516b9930193236a300b57",
+                        "url": "https://open.spotify.com/track/1WkFqmKboxir1Vnvn5hCFK",
+                        "uri": "spotify:track:1WkFqmKboxir1Vnvn5hCFK",
+                        "preview": "https://p.scdn.co/mp3-preview/5a22e3e57a354374fd7a540c96b8785f1c615cb3?cid=9485f9c2860243c3849a8e8ac0d34e57"
+                    },
+                    {
+                        "artist": "The Alchemist",
+                        "title": "Win Or Go Home",
+                        "image": "https://i.scdn.co/image/ab67616d00001e0256a516b9930193236a300b57",
+                        "url": "https://open.spotify.com/track/1v3PsfPwpSehgwEVDF49QC",
+                        "uri": "spotify:track:1v3PsfPwpSehgwEVDF49QC",
+                        "preview": "https://p.scdn.co/mp3-preview/23715462b35e4230c25966f6bfa98553b0db14ab?cid=9485f9c2860243c3849a8e8ac0d34e57"
+                    },
+                    {
+                        "artist": "The Alchemist",
+                        "title": "Intermission",
+                        "image": "https://i.scdn.co/image/ab67616d00001e0256a516b9930193236a300b57",
+                        "url": "https://open.spotify.com/track/6MBCF6OOpfTyzX0yHmu2Sc",
+                        "uri": "spotify:track:6MBCF6OOpfTyzX0yHmu2Sc",
+                        "preview": "https://p.scdn.co/mp3-preview/2d343a2f91d8aea6c83c84aeee0f9a6c5f6887ce?cid=9485f9c2860243c3849a8e8ac0d34e57"
+                    },
+                    {
+                        "artist": "The Alchemist",
+                        "title": "The Flying Man",
+                        "image": "https://i.scdn.co/image/ab67616d00001e0256a516b9930193236a300b57",
+                        "url": "https://open.spotify.com/track/169u3k4yfbbLIChgXnPsef",
+                        "uri": "spotify:track:169u3k4yfbbLIChgXnPsef",
+                        "preview": "https://p.scdn.co/mp3-preview/e580938dd445bf32e586db1a9ed70da27d48d6a6?cid=9485f9c2860243c3849a8e8ac0d34e57"
+                    },
+                    {
+                        "artist": "The Alchemist",
+                        "title": "Closing Ceremony",
+                        "image": "https://i.scdn.co/image/ab67616d00001e0256a516b9930193236a300b57",
+                        "url": "https://open.spotify.com/track/0itktsTFnsHsjYNBvObS1J",
+                        "uri": "spotify:track:0itktsTFnsHsjYNBvObS1J",
+                        "preview": "https://p.scdn.co/mp3-preview/6c6d6855272883c66c7dd327c14d62a704688fcf?cid=9485f9c2860243c3849a8e8ac0d34e57"
+                    }
+                ]
+            },
+            {
+                "artist": "2KBABY",
+                "title": "THE 2K STIMULUS",
+                "image": "https://i.scdn.co/image/ab67616d00001e0218476f7dd46cbcc3ae109224",
+                "url": "https://open.spotify.com/album/3z4hupGoJVhdyeRhjkwGqb",
+                "uri": "spotify:album:3z4hupGoJVhdyeRhjkwGqb",
+                "tracks": [
+                    {
+                        "artist": "2KBABY",
+                        "title": "Rounds",
+                        "image": "https://i.scdn.co/image/ab67616d00001e0218476f7dd46cbcc3ae109224",
+                        "url": "https://open.spotify.com/track/6Mwh6jAHzlFGvNVY4q5MnQ",
+                        "uri": "spotify:track:6Mwh6jAHzlFGvNVY4q5MnQ",
+                        "preview": "https://p.scdn.co/mp3-preview/e2a7cfd03072e8b54ee19293cef9e319e0e1126c?cid=9485f9c2860243c3849a8e8ac0d34e57"
+                    },
+                    {
+                        "artist": "2KBABY",
+                        "title": "2kizzy Flow",
+                        "image": "https://i.scdn.co/image/ab67616d00001e0218476f7dd46cbcc3ae109224",
+                        "url": "https://open.spotify.com/track/3A0vAQm6wNeeZmEMtZLm6l",
+                        "uri": "spotify:track:3A0vAQm6wNeeZmEMtZLm6l",
+                        "preview": "https://p.scdn.co/mp3-preview/6e5ce5cafe87ff76f79cd202295a968d5d8784b8?cid=9485f9c2860243c3849a8e8ac0d34e57"
+                    }
+                ]
+            },
+            {
+                "artist": "Rich The Kid",
+                "title": "Lucky 7",
+                "image": "https://i.scdn.co/image/ab67616d00001e027620f0af97ddadd45d15c295",
+                "url": "https://open.spotify.com/album/6Dk8225zWYNt429aqGmmPp",
+                "uri": "spotify:album:6Dk8225zWYNt429aqGmmPp",
+                "tracks": [
+                    {
+                        "artist": "Rich The Kid",
+                        "title": "Split",
+                        "image": "https://i.scdn.co/image/ab67616d00001e027620f0af97ddadd45d15c295",
+                        "url": "https://open.spotify.com/track/723z82wJ9v2WNXSInGnK8X",
+                        "uri": "spotify:track:723z82wJ9v2WNXSInGnK8X",
+                        "preview": "https://p.scdn.co/mp3-preview/cabbcd1397c159e30875dae2fd4ff2175a9447c6?cid=9485f9c2860243c3849a8e8ac0d34e57"
+                    },
+                    {
+                        "artist": "Rich The Kid",
+                        "title": "Laughin (feat. DaBaby)",
+                        "image": "https://i.scdn.co/image/ab67616d00001e027620f0af97ddadd45d15c295",
+                        "url": "https://open.spotify.com/track/1ZkL3IwFNXoloSRHY0R88q",
+                        "uri": "spotify:track:1ZkL3IwFNXoloSRHY0R88q",
+                        "preview": "https://p.scdn.co/mp3-preview/18460be832b8233f44bdb585350ebfed831372b0?cid=9485f9c2860243c3849a8e8ac0d34e57"
+                    },
+                    {
+                        "artist": "Rich The Kid",
+                        "title": "Money Machine (feat. SipTee)",
+                        "image": "https://i.scdn.co/image/ab67616d00001e027620f0af97ddadd45d15c295",
+                        "url": "https://open.spotify.com/track/4DAhqYNmVfYwXlsmbJV6xq",
+                        "uri": "spotify:track:4DAhqYNmVfYwXlsmbJV6xq",
+                        "preview": "https://p.scdn.co/mp3-preview/95434d4c100e0c5a04819224da49756a151d9386?cid=9485f9c2860243c3849a8e8ac0d34e57"
+                    },
+                    {
+                        "artist": "Rich The Kid",
+                        "title": "Boom Boom (feat. Lil Mosey)",
+                        "image": "https://i.scdn.co/image/ab67616d00001e027620f0af97ddadd45d15c295",
+                        "url": "https://open.spotify.com/track/4kT8hTZNN6fPY6XAaH7CkQ",
+                        "uri": "spotify:track:4kT8hTZNN6fPY6XAaH7CkQ",
+                        "preview": "https://p.scdn.co/mp3-preview/33de7a5afa43ff0b54efdd2b6b7b19531a0fed5e?cid=9485f9c2860243c3849a8e8ac0d34e57"
+                    },
+                    {
+                        "artist": "Rich The Kid",
+                        "title": "Right",
+                        "image": "https://i.scdn.co/image/ab67616d00001e027620f0af97ddadd45d15c295",
+                        "url": "https://open.spotify.com/track/51k40riWGrpf9STOiZG50Q",
+                        "uri": "spotify:track:51k40riWGrpf9STOiZG50Q",
+                        "preview": "https://p.scdn.co/mp3-preview/8cb84ec9c07adc4076aaf2ad3412f29e7dbbe472?cid=9485f9c2860243c3849a8e8ac0d34e57"
+                    },
+                    {
+                        "artist": "Rich The Kid",
+                        "title": "Nasty (feat. Rubi Rose)",
+                        "image": "https://i.scdn.co/image/ab67616d00001e027620f0af97ddadd45d15c295",
+                        "url": "https://open.spotify.com/track/3e77Cqc4gp1GLirOzGznD6",
+                        "uri": "spotify:track:3e77Cqc4gp1GLirOzGznD6",
+                        "preview": "https://p.scdn.co/mp3-preview/fc3ac81fa69c027906a12e354ff2c8eda19fa148?cid=9485f9c2860243c3849a8e8ac0d34e57"
+                    },
+                    {
+                        "artist": "Rich The Kid",
+                        "title": "Too Blessed",
+                        "image": "https://i.scdn.co/image/ab67616d00001e027620f0af97ddadd45d15c295",
+                        "url": "https://open.spotify.com/track/5NFAYazMXZ95iTeVGAvKDb",
+                        "uri": "spotify:track:5NFAYazMXZ95iTeVGAvKDb",
+                        "preview": "https://p.scdn.co/mp3-preview/f6f34590f69d450d7152115db621aa9e73c73f85?cid=9485f9c2860243c3849a8e8ac0d34e57"
+                    }
+                ]
+            },
+            {
+                "artist": "Yameen",
+                "title": "Yarouze",
+                "image": "https://i.scdn.co/image/ab67616d00001e02f79b98d4f6de307a24d4e3d8",
+                "url": "https://open.spotify.com/album/1yW77v8ye9oOSIIhmj9U0q",
+                "uri": "spotify:album:1yW77v8ye9oOSIIhmj9U0q",
+                "tracks": [
+                    {
+                        "artist": "Yameen",
+                        "title": "Molasses",
+                        "image": "https://i.scdn.co/image/ab67616d00001e02f79b98d4f6de307a24d4e3d8",
+                        "url": "https://open.spotify.com/track/0i2qCbAc4JcgVMQCvytH4j",
+                        "uri": "spotify:track:0i2qCbAc4JcgVMQCvytH4j",
+                        "preview": "https://p.scdn.co/mp3-preview/feaf3853293e7106e1e50f0c7c10e01da2b66d98?cid=9485f9c2860243c3849a8e8ac0d34e57"
+                    },
+                    {
+                        "artist": "Yameen",
+                        "title": "Cosmosis",
+                        "image": "https://i.scdn.co/image/ab67616d00001e02f79b98d4f6de307a24d4e3d8",
+                        "url": "https://open.spotify.com/track/0fmWbZe7ejYbUNAqgxzA0t",
+                        "uri": "spotify:track:0fmWbZe7ejYbUNAqgxzA0t",
+                        "preview": "https://p.scdn.co/mp3-preview/37accd16877c8878e190423d5f3d343607767fee?cid=9485f9c2860243c3849a8e8ac0d34e57"
+                    },
+                    {
+                        "artist": "Yameen",
+                        "title": "NO QUESTIONS$$",
+                        "image": "https://i.scdn.co/image/ab67616d00001e02f79b98d4f6de307a24d4e3d8",
+                        "url": "https://open.spotify.com/track/35RNF0R91yAE5sWOVSFaCO",
+                        "uri": "spotify:track:35RNF0R91yAE5sWOVSFaCO",
+                        "preview": "https://p.scdn.co/mp3-preview/22ece5e62ac9be282e0d6f27549e4744f828306c?cid=9485f9c2860243c3849a8e8ac0d34e57"
+                    },
+                    {
+                        "artist": "Yameen",
+                        "title": "Molasses - Motion Cntrl Remix",
+                        "image": "https://i.scdn.co/image/ab67616d00001e02f79b98d4f6de307a24d4e3d8",
+                        "url": "https://open.spotify.com/track/1eeSO9x65MFXoapnNaGKC4",
+                        "uri": "spotify:track:1eeSO9x65MFXoapnNaGKC4",
+                        "preview": "https://p.scdn.co/mp3-preview/58b59393bc8b9ab4d841c4a239ad6e06940e876c?cid=9485f9c2860243c3849a8e8ac0d34e57"
+                    },
+                    {
+                        "artist": "Yameen",
+                        "title": "Cosmosis - Mark De Clive-Lowe Remix",
+                        "image": "https://i.scdn.co/image/ab67616d00001e02f79b98d4f6de307a24d4e3d8",
+                        "url": "https://open.spotify.com/track/0HP4GNkKHeEOD8mXqRncKu",
+                        "uri": "spotify:track:0HP4GNkKHeEOD8mXqRncKu",
+                        "preview": "https://p.scdn.co/mp3-preview/25a03dc3693219d029824130dd5c73a79dfa66a3?cid=9485f9c2860243c3849a8e8ac0d34e57"
+                    }
+                ]
+            },
+            {
+                "artist": "Haiti Babii",
+                "title": "Trap Art",
+                "image": "https://i.scdn.co/image/ab67616d00001e02daed671a30f3e134d832308c",
+                "url": "https://open.spotify.com/album/1xEeSaEyQeEkbprXPNvwDD",
+                "uri": "spotify:album:1xEeSaEyQeEkbprXPNvwDD",
+                "tracks": [
+                    {
+                        "artist": "Haiti Babii",
+                        "title": "Birthday Bitch",
+                        "image": "https://i.scdn.co/image/ab67616d00001e02daed671a30f3e134d832308c",
+                        "url": "https://open.spotify.com/track/6pFJtUYYNBLbBcG4BRyyGW",
+                        "uri": "spotify:track:6pFJtUYYNBLbBcG4BRyyGW",
+                        "preview": "https://p.scdn.co/mp3-preview/91d44f327b2a16db341aa5c5c5db5e993804a784?cid=9485f9c2860243c3849a8e8ac0d34e57"
+                    },
+                    {
+                        "artist": "Haiti Babii",
+                        "title": "Voila",
+                        "image": "https://i.scdn.co/image/ab67616d00001e02daed671a30f3e134d832308c",
+                        "url": "https://open.spotify.com/track/6ISHfk29132NBeLvc7kuK3",
+                        "uri": "spotify:track:6ISHfk29132NBeLvc7kuK3",
+                        "preview": "https://p.scdn.co/mp3-preview/de6e4a833a3e37f20b2448042d690b2f082ad26f?cid=9485f9c2860243c3849a8e8ac0d34e57"
+                    },
+                    {
+                        "artist": "Haiti Babii",
+                        "title": "Red Lights",
+                        "image": "https://i.scdn.co/image/ab67616d00001e02daed671a30f3e134d832308c",
+                        "url": "https://open.spotify.com/track/11qb01XaPt49CSLUlMLVNL",
+                        "uri": "spotify:track:11qb01XaPt49CSLUlMLVNL",
+                        "preview": "https://p.scdn.co/mp3-preview/6a1a0fc144824cf7eaf8bcff51e9e1b523a65266?cid=9485f9c2860243c3849a8e8ac0d34e57"
+                    },
+                    {
+                        "artist": "Haiti Babii",
+                        "title": "That Ain't My Type",
+                        "image": "https://i.scdn.co/image/ab67616d00001e02daed671a30f3e134d832308c",
+                        "url": "https://open.spotify.com/track/30fFYVuJQLpEIOTlQtbwrG",
+                        "uri": "spotify:track:30fFYVuJQLpEIOTlQtbwrG",
+                        "preview": "https://p.scdn.co/mp3-preview/c29ba1b8dd936caaa4cb98b50059553b0ed286bd?cid=9485f9c2860243c3849a8e8ac0d34e57"
+                    },
+                    {
+                        "artist": "Haiti Babii",
+                        "title": "Rich Mob",
+                        "image": "https://i.scdn.co/image/ab67616d00001e02daed671a30f3e134d832308c",
+                        "url": "https://open.spotify.com/track/4x0JgV5gXIksdwYpnsVs7l",
+                        "uri": "spotify:track:4x0JgV5gXIksdwYpnsVs7l",
+                        "preview": "https://p.scdn.co/mp3-preview/cd924010d9bb5f6daa98fe670e8e2dea26d8ef0d?cid=9485f9c2860243c3849a8e8ac0d34e57"
+                    },
+                    {
+                        "artist": "Haiti Babii",
+                        "title": "500 Degreez",
+                        "image": "https://i.scdn.co/image/ab67616d00001e02daed671a30f3e134d832308c",
+                        "url": "https://open.spotify.com/track/3jsHPvemhsGJKmWUSLU6W7",
+                        "uri": "spotify:track:3jsHPvemhsGJKmWUSLU6W7",
+                        "preview": "https://p.scdn.co/mp3-preview/a407672da66c0048621bf165e5605193239f7ed3?cid=9485f9c2860243c3849a8e8ac0d34e57"
+                    },
+                    {
+                        "artist": "Haiti Babii",
+                        "title": "This That Shit",
+                        "image": "https://i.scdn.co/image/ab67616d00001e02daed671a30f3e134d832308c",
+                        "url": "https://open.spotify.com/track/73p7U8bfPOjv1rx3n9HYMX",
+                        "uri": "spotify:track:73p7U8bfPOjv1rx3n9HYMX",
+                        "preview": "https://p.scdn.co/mp3-preview/ee328fa22b0b54c6fd13b518034e7ffe61fa799a?cid=9485f9c2860243c3849a8e8ac0d34e57"
+                    },
+                    {
+                        "artist": "Haiti Babii",
+                        "title": "Red Velvet",
+                        "image": "https://i.scdn.co/image/ab67616d00001e02daed671a30f3e134d832308c",
+                        "url": "https://open.spotify.com/track/7rAWXp1oSnpHlKzvTbPy3l",
+                        "uri": "spotify:track:7rAWXp1oSnpHlKzvTbPy3l",
+                        "preview": "https://p.scdn.co/mp3-preview/c58dc32b21c48e5bf34e5638074e2d2a9af0c436?cid=9485f9c2860243c3849a8e8ac0d34e57"
+                    },
+                    {
+                        "artist": "Haiti Babii",
+                        "title": "Thug Passion",
+                        "image": "https://i.scdn.co/image/ab67616d00001e02daed671a30f3e134d832308c",
+                        "url": "https://open.spotify.com/track/6Ssf9sOhQkFiTMLfntCh76",
+                        "uri": "spotify:track:6Ssf9sOhQkFiTMLfntCh76",
+                        "preview": "https://p.scdn.co/mp3-preview/3302ed0d7d67d213901bb3fea471e8efab8b75fd?cid=9485f9c2860243c3849a8e8ac0d34e57"
+                    },
+                    {
+                        "artist": "Haiti Babii",
+                        "title": "Chasing Feelings",
+                        "image": "https://i.scdn.co/image/ab67616d00001e02daed671a30f3e134d832308c",
+                        "url": "https://open.spotify.com/track/0xjx1gzC2p5x2fPGx1cHCI",
+                        "uri": "spotify:track:0xjx1gzC2p5x2fPGx1cHCI",
+                        "preview": "https://p.scdn.co/mp3-preview/7c3b1f8b216251b5055aa03066984107e07fd370?cid=9485f9c2860243c3849a8e8ac0d34e57"
+                    },
+                    {
+                        "artist": "Haiti Babii",
+                        "title": "Roses",
+                        "image": "https://i.scdn.co/image/ab67616d00001e02daed671a30f3e134d832308c",
+                        "url": "https://open.spotify.com/track/3QLOjs5dScRjx2qlZtkucJ",
+                        "uri": "spotify:track:3QLOjs5dScRjx2qlZtkucJ",
+                        "preview": "https://p.scdn.co/mp3-preview/caeebb8e252b4331d774efe0c5febc87d8418dac?cid=9485f9c2860243c3849a8e8ac0d34e57"
+                    },
+                    {
+                        "artist": "Haiti Babii",
+                        "title": "Do You Remember",
+                        "image": "https://i.scdn.co/image/ab67616d00001e02daed671a30f3e134d832308c",
+                        "url": "https://open.spotify.com/track/510hwMQmKFHkHYdKlgR55z",
+                        "uri": "spotify:track:510hwMQmKFHkHYdKlgR55z",
+                        "preview": "https://p.scdn.co/mp3-preview/544c2a9330b6a8cf2c0571ffc37d71381efb4ec8?cid=9485f9c2860243c3849a8e8ac0d34e57"
+                    },
+                    {
+                        "artist": "Haiti Babii",
+                        "title": "Dangerous (feat. Wyclef Jean)",
+                        "image": "https://i.scdn.co/image/ab67616d00001e02daed671a30f3e134d832308c",
+                        "url": "https://open.spotify.com/track/23VZvEMESgrqaPAsawF1XY",
+                        "uri": "spotify:track:23VZvEMESgrqaPAsawF1XY",
+                        "preview": "https://p.scdn.co/mp3-preview/552d08693a0e0f27c99ea25a4755ae04c0c58dcd?cid=9485f9c2860243c3849a8e8ac0d34e57"
+                    }
+                ]
+            },
+            {
+                "artist": "Fendi P",
+                "title": "The Art of Finessin 2",
+                "image": "https://i.scdn.co/image/ab67616d00001e021c86b6d6f8c6dbe29a666e8d",
+                "url": "https://open.spotify.com/album/2Xvrg4oQH3yyfYaA93BamE",
+                "uri": "spotify:album:2Xvrg4oQH3yyfYaA93BamE",
+                "tracks": [
+                    {
+                        "artist": "Fendi P",
+                        "title": "Game Recognize Game (feat. Fiend)",
+                        "image": "https://i.scdn.co/image/ab67616d00001e021c86b6d6f8c6dbe29a666e8d",
+                        "url": "https://open.spotify.com/track/7foBUgHUbMyttS6HFM930Z",
+                        "uri": "spotify:track:7foBUgHUbMyttS6HFM930Z",
+                        "preview": "https://p.scdn.co/mp3-preview/4820ea17158a9288cf2726a31e84e09f038cf991?cid=9485f9c2860243c3849a8e8ac0d34e57"
+                    },
+                    {
+                        "artist": "Fendi P",
+                        "title": "Fendi",
+                        "image": "https://i.scdn.co/image/ab67616d00001e021c86b6d6f8c6dbe29a666e8d",
+                        "url": "https://open.spotify.com/track/3o8wVODvDxAk3KJ56qFc2J",
+                        "uri": "spotify:track:3o8wVODvDxAk3KJ56qFc2J",
+                        "preview": "https://p.scdn.co/mp3-preview/dbe3dd5cab449155c889cb12d4b2f582778677d7?cid=9485f9c2860243c3849a8e8ac0d34e57"
+                    },
+                    {
+                        "artist": "Fendi P",
+                        "title": "NBF",
+                        "image": "https://i.scdn.co/image/ab67616d00001e021c86b6d6f8c6dbe29a666e8d",
+                        "url": "https://open.spotify.com/track/6Y10FNdWPOYTFKgWSCprhW",
+                        "uri": "spotify:track:6Y10FNdWPOYTFKgWSCprhW",
+                        "preview": "https://p.scdn.co/mp3-preview/ee5ca0b73ec913f6f40a0dcbc530dda12aa19071?cid=9485f9c2860243c3849a8e8ac0d34e57"
+                    },
+                    {
+                        "artist": "Fendi P",
+                        "title": "See Sumin",
+                        "image": "https://i.scdn.co/image/ab67616d00001e021c86b6d6f8c6dbe29a666e8d",
+                        "url": "https://open.spotify.com/track/3cO7pSm09VAbnpjwu7fehX",
+                        "uri": "spotify:track:3cO7pSm09VAbnpjwu7fehX",
+                        "preview": "https://p.scdn.co/mp3-preview/dd497a3cc4ab7b2c7609f8295999d3756ffcd5ff?cid=9485f9c2860243c3849a8e8ac0d34e57"
+                    },
+                    {
+                        "artist": "Fendi P",
+                        "title": "Broken Promises",
+                        "image": "https://i.scdn.co/image/ab67616d00001e021c86b6d6f8c6dbe29a666e8d",
+                        "url": "https://open.spotify.com/track/4f5z5n7Qb4R302x0sJ07G1",
+                        "uri": "spotify:track:4f5z5n7Qb4R302x0sJ07G1",
+                        "preview": "https://p.scdn.co/mp3-preview/bd86fae8305df49896e07ad2b41c62eeb5f68dae?cid=9485f9c2860243c3849a8e8ac0d34e57"
+                    },
+                    {
+                        "artist": "Fendi P",
+                        "title": "No Return Policy",
+                        "image": "https://i.scdn.co/image/ab67616d00001e021c86b6d6f8c6dbe29a666e8d",
+                        "url": "https://open.spotify.com/track/4rbHoVfJIF2W17ay7Xcn7x",
+                        "uri": "spotify:track:4rbHoVfJIF2W17ay7Xcn7x",
+                        "preview": "https://p.scdn.co/mp3-preview/3b4a193f229bc1fe432d26860e8975838e83215b?cid=9485f9c2860243c3849a8e8ac0d34e57"
+                    },
+                    {
+                        "artist": "Fendi P",
+                        "title": "Country Rap Tunes",
+                        "image": "https://i.scdn.co/image/ab67616d00001e021c86b6d6f8c6dbe29a666e8d",
+                        "url": "https://open.spotify.com/track/169GeYnJ7bXJOWRXlyXu2c",
+                        "uri": "spotify:track:169GeYnJ7bXJOWRXlyXu2c",
+                        "preview": "https://p.scdn.co/mp3-preview/1a436c1a055a07c6bf6ec0a68545147d89e3fb1d?cid=9485f9c2860243c3849a8e8ac0d34e57"
+                    },
+                    {
+                        "artist": "Fendi P",
+                        "title": "Rich Friends (feat. Wiz Khalifa)",
+                        "image": "https://i.scdn.co/image/ab67616d00001e021c86b6d6f8c6dbe29a666e8d",
+                        "url": "https://open.spotify.com/track/5XqpfonbLTdd1duspcIvDF",
+                        "uri": "spotify:track:5XqpfonbLTdd1duspcIvDF",
+                        "preview": "https://p.scdn.co/mp3-preview/b22934a15f06c4a5137eeea0f7432f5f1992077b?cid=9485f9c2860243c3849a8e8ac0d34e57"
+                    },
+                    {
+                        "artist": "Fendi P",
+                        "title": "Money Mitch",
+                        "image": "https://i.scdn.co/image/ab67616d00001e021c86b6d6f8c6dbe29a666e8d",
+                        "url": "https://open.spotify.com/track/5LmgT7pccAySiNQTLCwUJY",
+                        "uri": "spotify:track:5LmgT7pccAySiNQTLCwUJY",
+                        "preview": "https://p.scdn.co/mp3-preview/fb2ef20bb3c1ce5e0967a21a44b619a958ef7af5?cid=9485f9c2860243c3849a8e8ac0d34e57"
+                    },
+                    {
+                        "artist": "Fendi P",
+                        "title": "Purge",
+                        "image": "https://i.scdn.co/image/ab67616d00001e021c86b6d6f8c6dbe29a666e8d",
+                        "url": "https://open.spotify.com/track/5dWIhcqGFeHeSwy4nlEIYn",
+                        "uri": "spotify:track:5dWIhcqGFeHeSwy4nlEIYn",
+                        "preview": "https://p.scdn.co/mp3-preview/f901552225f674fe738ba9b329725c49a92afc87?cid=9485f9c2860243c3849a8e8ac0d34e57"
+                    },
+                    {
+                        "artist": "Fendi P",
+                        "title": "Quarter, Half's & O's",
+                        "image": "https://i.scdn.co/image/ab67616d00001e021c86b6d6f8c6dbe29a666e8d",
+                        "url": "https://open.spotify.com/track/4x38x2qWL0cMuRgyR3uCoy",
+                        "uri": "spotify:track:4x38x2qWL0cMuRgyR3uCoy",
+                        "preview": "https://p.scdn.co/mp3-preview/a6b4ca41721468612f46ffda9a91ae8d588bc16d?cid=9485f9c2860243c3849a8e8ac0d34e57"
+                    },
+                    {
+                        "artist": "Fendi P",
+                        "title": "Signed and Sealed",
+                        "image": "https://i.scdn.co/image/ab67616d00001e021c86b6d6f8c6dbe29a666e8d",
+                        "url": "https://open.spotify.com/track/439rMQCCNXNDYkdHGQ6A2y",
+                        "uri": "spotify:track:439rMQCCNXNDYkdHGQ6A2y",
+                        "preview": "https://p.scdn.co/mp3-preview/b7d3acbbb792dcb986a39deb165b53a3f8b52cba?cid=9485f9c2860243c3849a8e8ac0d34e57"
+                    },
+                    {
+                        "artist": "Fendi P",
+                        "title": "2016 Cornerboy",
+                        "image": "https://i.scdn.co/image/ab67616d00001e021c86b6d6f8c6dbe29a666e8d",
+                        "url": "https://open.spotify.com/track/5W9AYUnOmbYwxF0cETs5B4",
+                        "uri": "spotify:track:5W9AYUnOmbYwxF0cETs5B4",
+                        "preview": "https://p.scdn.co/mp3-preview/6976dd385233ad8803234909ac381013a1765fff?cid=9485f9c2860243c3849a8e8ac0d34e57"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "type": "singles",
+        "releases": [
+            {
+                "artist": "Brent Faiyaz",
+                "title": "Gravity (feat. Tyler, The Creator)",
+                "image": "https://i.scdn.co/image/ab67616d00001e0212bb288c1f093c654fb3563f",
+                "url": "https://open.spotify.com/track/6u3CPnFMKANYgfdiifFOiJ",
+                "uri": "spotify:track:6u3CPnFMKANYgfdiifFOiJ",
+                "preview": "https://p.scdn.co/mp3-preview/e5613932ace714e40e5167a5214c31155cfba253?cid=9485f9c2860243c3849a8e8ac0d34e57"
+            },
+            {
+                "artist": "Kodak Black",
+                "title": "Last Day In",
+                "image": "https://i.scdn.co/image/ab67616d00001e027ba72685679d7abd665908d7",
+                "url": "https://open.spotify.com/track/1jJPsemOvkw0cvtzNrkBpo",
+                "uri": "spotify:track:1jJPsemOvkw0cvtzNrkBpo",
+                "preview": "https://p.scdn.co/mp3-preview/aa80d31df129d5e342b548e386ad3ea6bccd97a4?cid=9485f9c2860243c3849a8e8ac0d34e57"
+            },
+            {
+                "artist": "JPEGMAFIA",
+                "title": "FIX URSELF!",
+                "image": "https://i.scdn.co/image/ab67616d00001e02a935d3f8ce61473edf40670d",
+                "url": "https://open.spotify.com/track/2G90KzHn8ynh7Ai48hPJoR",
+                "uri": "spotify:track:2G90KzHn8ynh7Ai48hPJoR",
+                "preview": null
+            },
+            {
+                "artist": "serpentwithfeet",
+                "title": "Fellowship",
+                "image": "https://i.scdn.co/image/ab67616d00001e02f47489ba6f7beba2c8953feb",
+                "url": "https://open.spotify.com/track/5BFe78RJ9sUnv2Zwklb6SH",
+                "uri": "spotify:track:5BFe78RJ9sUnv2Zwklb6SH",
+                "preview": "https://p.scdn.co/mp3-preview/f13ab23d0327921eb02b9f4a64ac6166238bf44b?cid=9485f9c2860243c3849a8e8ac0d34e57"
+            },
+            {
+                "artist": "The Koreatown Oddity",
+                "title": "Breastmilk",
+                "image": "https://i.scdn.co/image/ab67616d00001e029e2d735ac8828f4455760395",
+                "url": "https://open.spotify.com/track/3Tpb9399on5igDMwHgM3tv",
+                "uri": "spotify:track:3Tpb9399on5igDMwHgM3tv",
+                "preview": "https://p.scdn.co/mp3-preview/d1fcd51033e06bc3b994868cc0e5ca0b25aafba5?cid=9485f9c2860243c3849a8e8ac0d34e57"
+            },
+            {
+                "artist": "Peter Rosenberg",
+                "title": "Marcus Smart",
+                "image": "https://i.scdn.co/image/ab67616d00001e0290c26d11fc1e89362583b799",
+                "url": "https://open.spotify.com/track/6THb037ZvJJO9pHiD1Ibsf",
+                "uri": "spotify:track:6THb037ZvJJO9pHiD1Ibsf",
+                "preview": "https://p.scdn.co/mp3-preview/c18aafd72bb4ca0831d9d67ace19cdce5271ef34?cid=9485f9c2860243c3849a8e8ac0d34e57"
+            },
+            {
+                "artist": "Lil Mosey",
+                "title": "Holy Water",
+                "image": "https://i.scdn.co/image/ab67616d00001e0296993ca65ed953660a09af18",
+                "url": "https://open.spotify.com/track/7mYIHFA9OdlzLwWq4CRKlj",
+                "uri": "spotify:track:7mYIHFA9OdlzLwWq4CRKlj",
+                "preview": null
+            },
+            {
+                "artist": "Pink Sweat$",
+                "title": "At My Worst",
+                "image": "https://i.scdn.co/image/ab67616d00001e02e99f7b031daf4e3bc1c275e5",
+                "url": "https://open.spotify.com/track/0ri0Han4IRJhzvERHOZTMr",
+                "uri": "spotify:track:0ri0Han4IRJhzvERHOZTMr",
+                "preview": "https://p.scdn.co/mp3-preview/0dbced3f3ee65199a46a5c346304e54c52a0da75?cid=9485f9c2860243c3849a8e8ac0d34e57"
+            },
+            {
+                "artist": "Jenny Lewis",
+                "title": "Vroom Vroom",
+                "image": "https://i.scdn.co/image/ab67616d00001e02d78f7640ae9d896f6b255c33",
+                "url": "https://open.spotify.com/track/0Wa2nPqxa9NsPcGR67ajZT",
+                "uri": "spotify:track:0Wa2nPqxa9NsPcGR67ajZT",
+                "preview": "https://p.scdn.co/mp3-preview/845fc3847f57b5d444f25f6c28bdb09d8ce65692?cid=9485f9c2860243c3849a8e8ac0d34e57"
+            },
+            {
+                "artist": "Angel Haze",
+                "title": "Weight",
+                "image": "https://i.scdn.co/image/ab67616d00001e026083b0ecb07463e9869a0027",
+                "url": "https://open.spotify.com/track/74qc0EjjUi8Nzbq9pgS7Pc",
+                "uri": "spotify:track:74qc0EjjUi8Nzbq9pgS7Pc",
+                "preview": "https://p.scdn.co/mp3-preview/4b1fca0bdf56c310038218dd8292b68e76a980ea?cid=9485f9c2860243c3849a8e8ac0d34e57"
+            },
+            {
+                "artist": "Cal Scruby",
+                "title": "Underground",
+                "image": "https://i.scdn.co/image/ab67616d00001e029e66ef6acee2023c2c6aacae",
+                "url": "https://open.spotify.com/track/4Q3Ft90njucNvupE3rR5mH",
+                "uri": "spotify:track:4Q3Ft90njucNvupE3rR5mH",
+                "preview": "https://p.scdn.co/mp3-preview/5a0dbf1a297fe69d94bb2b42e7bb4f74871c78e6?cid=9485f9c2860243c3849a8e8ac0d34e57"
+            },
+            {
+                "artist": "Ty Dolla $ign",
+                "title": "Spicy (feat. J Balvin, YG, Tyga & Post Malone) - Remix",
+                "image": "https://i.scdn.co/image/ab67616d00001e02eb8f014700f13301a1519acf",
+                "url": "https://open.spotify.com/track/4Ae2ORKCPbA8L67WWFmVEV",
+                "uri": "spotify:track:4Ae2ORKCPbA8L67WWFmVEV",
+                "preview": "https://p.scdn.co/mp3-preview/130c57f356eb56c867f5c76674a3f67363546c85?cid=9485f9c2860243c3849a8e8ac0d34e57"
+            },
+            {
+                "artist": "Scarlxrd",
+                "title": "Red Light",
+                "image": "https://i.scdn.co/image/ab67616d00001e020fb69a43de1a438b399e04d1",
+                "url": "https://open.spotify.com/track/0IKjAwm7HA6kZC9sm39Xvx",
+                "uri": "spotify:track:0IKjAwm7HA6kZC9sm39Xvx",
+                "preview": "https://p.scdn.co/mp3-preview/1af41db4bbd78decb946a96e555ec53eb7d1e74b?cid=9485f9c2860243c3849a8e8ac0d34e57"
+            },
+            {
+                "artist": "Babyface Ray",
+                "title": "If You Know You Know (feat. Moneybagg Yo)",
+                "image": "https://i.scdn.co/image/ab67616d00001e0214445e6dfa77ccf140fe41cd",
+                "url": "https://open.spotify.com/track/5EyWKWvCaM8n66bmv0sWo7",
+                "uri": "spotify:track:5EyWKWvCaM8n66bmv0sWo7",
+                "preview": "https://p.scdn.co/mp3-preview/a64cd86669573e9963c329a5bf3503a65fec002d?cid=9485f9c2860243c3849a8e8ac0d34e57"
+            },
+            {
+                "artist": "Since99",
+                "title": "Younghoe Koo",
+                "image": "https://i.scdn.co/image/ab67616d00001e02a00d196fccceb688f86c6458",
+                "url": "https://open.spotify.com/track/6HW9WltkvRc3YpQz5O7gIe",
+                "uri": "spotify:track:6HW9WltkvRc3YpQz5O7gIe",
+                "preview": "https://p.scdn.co/mp3-preview/af789083c1073c1f3f90913c1ae3aab8d3cd0b38?cid=9485f9c2860243c3849a8e8ac0d34e57"
+            },
+            {
+                "artist": "Chris Crack",
+                "title": "False Evidence Appearing Real",
+                "image": "https://i.scdn.co/image/ab67616d00001e0233f79bca02dee7a59bb4bcc3",
+                "url": "https://open.spotify.com/track/0x2gZKg7K9s8nWcONlC6UF",
+                "uri": "spotify:track:0x2gZKg7K9s8nWcONlC6UF",
+                "preview": "https://p.scdn.co/mp3-preview/d8eba5d75a78c720c207cee5b895413baeff57de?cid=9485f9c2860243c3849a8e8ac0d34e57"
+            },
+            {
+                "artist": "bbno$",
+                "title": "help herself",
+                "image": "https://i.scdn.co/image/ab67616d00001e02cf614ee721dfd6597b5a8ea7",
+                "url": "https://open.spotify.com/track/4YMc3A256xFBS0xcT77Qce",
+                "uri": "spotify:track:4YMc3A256xFBS0xcT77Qce",
+                "preview": "https://p.scdn.co/mp3-preview/47f01a035efd6f3724427b06a7a5b437ecbefef4?cid=9485f9c2860243c3849a8e8ac0d34e57"
+            },
+            {
+                "artist": "Locksmith",
+                "title": "Angels & Demons",
+                "image": "https://i.scdn.co/image/ab67616d00001e0279e3e2f7bf629ccb906a16fb",
+                "url": "https://open.spotify.com/track/2Br9Bbl8Ttmqdox3UMMFOw",
+                "uri": "spotify:track:2Br9Bbl8Ttmqdox3UMMFOw",
+                "preview": "https://p.scdn.co/mp3-preview/fe745c2cca7d5951e841e46fbd807976d9b8f885?cid=9485f9c2860243c3849a8e8ac0d34e57"
+            },
+            {
+                "artist": "Maffii",
+                "title": "Coke White",
+                "image": "https://i.scdn.co/image/ab67616d00001e02bdda0bb95cdc69e86a83da9e",
+                "url": "https://open.spotify.com/track/5TIajJSDcefD8YwqaXTpNA",
+                "uri": "spotify:track:5TIajJSDcefD8YwqaXTpNA",
+                "preview": "https://p.scdn.co/mp3-preview/85bb90b478f11c3a0bac7a0e9b2ebb6db98e6c9f?cid=9485f9c2860243c3849a8e8ac0d34e57"
+            },
+            {
+                "artist": "T Star",
+                "title": "Comfort Zone",
+                "image": "https://i.scdn.co/image/ab67616d00001e02090681983a6f58909c514c5e",
+                "url": "https://open.spotify.com/track/0Zbi6sZk623ECDkvNkEtDx",
+                "uri": "spotify:track:0Zbi6sZk623ECDkvNkEtDx",
+                "preview": "https://p.scdn.co/mp3-preview/66c1f3ca36b9c395732115e5a9ed581c09317444?cid=9485f9c2860243c3849a8e8ac0d34e57"
+            },
+            {
+                "artist": "Yella Beezy",
+                "title": "STAR (feat. Erica Banks)",
+                "image": "https://i.scdn.co/image/ab67616d00001e0225e705041c8929949cd9a186",
+                "url": "https://open.spotify.com/track/4s162Vm2HagLT42lPScNVb",
+                "uri": "spotify:track:4s162Vm2HagLT42lPScNVb",
+                "preview": "https://p.scdn.co/mp3-preview/33f505fd2c051e8d729a6e1a91696a1615158c0a?cid=9485f9c2860243c3849a8e8ac0d34e57"
+            },
+            {
+                "artist": "Payday",
+                "title": "Dolphin",
+                "image": "https://i.scdn.co/image/ab67616d00001e02291fc86fc8127a1b48d16c69",
+                "url": "https://open.spotify.com/track/37Fs5ic980G2lyu3pE6ujK",
+                "uri": "spotify:track:37Fs5ic980G2lyu3pE6ujK",
+                "preview": "https://p.scdn.co/mp3-preview/1bab30de450880a42745d53cb4d33d90d97c87e4?cid=9485f9c2860243c3849a8e8ac0d34e57"
+            },
+            {
+                "artist": "Asun Eastwood",
+                "title": "Victory",
+                "image": "https://i.scdn.co/image/ab67616d00001e0253d5026f159bf37cb5515cc4",
+                "url": "https://open.spotify.com/track/3bwvHjwBAd7EZsZE5mm4tA",
+                "uri": "spotify:track:3bwvHjwBAd7EZsZE5mm4tA",
+                "preview": "https://p.scdn.co/mp3-preview/9d45b3dfef0a387a6832e6fb09b0528922991e23?cid=9485f9c2860243c3849a8e8ac0d34e57"
+            },
+            {
+                "artist": "Caleborate",
+                "title": "What U Want",
+                "image": "https://i.scdn.co/image/ab67616d00001e0258e8bc1a6d21aa7d7f82d35c",
+                "url": "https://open.spotify.com/track/27H6kt12z1GFyWvv2D4nFp",
+                "uri": "spotify:track:27H6kt12z1GFyWvv2D4nFp",
+                "preview": "https://p.scdn.co/mp3-preview/abc84f7284b99b89831e255c7774b475bd4a3e9e?cid=9485f9c2860243c3849a8e8ac0d34e57"
+            },
+            {
+                "artist": "Kwengface",
+                "title": "Petrol Station",
+                "image": "https://i.scdn.co/image/ab67616d00001e02a24c3fe5252a185f2fefc57a",
+                "url": "https://open.spotify.com/track/1YTLPtmFqjWmXREt6niKsX",
+                "uri": "spotify:track:1YTLPtmFqjWmXREt6niKsX",
+                "preview": "https://p.scdn.co/mp3-preview/b7136982d50c10b931f73a81169277986c4f9291?cid=9485f9c2860243c3849a8e8ac0d34e57"
+            },
+            {
+                "artist": "347aidan",
+                "title": "IDWK",
+                "image": "https://i.scdn.co/image/ab67616d00001e02f12fd4a3ed8e87bbb0e4f218",
+                "url": "https://open.spotify.com/track/3awnZSyvKdi7rBLttHk36K",
+                "uri": "spotify:track:3awnZSyvKdi7rBLttHk36K",
+                "preview": "https://p.scdn.co/mp3-preview/3775ce55ebff49d474949d0ab7d35b1e780b1e2a?cid=9485f9c2860243c3849a8e8ac0d34e57"
+            },
+            {
+                "artist": "Trapboy Freddy",
+                "title": "Hypocrite",
+                "image": "https://i.scdn.co/image/ab67616d00001e02071914f73490d61010b0d570",
+                "url": "https://open.spotify.com/track/3n8H7u7KdpXklXGVi4RpdY",
+                "uri": "spotify:track:3n8H7u7KdpXklXGVi4RpdY",
+                "preview": "https://p.scdn.co/mp3-preview/6c330fd6726be385987a67b18932979bb4b136b8?cid=9485f9c2860243c3849a8e8ac0d34e57"
+            },
+            {
+                "artist": "Slimka",
+                "title": "Headshot",
+                "image": "https://i.scdn.co/image/ab67616d00001e025e30454c2f6584f7e4259756",
+                "url": "https://open.spotify.com/track/04olrUhtaFVM6bxLLKvqyH",
+                "uri": "spotify:track:04olrUhtaFVM6bxLLKvqyH",
+                "preview": "https://p.scdn.co/mp3-preview/cadeb9f47f60f1cdb310985f44ca83b2b4d841d9?cid=9485f9c2860243c3849a8e8ac0d34e57"
+            },
+            {
+                "artist": "Tokyo Jetz",
+                "title": "Know The Rules",
+                "image": "https://i.scdn.co/image/ab67616d00001e02612fd30a2fbdba6b32cb1b39",
+                "url": "https://open.spotify.com/track/3hh9WH3pnlKDWBi64fubtt",
+                "uri": "spotify:track:3hh9WH3pnlKDWBi64fubtt",
+                "preview": "https://p.scdn.co/mp3-preview/0a20ebbb7ffd2c2d423a50a2903a6d0ccc7ef8b2?cid=9485f9c2860243c3849a8e8ac0d34e57"
+            },
+            {
+                "artist": "Amber Window",
+                "title": "Compubox",
+                "image": "https://i.scdn.co/image/ab67616d00001e0243d0322161759eb333f29c50",
+                "url": "https://open.spotify.com/track/065RiTD1SnFig0Yrk977BQ",
+                "uri": "spotify:track:065RiTD1SnFig0Yrk977BQ",
+                "preview": "https://p.scdn.co/mp3-preview/8239a863e2790805b4203ddf9a34fa68d979acb8?cid=9485f9c2860243c3849a8e8ac0d34e57"
+            },
+            {
+                "artist": "Clean Bandit",
+                "title": "Higher (feat. iann dior)",
+                "image": "https://i.scdn.co/image/ab67616d00001e024628636f03999328ba098839",
+                "url": "https://open.spotify.com/track/4OoYfejHABzYe2mG8p5s8b",
+                "uri": "spotify:track:4OoYfejHABzYe2mG8p5s8b",
+                "preview": "https://p.scdn.co/mp3-preview/8b2fdbea85ac9aacf7fbd7f05dd823343fa45f1f?cid=9485f9c2860243c3849a8e8ac0d34e57"
+            },
+            {
+                "artist": "Kartier Kush",
+                "title": "Hustler",
+                "image": "https://i.scdn.co/image/ab67616d00001e027919721a86f1197bd1cc3175",
+                "url": "https://open.spotify.com/track/5EAsmPK9fHLH12h1TcfMTC",
+                "uri": "spotify:track:5EAsmPK9fHLH12h1TcfMTC",
+                "preview": "https://p.scdn.co/mp3-preview/a08bd135ce8a7f8fb20f3290f40c74619bb471e5?cid=9485f9c2860243c3849a8e8ac0d34e57"
+            },
+            {
+                "artist": "Las Ninyas del Corro",
+                "title": "Trinidad",
+                "image": "https://i.scdn.co/image/ab67616d00001e0290593667731712d8ff8cd3e9",
+                "url": "https://open.spotify.com/track/5PLbGfbDjoYnIVFN3h0SMG",
+                "uri": "spotify:track:5PLbGfbDjoYnIVFN3h0SMG",
+                "preview": "https://p.scdn.co/mp3-preview/93e30becff845f3a68b1bf56e1e7c6a67fbf3f6f?cid=9485f9c2860243c3849a8e8ac0d34e57"
+            },
+            {
+                "artist": "Rylo Rodriguez",
+                "title": "Ceremony",
+                "image": "https://i.scdn.co/image/ab67616d00001e02d39e1b38c496faa5b40c73b2",
+                "url": "https://open.spotify.com/track/3p2VccvXAE5zhzMGvuqHAA",
+                "uri": "spotify:track:3p2VccvXAE5zhzMGvuqHAA",
+                "preview": "https://p.scdn.co/mp3-preview/1255a495c315c6852b09e811fefc8588457ea412?cid=9485f9c2860243c3849a8e8ac0d34e57"
+            },
+            {
+                "artist": "DDG",
+                "title": "Moonwalking in Calabasas (feat. Blueface) - Remix",
+                "image": "https://i.scdn.co/image/ab67616d00001e026202477d2565e6569926c9bd",
+                "url": "https://open.spotify.com/track/7o4gBbTM6UBLkOYPw9xMCz",
+                "uri": "spotify:track:7o4gBbTM6UBLkOYPw9xMCz",
+                "preview": "https://p.scdn.co/mp3-preview/2841ab2d7d038fceaebad4cd717302703b812baf?cid=9485f9c2860243c3849a8e8ac0d34e57"
+            },
+            {
+                "artist": "Desiigner",
+                "title": "GLE",
+                "image": "https://i.scdn.co/image/ab67616d00001e02db2d2da9c7c1cc4da599bf9e",
+                "url": "https://open.spotify.com/track/7iC1egAsKmlIb82XWTwHb8",
+                "uri": "spotify:track:7iC1egAsKmlIb82XWTwHb8",
+                "preview": "https://p.scdn.co/mp3-preview/c53a75495069d54d11544f7d29ddaf5d1b9e321d?cid=9485f9c2860243c3849a8e8ac0d34e57"
+            },
+            {
+                "artist": "G Perico",
+                "title": "Pull It",
+                "image": "https://i.scdn.co/image/ab67616d00001e029cef51074f2d8624a1413374",
+                "url": "https://open.spotify.com/track/34LKFqagGclnew0Ox7Nw6T",
+                "uri": "spotify:track:34LKFqagGclnew0Ox7Nw6T",
+                "preview": "https://p.scdn.co/mp3-preview/ef0510d6e7aa7a9db094fb8c56c18f377c442e50?cid=9485f9c2860243c3849a8e8ac0d34e57"
+            },
+            {
+                "artist": "Ramriddlz",
+                "title": "7abibti",
+                "image": "https://i.scdn.co/image/ab67616d00001e027ccbf9afe6c4e09eb2358211",
+                "url": "https://open.spotify.com/track/4W2iRRcvxdoNW2WMuk9egX",
+                "uri": "spotify:track:4W2iRRcvxdoNW2WMuk9egX",
+                "preview": "https://p.scdn.co/mp3-preview/18e564d68dd3ad6cc12710b24b125e82ccfc26e1?cid=9485f9c2860243c3849a8e8ac0d34e57"
+            },
+            {
+                "artist": "Felly",
+                "title": "So You Fell in Love",
+                "image": "https://i.scdn.co/image/ab67616d00001e026e77092b6a30ba79b439d7ec",
+                "url": "https://open.spotify.com/track/5J5vi9kP8skmhj5Hzd5jA1",
+                "uri": "spotify:track:5J5vi9kP8skmhj5Hzd5jA1",
+                "preview": "https://p.scdn.co/mp3-preview/25dce3cb3408342a1ed5ff6d275f9b00dca67cb0?cid=9485f9c2860243c3849a8e8ac0d34e57"
+            },
+            {
+                "artist": "Rexx Life Raj",
+                "title": "Bounty",
+                "image": "https://i.scdn.co/image/ab67616d00001e025d601708c845dc429ed78cad",
+                "url": "https://open.spotify.com/track/1q8rLyDciaRexy0AzNF0Eg",
+                "uri": "spotify:track:1q8rLyDciaRexy0AzNF0Eg",
+                "preview": "https://p.scdn.co/mp3-preview/6a21190c6f775bfedcd4ea0b391f4fc230a61b8a?cid=9485f9c2860243c3849a8e8ac0d34e57"
+            },
+            {
+                "artist": "LocoCity",
+                "title": "Dead Nigga",
+                "image": "https://i.scdn.co/image/ab67616d00001e026da51da0ac022b137978978f",
+                "url": "https://open.spotify.com/track/1Siiu4SvM6VW4J85iSEmP3",
+                "uri": "spotify:track:1Siiu4SvM6VW4J85iSEmP3",
+                "preview": "https://p.scdn.co/mp3-preview/e0cf59812cce6a86e6e5c7c583851013a9f1cbd2?cid=9485f9c2860243c3849a8e8ac0d34e57"
+            },
+            {
+                "artist": "Sneakbo",
+                "title": "Chasing the Bag",
+                "image": "https://i.scdn.co/image/ab67616d00001e02cf23f14444297ef8a2cbd397",
+                "url": "https://open.spotify.com/track/3FfUQEvoUZbDEsuRNVsi9F",
+                "uri": "spotify:track:3FfUQEvoUZbDEsuRNVsi9F",
+                "preview": "https://p.scdn.co/mp3-preview/a532b7b019e581cabfb6cbdaab633773addc4134?cid=9485f9c2860243c3849a8e8ac0d34e57"
+            },
+            {
+                "artist": "Slimelife Shawty",
+                "title": "Homicide",
+                "image": "https://i.scdn.co/image/ab67616d00001e0209b2bc25510832772b5b3a17",
+                "url": "https://open.spotify.com/track/1z7ORtf775Ixx2HbMBWoeL",
+                "uri": "spotify:track:1z7ORtf775Ixx2HbMBWoeL",
+                "preview": "https://p.scdn.co/mp3-preview/36e1e334a96951e2edbea6699227d231b8a1cb97?cid=9485f9c2860243c3849a8e8ac0d34e57"
+            },
+            {
+                "artist": "Shawn Eff",
+                "title": "Hottest Out (feat. Mike Sherm, Daboii, EBK Young Joc & MGM Flash)",
+                "image": "https://i.scdn.co/image/ab67616d00001e02d5bd6501342a49490fdbeaff",
+                "url": "https://open.spotify.com/track/4tLvIYfA65soFxubVWDFY6",
+                "uri": "spotify:track:4tLvIYfA65soFxubVWDFY6",
+                "preview": "https://p.scdn.co/mp3-preview/acf5c54466644df18386fad45162f38326716117?cid=9485f9c2860243c3849a8e8ac0d34e57"
+            },
+            {
+                "artist": "Björk",
+                "title": "Features Creatures",
+                "image": "https://i.scdn.co/image/ab67616d00001e028b5a2b564ca89a40b36ef3f4",
+                "url": "https://open.spotify.com/track/3uyy89YdPU9FFidcHzCvoq",
+                "uri": "spotify:track:3uyy89YdPU9FFidcHzCvoq",
+                "preview": null
+            },
+            {
+                "artist": "Nard",
+                "title": "Clusters",
+                "image": "https://i.scdn.co/image/ab67616d00001e023525e584e773ca2aa6d88ddf",
+                "url": "https://open.spotify.com/track/3Xy9zc4n8T3Vk5Azui9Rrc",
+                "uri": "spotify:track:3Xy9zc4n8T3Vk5Azui9Rrc",
+                "preview": "https://p.scdn.co/mp3-preview/cb49452e72fa21341c32fd98a4b7df2349295be1?cid=9485f9c2860243c3849a8e8ac0d34e57"
+            },
+            {
+                "artist": "Dj Illogik",
+                "title": "Break's Over",
+                "image": "https://i.scdn.co/image/ab67616d00001e02ddd08f863b3d6a9910b877fb",
+                "url": "https://open.spotify.com/track/2D1cIrrggQPKeKvcOXFikB",
+                "uri": "spotify:track:2D1cIrrggQPKeKvcOXFikB",
+                "preview": "https://p.scdn.co/mp3-preview/bf43712f4658a756d4051e5b18786608140f5998?cid=9485f9c2860243c3849a8e8ac0d34e57"
+            },
+            {
+                "artist": "Lifeof9000",
+                "title": "We Up",
+                "image": "https://i.scdn.co/image/ab67616d00001e02248878321691c7f01c7ab05b",
+                "url": "https://open.spotify.com/track/4GHztiCy9NNF38iBaRyix4",
+                "uri": "spotify:track:4GHztiCy9NNF38iBaRyix4",
+                "preview": "https://p.scdn.co/mp3-preview/bd9f3c6eec008c984065cee13ac83d976eb97c2e?cid=9485f9c2860243c3849a8e8ac0d34e57"
+            },
+            {
+                "artist": "GrownBoiTrap",
+                "title": "Freestyle (feat. Young Nudy)",
+                "image": "https://i.scdn.co/image/ab67616d00001e02e23f1df2c5a05f97ff515002",
+                "url": "https://open.spotify.com/track/6EL4FAxowMVTjzpR0IvtxZ",
+                "uri": "spotify:track:6EL4FAxowMVTjzpR0IvtxZ",
+                "preview": "https://p.scdn.co/mp3-preview/9ea607012beaacb89b9cca30bc1beef864c5c4ff?cid=9485f9c2860243c3849a8e8ac0d34e57"
+            },
+            {
+                "artist": "Ali Khan",
+                "title": "Early Morning, Birds Hill Park - Original Mix",
+                "image": "https://i.scdn.co/image/ab67616d00001e02554adb4e55a559c083449233",
+                "url": "https://open.spotify.com/track/5FEbFYyRnWsdQ2iEJQERUi",
+                "uri": "spotify:track:5FEbFYyRnWsdQ2iEJQERUi",
+                "preview": "https://p.scdn.co/mp3-preview/2635fa11cf5188a4860cc0060c47bac0630f9dfa?cid=9485f9c2860243c3849a8e8ac0d34e57"
+            },
+            {
+                "artist": "Cardboard People",
+                "title": "My High, Right?",
+                "image": "https://i.scdn.co/image/ab67616d00001e02b9dde6839206f606a2c592f5",
+                "url": "https://open.spotify.com/track/1MkIQI4KiC3U0BD65wATud",
+                "uri": "spotify:track:1MkIQI4KiC3U0BD65wATud",
+                "preview": "https://p.scdn.co/mp3-preview/86ec7c775b3b14a62980870860ed05a5b29b5ffa?cid=9485f9c2860243c3849a8e8ac0d34e57"
+            },
+            {
+                "artist": "Tres Aurland",
+                "title": "God Mode",
+                "image": "https://i.scdn.co/image/ab67616d00001e02540ad7a4e3b587f86fa453cd",
+                "url": "https://open.spotify.com/track/2o2zn4t8YWWai6wL6LOWe8",
+                "uri": "spotify:track:2o2zn4t8YWWai6wL6LOWe8",
+                "preview": "https://p.scdn.co/mp3-preview/3ba9b8e9b2c8f1dcd899fdd02fc88968860d6327?cid=9485f9c2860243c3849a8e8ac0d34e57"
+            },
+            {
+                "artist": "OSBS",
+                "title": "Reggie Bush (feat. Lil Keed)",
+                "image": "https://i.scdn.co/image/ab67616d00001e021333b20a34f55cae686cc5f2",
+                "url": "https://open.spotify.com/track/2MAEtEm52AUjAPT3tuMLak",
+                "uri": "spotify:track:2MAEtEm52AUjAPT3tuMLak",
+                "preview": "https://p.scdn.co/mp3-preview/70be262520d30808e20c2f0427428e3286c45d54?cid=9485f9c2860243c3849a8e8ac0d34e57"
+            },
+            {
+                "artist": "Khruangbin",
+                "title": "Dearest Alfred (MyJoy)",
+                "image": "https://i.scdn.co/image/ab67616d00001e02f6626a97f51393a0a6e12553",
+                "url": "https://open.spotify.com/track/6vzaMfWEWYJtfnoKlCY5xP",
+                "uri": "spotify:track:6vzaMfWEWYJtfnoKlCY5xP",
+                "preview": "https://p.scdn.co/mp3-preview/9f0977b48ed012f87446ff3aebe417cca6acd933?cid=9485f9c2860243c3849a8e8ac0d34e57"
+            },
+            {
+                "artist": "FKA twigs",
+                "title": "Don't Judge Me",
+                "image": "https://i.scdn.co/image/ab67616d00001e02be53db0d1e09575772c04d07",
+                "url": "https://open.spotify.com/track/2ixabSVbccs9np9r5CpbWW",
+                "uri": "spotify:track:2ixabSVbccs9np9r5CpbWW",
+                "preview": "https://p.scdn.co/mp3-preview/65c49d7f3a36b10e1b3a0bcbc8f72ec38fd65a88?cid=9485f9c2860243c3849a8e8ac0d34e57"
+            },
+            {
+                "artist": "Young Stoner Life",
+                "title": "GFU (feat. Yung Kayo)",
+                "image": "https://i.scdn.co/image/ab67616d00001e0225e5611113f629aaf4772e98",
+                "url": "https://open.spotify.com/track/3bENTA0CQYBg5CF8epSXGp",
+                "uri": "spotify:track:3bENTA0CQYBg5CF8epSXGp",
+                "preview": "https://p.scdn.co/mp3-preview/ea1520256f94b041eac0f510d66d88f4dd5d51ff?cid=9485f9c2860243c3849a8e8ac0d34e57"
+            },
+            {
+                "artist": "Meek Mill",
+                "title": "Conga",
+                "image": "https://i.scdn.co/image/ab67616d00001e025e89cf2e909ef9c86edadd42",
+                "url": "https://open.spotify.com/track/0GF9zxH5xAhKiRQQJTb9VZ",
+                "uri": "spotify:track:0GF9zxH5xAhKiRQQJTb9VZ",
+                "preview": "https://p.scdn.co/mp3-preview/df100210de98571b9ba80bf5067ce8c4028ab958?cid=9485f9c2860243c3849a8e8ac0d34e57"
+            },
+            {
+                "artist": "Rome Fortune",
+                "title": "YeaYeaYea",
+                "image": "https://i.scdn.co/image/ab67616d00001e021391b679b1e29b29e95fcc4c",
+                "url": "https://open.spotify.com/track/3MYgXhX9c111xoc3H78c1R",
+                "uri": "spotify:track:3MYgXhX9c111xoc3H78c1R",
+                "preview": "https://p.scdn.co/mp3-preview/f3a2eccc520842375557c8b7b3a23f8fb5f21ab3?cid=9485f9c2860243c3849a8e8ac0d34e57"
+            },
+            {
+                "artist": "N.O.R.E.",
+                "title": "Goin Up (feat. Dj Khaled & DreamDoll)",
+                "image": "https://i.scdn.co/image/ab67616d00001e0246c1f9cc54063f23c8071d26",
+                "url": "https://open.spotify.com/track/4pM82O91AwbqsajRnKPXXx",
+                "uri": "spotify:track:4pM82O91AwbqsajRnKPXXx",
+                "preview": "https://p.scdn.co/mp3-preview/f57035e74b35ba500251332b9372f8bb2cb13f3c?cid=9485f9c2860243c3849a8e8ac0d34e57"
+            },
+            {
+                "artist": "CJ",
+                "title": "\"BOP\"",
+                "image": "https://i.scdn.co/image/ab67616d00001e023e3daa447700c85c9c03561c",
+                "url": "https://open.spotify.com/track/07VOlyshShGMYBPgjTIZoz",
+                "uri": "spotify:track:07VOlyshShGMYBPgjTIZoz",
+                "preview": "https://p.scdn.co/mp3-preview/c9b376a8b6daa8a803ea36881945d0c2c0c04bf2?cid=9485f9c2860243c3849a8e8ac0d34e57"
+            },
+            {
+                "artist": "Bodega Bamz",
+                "title": "The King",
+                "image": "https://i.scdn.co/image/ab67616d00001e02137a0675b2805a9e300e6079",
+                "url": "https://open.spotify.com/track/7F9x5dLw9yBsnVKjAWJ69P",
+                "uri": "spotify:track:7F9x5dLw9yBsnVKjAWJ69P",
+                "preview": "https://p.scdn.co/mp3-preview/27a18b0e8de07cc232f7cf6c82932db1de73b585?cid=9485f9c2860243c3849a8e8ac0d34e57"
+            },
+            {
+                "artist": "Rico 2 Smoove",
+                "title": "Tha Takeover",
+                "image": "https://i.scdn.co/image/ab67616d00001e02e990f92b6c578ea157522052",
+                "url": "https://open.spotify.com/track/3Z20m27SMajwsjqpEM4urn",
+                "uri": "spotify:track:3Z20m27SMajwsjqpEM4urn",
+                "preview": "https://p.scdn.co/mp3-preview/240fc0642dceb9c635a2b225c05e3f5e92714e74?cid=9485f9c2860243c3849a8e8ac0d34e57"
+            },
+            {
+                "artist": "SAFE",
+                "title": "Trap Smarter",
+                "image": "https://i.scdn.co/image/ab67616d00001e0203d70b72b0f615e176af6866",
+                "url": "https://open.spotify.com/track/7lu3PXCla1pAolkPxRPba7",
+                "uri": "spotify:track:7lu3PXCla1pAolkPxRPba7",
+                "preview": "https://p.scdn.co/mp3-preview/2146f895083001a160a49a182364e0e450318ae2?cid=9485f9c2860243c3849a8e8ac0d34e57"
+            },
+            {
+                "artist": "Tobe Nwigwe",
+                "title": "Wake Up Everybody - From \"Music For the Movement: Black History Always\"",
+                "image": "https://i.scdn.co/image/ab67616d00001e024bcab46a6ca643816ff3cd50",
+                "url": "https://open.spotify.com/track/0SXc07eEULCarnpq6pSrPD",
+                "uri": "spotify:track:0SXc07eEULCarnpq6pSrPD",
+                "preview": null
+            },
+            {
+                "artist": "Megan Thee Stallion",
+                "title": "Body - Joel Corry Remix",
+                "image": "https://i.scdn.co/image/ab67616d00001e027a431e346c53e7afa60fa678",
+                "url": "https://open.spotify.com/track/4Lm3Eh62HxFtOeY7Ra1CaI",
+                "uri": "spotify:track:4Lm3Eh62HxFtOeY7Ra1CaI",
+                "preview": "https://p.scdn.co/mp3-preview/2c3c36df9fad1603f838b407788861b8824559f1?cid=9485f9c2860243c3849a8e8ac0d34e57"
+            },
+            {
+                "artist": "Curtis Williams",
+                "title": "Salmon (feat. Palette)",
+                "image": "https://i.scdn.co/image/ab67616d00001e0233da4133f8e1413e82a794a9",
+                "url": "https://open.spotify.com/track/6H7GdsAcfGLrG5bq15JxnX",
+                "uri": "spotify:track:6H7GdsAcfGLrG5bq15JxnX",
+                "preview": "https://p.scdn.co/mp3-preview/97f20541c46c2de7eb84d337224d29e090607243?cid=9485f9c2860243c3849a8e8ac0d34e57"
+            },
+            {
+                "artist": "2 Eleven",
+                "title": "Another Play (feat. Freddie Gibbs & Quincey White)",
+                "image": "https://i.scdn.co/image/ab67616d00001e02489fb97cc639b3c10d879a38",
+                "url": "https://open.spotify.com/track/5wHV4mWjoQyzISKb8XWZXx",
+                "uri": "spotify:track:5wHV4mWjoQyzISKb8XWZXx",
+                "preview": "https://p.scdn.co/mp3-preview/4cd44a565df8ea1bfd5e8031b7cb0a07585441db?cid=9485f9c2860243c3849a8e8ac0d34e57"
+            },
+            {
+                "artist": "The MookMann",
+                "title": "Do Ya Grind",
+                "image": "https://i.scdn.co/image/ab67616d00001e02fad8db1f38275034835a2dbb",
+                "url": "https://open.spotify.com/track/0zZ81EfFREFEriLpFpjkRw",
+                "uri": "spotify:track:0zZ81EfFREFEriLpFpjkRw",
+                "preview": "https://p.scdn.co/mp3-preview/20ad69da7037db5e8afac0065ed0d7519bf37ca8?cid=9485f9c2860243c3849a8e8ac0d34e57"
+            },
+            {
+                "artist": "Clams Casino",
+                "title": "Haunt",
+                "image": "https://i.scdn.co/image/ab67616d00001e0220e69983777c65035b176b92",
+                "url": "https://open.spotify.com/track/05iHw15zhCApLocareY9hZ",
+                "uri": "spotify:track:05iHw15zhCApLocareY9hZ",
+                "preview": "https://p.scdn.co/mp3-preview/492d597eec2c58789b29e0d060337956c8423937?cid=9485f9c2860243c3849a8e8ac0d34e57"
+            },
+            {
+                "artist": "Fibre",
+                "title": "The Only One",
+                "image": "https://i.scdn.co/image/ab67616d00001e02bc00f969f7c39fa1cddee44a",
+                "url": "https://open.spotify.com/track/0PaxDutmFOW1LBg3dcskVK",
+                "uri": "spotify:track:0PaxDutmFOW1LBg3dcskVK",
+                "preview": "https://p.scdn.co/mp3-preview/85d53e23c7fe895ba931d5f8dc81fcb740efca4a?cid=9485f9c2860243c3849a8e8ac0d34e57"
+            },
+            {
+                "artist": "Fibre",
+                "title": "Don't Stop Me",
+                "image": "https://i.scdn.co/image/ab67616d00001e02bc00f969f7c39fa1cddee44a",
+                "url": "https://open.spotify.com/track/1Lo998VQGmahR2CaMdiZf6",
+                "uri": "spotify:track:1Lo998VQGmahR2CaMdiZf6",
+                "preview": "https://p.scdn.co/mp3-preview/1b0608fc6e3df87876c9499d58e7902045ba647c?cid=9485f9c2860243c3849a8e8ac0d34e57"
+            },
+            {
+                "artist": "King Gizzard & The Lizard Wizard",
+                "title": "O.N.E.",
+                "image": "https://i.scdn.co/image/ab67616d00001e02e6c131fdbce4a693e87dcd0a",
+                "url": "https://open.spotify.com/track/5ldMqoaURN7brqkm3ap4dY",
+                "uri": "spotify:track:5ldMqoaURN7brqkm3ap4dY",
+                "preview": null
+            }
+        ]
+    }
+]
