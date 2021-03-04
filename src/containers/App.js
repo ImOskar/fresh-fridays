@@ -15,7 +15,7 @@ import * as util from "../utils/functions";
 import "./App.css";
 
 function App() {
-  const [token, setToken] = useState("");
+  const [isLoggedIn, setIsLoggedIn] = useState(false);
   const [releases, setReleases] = useState([]);
   const [playlist, setPlaylist] = useState([]);
   const [tracklist, setTracklist] = useState(0);
@@ -32,16 +32,16 @@ function App() {
   });
   const [preview, setPreview] = useState({
     url: "",
-    audio: "",
+    audio: new Audio(""),
     play: "",
   });
 
   useEffect(() => {
-    getReleases(util.getFridayNumber());
-    //fetchReleases(util.getFridayNumber());
+    fetchReleases(util.getFridayNumber());
   }, []);
 
   useEffect(() => {
+    if (checkToken()) return;
     let searchParams = new URLSearchParams(window.location.hash);
     if (searchParams.has("#access_token")) {
       let userToken = searchParams.get("#access_token");
@@ -51,36 +51,48 @@ function App() {
   }, []);
 
   useEffect(() => {
+    if (!isLoggedIn) return;
+    let tokenExpires = parseInt(localStorage.getItem("expires"));
+    let timeNow = new Date().getTime();
+    const timeout = setTimeout(() => {
+      checkToken();
+    }, tokenExpires - timeNow);
+    return () => clearTimeout(timeout);
+  }, [isLoggedIn]);
+
+  useEffect(() => {
     const onPlayEnded = () => {
-      preview.audio.removeEventListener("ended", onPlayEnded);
-      setPreview({ url: "", audio: "", play: false });
+      preview.audio.setAttribute("src", "");
+      setPreview({ ...preview, url: "", play: false });
     };
-    if (preview.play) {
-      preview.audio.play();
-      preview.audio.addEventListener("ended", onPlayEnded);
-    } else if (!preview.play && preview.audio) {
-      preview.audio.pause();
-    }
+    preview.audio.addEventListener("ended", onPlayEnded);
+    preview.play ? preview.audio.play() : preview.audio.pause();
+    return () => {
+      preview.audio.removeEventListener("ended", onPlayEnded);
+    };
   }, [preview]);
 
   const addToken = (token) => {
-    setToken(token);
+    localStorage.setItem("token", token);
+    localStorage.setItem("expires", new Date().getTime() + 3600000);
+    setIsLoggedIn(true);
   };
 
-  const getReleases = (dayNumber) => {
-    setIsLoading(true);
-    setIsError(false);
-    fetch(`fri${dayNumber}2021.json`)
-      .then((response) => response.json())
-      .then((releases) => {
-        setReleases(releases);
-        setIsLoading(false);
-      })
-      .catch((err) => {
-        setIsError(true);
-        setIsLoading(false);
-        console.log(err);
-      });
+  const checkToken = () => {
+    if (localStorage.getItem("token") !== null) {
+      let tokenExpires = parseInt(localStorage.getItem("expires"));
+      let timeNow = new Date().getTime();
+      if (tokenExpires > timeNow) {
+        setIsLoggedIn(true);
+        return true;
+      } else {
+        localStorage.removeItem("token");
+        localStorage.removeItem("expires");
+        setIsLoggedIn(false);
+        return false;
+      }
+    }
+    return false;
   };
 
   const fetchReleases = async (number) => {
@@ -128,7 +140,7 @@ function App() {
   };
 
   const handleSavePLaylist = () => {
-    if (!token || !playlist.length) {
+    if (!isLoggedIn || !playlist.length) {
       displayToast(tc.LOGIN_MESSAGE, tc.PL_ERROR_MESSAGE, tc.ERROR);
       return;
     }
@@ -137,6 +149,7 @@ function App() {
 
   const saveToSpotify = () => {
     let uris = playlist.map((item) => item.uri);
+    let token = localStorage.getItem("token");
     savePlaylist(token, uris)
       .then((res) => {
         if (res.status < 400)
@@ -158,20 +171,17 @@ function App() {
   };
 
   const playNewAudio = (url) => {
+    preview.audio.setAttribute("src", url);
     setPreview({
+      ...preview,
       url: url,
-      audio: new Audio(url),
       play: true,
     });
   };
 
   const handlePlayPreview = (url) => {
-    if (url === preview.url) {
-      playOrPause();
-    } else if (url !== preview.url && preview.play) {
-      preview.audio.pause();
-      playNewAudio(url);
-    } else {
+    playOrPause();
+    if (url !== preview.url) {
       playNewAudio(url);
     }
   };
@@ -210,7 +220,7 @@ function App() {
       <Header />
       <main id="content">
         <ContentHeader
-          getReleases={getReleases}
+          getReleases={fetchReleases}
           selectorButton={() => handleSelectorButton}
         />
         {isLoading ? (
@@ -219,9 +229,9 @@ function App() {
           <h1 className="error">Error loading releases</h1>
         ) : (
           <ReleaseList
-            clickHandler={handleAddToPlaylist}
-            albumClick={handleTracklistToggle}
-            previewClick={handlePlayPreview}
+            handleAdd={handleAddToPlaylist}
+            handleToggle={handleTracklistToggle}
+            handlePreview={handlePlayPreview}
             playing={preview}
             releases={releases}
             releaseType={releaseType}
@@ -243,9 +253,9 @@ function App() {
         </button>
         {tracklistToggle && (
           <Tracklist
-            clickHandler={handleAddToPlaylist}
-            albumClick={handleTracklistToggle}
-            previewClick={handlePlayPreview}
+            handleAdd={handleAddToPlaylist}
+            handleToggle={handleTracklistToggle}
+            handlePreview={handlePlayPreview}
             playing={preview}
             list={tracklist}
           />

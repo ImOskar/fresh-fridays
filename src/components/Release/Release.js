@@ -1,5 +1,4 @@
 import React from "react";
-import LazyLoad from "react-lazy-load";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
   faPlusCircle,
@@ -18,18 +17,16 @@ const Release = ({
   uri,
   preview,
   tracks,
-  addClick,
-  albumClick,
-  previewClick,
+  handleAdd,
+  handleToggle,
+  handlePreview,
   playing,
   album,
 }) => {
   return (
     <div className="album">
       <div className="img-hov">
-        <LazyLoad debounce={false} offsetVertical={500}>
-          <img className="album-img" alt="album" src={image} />
-        </LazyLoad>
+        <img className="album-img" alt="album" src={image} />
         <div className="album-link">
           <a className="link-btn" title="Open in Spotify" href={url}>
             <FontAwesomeIcon className="spotify-link" icon={faSpotify} />
@@ -38,14 +35,14 @@ const Release = ({
             <button
               className="link-btn"
               title="Open tracklist"
-              onClick={() => albumClick({ artist, title, tracks: tracks })}
+              onClick={() => handleToggle({ artist, title, tracks: tracks })}
             >
               <FontAwesomeIcon icon={faListAlt} />
             </button>
           ) : preview ? (
             <>
               <button
-                onClick={() => previewClick(preview)}
+                onClick={() => handlePreview(preview)}
                 title="Play"
                 className={
                   preview === playing.url && playing.play
@@ -65,7 +62,7 @@ const Release = ({
               <button
                 className="link-btn"
                 title="Add to playlist"
-                onClick={() => addClick(artist, title, uri)}
+                onClick={() => handleAdd(artist, title, uri)}
               >
                 <FontAwesomeIcon icon={faPlusCircle} />
               </button>
@@ -74,7 +71,7 @@ const Release = ({
             <button
               className="link-btn"
               title="Add to playlist"
-              onClick={() => addClick(artist, title, uri)}
+              onClick={() => handleAdd(artist, title, uri)}
             >
               <FontAwesomeIcon icon={faPlusCircle} />
             </button>

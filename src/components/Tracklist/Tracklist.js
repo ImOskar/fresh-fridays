@@ -10,16 +10,16 @@ import "./Tracklist.styles.css";
 
 const Tracklist = ({
   list,
-  clickHandler,
-  albumClick,
-  previewClick,
+  handleAdd,
+  handleToggle,
+  handlePreview,
   playing,
 }) => {
   const artist = list.artist;
   return (
     <div className="tracklist">
       <div className="tracklist-header">
-        <button onClick={() => albumClick()} className="btn close-container">
+        <button onClick={() => handleToggle()} className="btn close-container">
           <FontAwesomeIcon className="close-btn" icon={faTimes} />
         </button>
         <span className="tracklist-header-title title-margin">
@@ -36,7 +36,7 @@ const Tracklist = ({
                 <td className="tracklist-play">
                   {track.preview && (
                     <button
-                      onClick={() => previewClick(track.preview)}
+                      onClick={() => handlePreview(track.preview)}
                       className={
                         track.preview === playing.url && playing.play
                           ? "btn pulse-btn"
@@ -56,7 +56,7 @@ const Tracklist = ({
                 </td>
                 <td className="tracklist-add">
                   <button
-                    onClick={() => clickHandler(artist, track.title, track.uri)}
+                    onClick={() => handleAdd(artist, track.title, track.uri)}
                     className="btn"
                   >
                     <FontAwesomeIcon className="add-svg" icon={faPlusCircle} />

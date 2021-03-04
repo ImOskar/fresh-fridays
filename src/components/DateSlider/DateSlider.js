@@ -7,7 +7,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import * as util from "../../utils/functions";
 import "./DateSlider.styles.css";
 
-const DateSlider = ({ releaseClick }) => {
+const DateSlider = ({ getReleases }) => {
   const [current, setCurrent] = useState(0);
   const [x, setX] = useState(0);
   const length = util.getFridayNumber();
@@ -46,7 +46,7 @@ const DateSlider = ({ releaseClick }) => {
         {fridayNumbers.map((friday, i) => {
           return (
             <div
-              onClick={() => releaseClick(friday)}
+              onClick={() => getReleases(friday)}
               key={`fri${i}`}
               style={{ transform: `translateX(${x}%)` }}
               className="slider-item"

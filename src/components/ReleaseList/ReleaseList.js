@@ -5,9 +5,9 @@ import "./ReleaseList.styles.css";
 
 const Releaselist = ({
   releases,
-  clickHandler,
-  albumClick,
-  previewClick,
+  handleAdd,
+  handleToggle,
+  handlePreview,
   playing,
   releaseType,
 }) => {
@@ -27,7 +27,6 @@ const Releaselist = ({
   }, [releaseType, releases]);
 
   useEffect(() => {
-    console.log("useffectLoad: batch: " + batch);
     if (batch > rlsList.length + 10) {
       setLoading(false);
       return;
@@ -40,7 +39,6 @@ const Releaselist = ({
 
   const handleObserver = useCallback(
     (entities) => {
-      console.log("Obsobsobs");
       const target = entities[0];
       if (target.isIntersecting && batch < rlsList.length) {
         setLoading(true);
@@ -72,10 +70,10 @@ const Releaselist = ({
           return (
             <Release
               key={release.uri}
-              addClick={clickHandler}
+              handleAdd={handleAdd}
               {...release}
-              albumClick={albumClick}
-              previewClick={previewClick}
+              handleToggle={handleToggle}
+              handlePreview={handlePreview}
               playing={playing}
               album={releaseType}
             />

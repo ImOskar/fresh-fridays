@@ -5,7 +5,7 @@ import "./ContentHeader.styles.css";
 const ContentHeader = ({ getReleases, selectorButton }) => {
   return (
     <section className="content-header">
-      <DateSlider releaseClick={getReleases} />
+      <DateSlider getReleases={getReleases} />
       <div className="switch-button">
         <span className="active"></span>
         <button

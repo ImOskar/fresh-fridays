@@ -37,6 +37,7 @@
   height: 5rem;
   transition: 0.5s;
   color: #fff;
+  background: #171717;
   min-width: 100%;
   border: 1px solid wheat;
   user-select: none;
