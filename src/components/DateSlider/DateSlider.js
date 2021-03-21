@@ -4,13 +4,13 @@ import {
   faChevronLeft,
 } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import * as util from "../../utils/functions";
+import { getFridayNumber } from "../../utils/functions";
 import "./DateSlider.styles.css";
 
 const DateSlider = ({ getReleases }) => {
   const [current, setCurrent] = useState(0);
   const [x, setX] = useState(0);
-  const length = util.getFridayNumber();
+  const length = getFridayNumber();
   const fridayNumbers = Array(length)
     .fill()
     .map((_, i) => i + 1);

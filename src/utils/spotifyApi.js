@@ -18,19 +18,7 @@ export const getLoginPath = () => {
 
 export default async function savePlaylist(token, uriArray) {
   let userId = await getUser(token);
-
-  let playlistInfo = {
-    name: "Fresh Fridays #" + functions.getFridayNumber(),
-    description: "New hip-hop!",
-  };
-  let url = `https://api.spotify.com/v1/users/${userId}/playlists`;
-  let headers = createHeaders("post", url, playlistInfo, token);
-
-  const result = await axios(headers)
-    .then((res) => res.data.id)
-    .catch((error) => {
-      console.log("error: " + error);
-    });
+  let result = await createNewPlaylist(userId, token);
 
   let spotifyApiLimit = 100;
   if (uriArray.length > spotifyApiLimit) {
@@ -46,6 +34,22 @@ export default async function savePlaylist(token, uriArray) {
 
   const response = await addSongsToPlaylist(token, result, uriArray);
   return response;
+}
+
+async function createNewPlaylist(userId, token) {
+  let playlistInfo = {
+    name: "Fresh Fridays #" + functions.getFridayNumber(),
+    description: "New hip-hop!",
+  };
+  let url = `https://api.spotify.com/v1/users/${userId}/playlists`;
+  let headers = createHeaders("post", url, playlistInfo, token);
+
+  const result = await axios(headers)
+    .then((res) => res.data.id)
+    .catch((error) => {
+      console.log("error: " + error);
+    });
+  return result;
 }
 
 async function addSongsToPlaylist(token, playlistId, uriArray) {
@@ -80,9 +84,7 @@ async function getUser(token) {
     token
   );
   return axios(headers)
-    .then((res) => {
-      return res.data.id;
-    })
+    .then((res) => res.data.id)
     .catch((error) => {
       console.log("error: " + error);
     });

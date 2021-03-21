@@ -20,7 +20,8 @@ const Release = ({
   handleAdd,
   handleToggle,
   handlePreview,
-  playing,
+  isPlaying,
+  playingUrl,
   album,
 }) => {
   return (
@@ -45,7 +46,7 @@ const Release = ({
                 onClick={() => handlePreview(preview)}
                 title="Play"
                 className={
-                  preview === playing.url && playing.play
+                  preview === playingUrl && isPlaying
                     ? "link-btn pulse-btn"
                     : "link-btn"
                 }
@@ -53,7 +54,7 @@ const Release = ({
                 <FontAwesomeIcon
                   className="play-link"
                   icon={
-                    preview === playing.url && playing.play
+                    preview === playingUrl && isPlaying
                       ? faPauseCircle
                       : faPlayCircle
                   }

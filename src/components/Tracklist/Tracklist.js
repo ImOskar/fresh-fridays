@@ -13,13 +13,17 @@ const Tracklist = ({
   handleAdd,
   handleToggle,
   handlePreview,
-  playing,
+  isPlaying,
+  playingUrl,
 }) => {
   const artist = list.artist;
   return (
     <div className="tracklist">
       <div className="tracklist-header">
-        <button onClick={() => handleToggle()} className="btn close-container">
+        <button
+          onClick={() => handleToggle({})}
+          className="btn close-container"
+        >
           <FontAwesomeIcon className="close-btn" icon={faTimes} />
         </button>
         <span className="tracklist-header-title title-margin">
@@ -38,7 +42,7 @@ const Tracklist = ({
                     <button
                       onClick={() => handlePreview(track.preview)}
                       className={
-                        track.preview === playing.url && playing.play
+                        track.preview === playingUrl && isPlaying
                           ? "btn pulse-btn"
                           : "btn"
                       }
@@ -46,7 +50,7 @@ const Tracklist = ({
                       <FontAwesomeIcon
                         className="play-svg"
                         icon={
-                          track.preview === playing.url && playing.play
+                          track.preview === playingUrl && isPlaying
                             ? faPauseCircle
                             : faPlayCircle
                         }

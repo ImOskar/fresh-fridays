@@ -8,7 +8,8 @@ const Releaselist = ({
   handleAdd,
   handleToggle,
   handlePreview,
-  playing,
+  isPlaying,
+  playingUrl,
   releaseType,
 }) => {
   const [releaseArray, setReleaseArray] = useState([]);
@@ -74,7 +75,8 @@ const Releaselist = ({
               {...release}
               handleToggle={handleToggle}
               handlePreview={handlePreview}
-              playing={playing}
+              isPlaying={isPlaying}
+              playingUrl={playingUrl}
               album={releaseType}
             />
           );
