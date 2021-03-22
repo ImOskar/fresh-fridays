@@ -6,25 +6,27 @@ const useAudioPreview = () => {
   const [url, setUrl] = useState("");
 
   useEffect(() => {
+    isPlaying ? audio.play() : audio.pause();
+  }, [isPlaying, audio]);
+
+  useEffect(() => {
     const onPlayEnded = () => {
       audio.setAttribute("src", "");
       setUrl("");
       setIsPlaying(false);
     };
     audio.addEventListener("ended", onPlayEnded);
-    isPlaying ? audio.play() : audio.pause();
     return () => {
       audio.removeEventListener("ended", onPlayEnded);
     };
-  }, [audio, isPlaying]);
+  }, [audio]);
 
   useEffect(() => {
     if (url === "") return;
-    audio.setAttribute("src", url);
     setIsPlaying(true);
-  }, [url, audio]);
+  }, [url]);
 
-  return [{ isPlaying, url }, setIsPlaying, setUrl];
+  return [{ isPlaying, url, audio }, setIsPlaying, setUrl];
 };
 
 export default useAudioPreview;

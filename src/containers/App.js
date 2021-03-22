@@ -17,7 +17,7 @@ import "./App.css";
 
 function App() {
   const { isLoggedIn } = useToken();
-  const [{ isPlaying, url }, setIsPlaying, setUrl] = useAudioPreview();
+  const [{ isPlaying, url, audio }, setIsPlaying, setUrl] = useAudioPreview();
   const [playlist, setPlaylist] = useState([]);
   const [playlistToggle, setPlaylistToggle] = useState(false);
   const [{ releases, isLoading, isError }, setQuery] = useReleaseApi();
@@ -85,10 +85,12 @@ function App() {
   };
 
   const handlePlayPreview = (previewUrl) => {
+    setIsPlaying(!isPlaying);
     if (url !== previewUrl) {
+      audio.setAttribute("src", previewUrl);
       setIsPlaying(false);
       setUrl(previewUrl);
-    } else setIsPlaying(!isPlaying);
+    }
   };
 
   const handleSelectReleaseType = (releaseType) => {
