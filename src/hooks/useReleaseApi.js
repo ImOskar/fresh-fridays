@@ -1,11 +1,12 @@
-import { useState, useEffect } from "react";
+import { useState, useEffect, useRef } from "react";
 import { getFridayNumber } from "../utils/functions";
 import axios from "axios";
 
 const useReleaseApi = () => {
+  const cache = useRef({});
   const [releases, setReleases] = useState([]);
   const [url] = useState(process.env.REACT_APP_API_URL);
-  const [query, setQuery] = useState(getFridayNumber());
+  const [query, setQuery] = useState(`fri${getFridayNumber()}2021`);
   const [isLoading, setIsLoading] = useState(true);
   const [isError, setIsError] = useState(false);
 
@@ -13,13 +14,19 @@ const useReleaseApi = () => {
     const fetchReleases = async () => {
       setIsError(false);
       setIsLoading(true);
-      try {
-        const result = await axios(url + `fri${query}2021`);
-        const releaseData = result.data.releases;
-        setReleases(releaseData);
-      } catch (error) {
-        console.log("Error: " + error);
-        setIsError(true);
+      if (cache.current[query]) {
+        const data = cache.current[query];
+        setReleases(data);
+      } else {
+        try {
+          const result = await axios(url + query);
+          const releaseData = result.data.releases;
+          cache.current[query] = releaseData;
+          setReleases(releaseData);
+        } catch (error) {
+          console.log("Error: " + error);
+          setIsError(true);
+        }
       }
       setIsLoading(false);
     };

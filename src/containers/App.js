@@ -32,7 +32,7 @@ function App() {
   });
 
   const fetchReleases = (number) => {
-    setQuery(number);
+    setQuery(`fri${number}2021`);
   };
 
   const handlePlaylistToggle = () => {
@@ -88,7 +88,6 @@ function App() {
     setIsPlaying(!isPlaying);
     if (url !== previewUrl) {
       audio.setAttribute("src", previewUrl);
-      setIsPlaying(false);
       setUrl(previewUrl);
     }
   };
