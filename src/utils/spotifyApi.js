@@ -18,7 +18,8 @@ export const getLoginPath = () => {
 
 export default async function savePlaylist(token, uriArray) {
   let userId = await getUser(token);
-  let result = await createNewPlaylist(userId, token);
+  if (!userId) return "error";
+  let playlistId = await createNewPlaylist(userId, token);
 
   let spotifyApiLimit = 100;
   if (uriArray.length > spotifyApiLimit) {
@@ -26,13 +27,13 @@ export default async function savePlaylist(token, uriArray) {
     let response = [];
     await Promise.all(
       uriChunks.map(async (chunk) => {
-        response.push(await addSongsToPlaylist(token, result, chunk));
+        response.push(await addSongsToPlaylist(token, playlistId, chunk));
       })
     );
     return response[0];
   }
 
-  const response = await addSongsToPlaylist(token, result, uriArray);
+  const response = await addSongsToPlaylist(token, playlistId, uriArray);
   return response;
 }
 

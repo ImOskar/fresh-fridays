@@ -31,8 +31,8 @@ function App() {
     title: "",
   });
 
-  const fetchReleases = (number) => {
-    setQuery(`fri${number}2021`);
+  const fetchReleases = (query) => {
+    setQuery(query);
   };
 
   const handlePlaylistToggle = () => {
@@ -62,24 +62,21 @@ function App() {
   };
 
   const handleSavePLaylist = () => {
-    if (!isLoggedIn || !playlist.length) {
-      displayToast(tc.LOGIN_MESSAGE, tc.PL_ERROR_MESSAGE, tc.ERROR);
-      return;
-    }
+    if (!isLoggedIn)
+      return displayToast(tc.LOGIN_MESSAGE, tc.PL_ERROR_MESSAGE, tc.ERROR);
+    if (!playlist.length)
+      return displayToast(tc.PL_EMPTY_MESSAGE, tc.PL_ERROR_MESSAGE, tc.ERROR);
     saveToSpotify();
   };
 
   const saveToSpotify = () => {
     let uris = playlist.map((item) => item.uri);
     let token = localStorage.getItem("token");
-    savePlaylist(token, uris)
-      .then((res) => {
-        if (res.status < 400)
-          displayToast("", tc.PL_SUCCESS_MESSAGE, tc.SUCCESS);
-      })
-      .catch((error) => {
-        displayToast(tc.LOGIN_MESSAGE, tc.PL_ERROR_MESSAGE, tc.ERROR);
-      });
+    savePlaylist(token, uris).then((res) => {
+      if (res !== "error") {
+        displayToast("", tc.PL_SUCCESS_MESSAGE, tc.SUCCESS);
+      } else displayToast(tc.LOGIN_MESSAGE, tc.PL_ERROR_MESSAGE, tc.ERROR);
+    });
     handlePlaylistToggle();
     setPlaylist([]);
   };

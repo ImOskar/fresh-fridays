@@ -1,5 +1,6 @@
 import React from "react";
-import DateSlider from "../DateSlider/DateSlider";
+import DateDropdown from "../DateDropdown/DateDropdown";
+import { getFridayList } from "../../utils/functions";
 import "./ContentHeader.styles.css";
 
 const ContentHeader = ({ getReleases, selectReleaseType }) => {
@@ -27,7 +28,7 @@ const ContentHeader = ({ getReleases, selectReleaseType }) => {
 
   return (
     <section className="content-header">
-      <DateSlider getReleases={getReleases} />
+      <DateDropdown getReleases={getReleases} items={getFridayList()} />
       <div className="switch-button">
         <span className="active"></span>
         <button

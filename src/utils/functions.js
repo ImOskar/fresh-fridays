@@ -10,6 +10,15 @@ export const getFridayNumber = () => {
   return fridayNumber;
 };
 
+export const getFridayList = () => {
+  let fridayList = Array(getFridayNumber())
+    .fill()
+    .map((_, i) => {
+      return { title: `Friday#${i + 1}`, query: `fri${i + 1}2021` };
+    });
+  return fridayList;
+};
+
 export const chunks = (array, chunkSize) => {
   let i;
   let arrayChunks = [];
