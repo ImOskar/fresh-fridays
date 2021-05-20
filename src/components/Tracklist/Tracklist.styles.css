@@ -12,25 +12,10 @@
   font-size: 3rem;
 }
 
-.close-btn {
-  font-size: 3rem;
-  color: #fff;
-}
-
 .close-container {
   align-self: flex-start;
   position: fixed;
   margin: 1rem !important;
-}
-
-.play-svg {
-  color: #e9ff70;
-  font-size: 3rem;
-}
-
-.add-svg {
-  color: #40e0d0;
-  font-size: 3rem;
 }
 
 .tracklist-table {
@@ -61,44 +46,9 @@
   padding: 1rem;
 }
 
-.pulse-btn {
-  box-shadow: 0 0 0 0 rgba(233, 255, 112, 0.5);
-  backface-visibility: hidden;
-  perspective: 1000;
-  -webkit-animation: pulse 1.5s infinite;
-  animation: pulse 1.5s infinite;
-  border-radius: 50%;
-}
-
-@keyframes pulse {
-  0% {
-    transform: scale(0.9);
-  }
-  70% {
-    transform: scale(1);
-    -webkit-box-shadow: 0 0 0 15px hsla(115, 100%, 54%, 0);
-  }
-  90% {
-    transform: scale(0.9);
-    -webkit-box-shadow: 0 0 0 0 rgba(41, 255, 22, 0);
-  }
-}
-
 @media screen and (max-width: 700px) {
   .tracklist {
     left: 2.5%;
     width: 95%;
   }
-}
-
-@media (hover: hover) {
-  .play-svg:hover,
-  .add-svg:hover {
-    color: #fff;
-  }
-}
-
-.play-svg:active,
-.add-svg:active {
-  color: #fff;
 }

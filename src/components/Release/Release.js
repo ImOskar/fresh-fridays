@@ -1,12 +1,9 @@
 import React from "react";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import {
-  faPlusCircle,
-  faListAlt,
-  faPauseCircle,
-  faPlayCircle,
-} from "@fortawesome/free-solid-svg-icons";
-import { faSpotify } from "@fortawesome/free-brands-svg-icons";
+import { useDispatch, useSelector } from "react-redux";
+import { addToPlaylist } from "../../redux/playlist/playlist.actions";
+import { openTracklist } from "../../redux/releases/release.actions";
+import { handlePreviewAudio } from "../../redux/preview/preview.actions";
+import SvgButton from "../SvgButton/SvgButton";
 import "./Release.styles.css";
 
 const Release = ({
@@ -17,65 +14,53 @@ const Release = ({
   uri,
   preview,
   tracks,
-  handleAdd,
-  handleToggle,
-  handlePreview,
-  isPlaying,
-  playingUrl,
   album,
 }) => {
+  const previewState = useSelector((state) => state.preview);
+  const dispatch = useDispatch();
+
+  const isPlaying = () => {
+    return preview === previewState.url && previewState.playing;
+  };
+
   return (
     <div className="album">
       <div className="img-hov">
         <img className="album-img" alt="album" src={image} />
         <div className="album-link">
-          <a className="link-btn" title="Open in Spotify" href={url}>
-            <FontAwesomeIcon className="spotify-link" icon={faSpotify} />
+          <a href={url}>
+            <SvgButton
+              classes="spotify-link btn links-align"
+              title="Open in Spotify"
+              icon={["fab", "spotify"]}
+            />
           </a>
-          {album === "album" ? (
-            <button
-              className="link-btn"
+          {preview && (
+            <SvgButton
+              classes={
+                isPlaying()
+                  ? "play btn links-align pulse-btn"
+                  : "play btn links-align"
+              }
+              title="Play"
+              click={() => dispatch(handlePreviewAudio(preview))}
+              icon={isPlaying() ? "pause-circle" : "play-circle"}
+            />
+          )}
+          {album ? (
+            <SvgButton
+              classes="add btn links-align"
               title="Open tracklist"
-              onClick={() => handleToggle({ artist, title, tracks: tracks })}
-            >
-              <FontAwesomeIcon icon={faListAlt} />
-            </button>
-          ) : preview ? (
-            <>
-              <button
-                onClick={() => handlePreview(preview)}
-                title="Play"
-                className={
-                  preview === playingUrl && isPlaying
-                    ? "link-btn pulse-btn"
-                    : "link-btn"
-                }
-              >
-                <FontAwesomeIcon
-                  className="play-link"
-                  icon={
-                    preview === playingUrl && isPlaying
-                      ? faPauseCircle
-                      : faPlayCircle
-                  }
-                />
-              </button>
-              <button
-                className="link-btn"
-                title="Add to playlist"
-                onClick={() => handleAdd(artist, title, uri)}
-              >
-                <FontAwesomeIcon icon={faPlusCircle} />
-              </button>
-            </>
+              click={() => dispatch(openTracklist({ artist, title, tracks }))}
+              icon="list-alt"
+            />
           ) : (
-            <button
-              className="link-btn"
+            <SvgButton
+              classes="add btn links-align"
               title="Add to playlist"
-              onClick={() => handleAdd(artist, title, uri)}
-            >
-              <FontAwesomeIcon icon={faPlusCircle} />
-            </button>
+              icon="plus-circle"
+              click={() => dispatch(addToPlaylist({ artist, title, uri }))}
+            />
           )}
         </div>
       </div>

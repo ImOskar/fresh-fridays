@@ -1,0 +1,9 @@
+const PlaylistActionTypes = {
+  TOGGLE_PLAYLIST: "TOGGLE_PLAYLIST",
+  ADD_ITEM: "ADD_ITEM",
+  REMOVE_ITEM: "REMOVE_ITEM",
+  SAVE_SUCCESS: "SAVE_SUCCESS",
+  CLEAR_PLAYLIST: "CLEAR_PLAYLIST",
+};
+
+export default PlaylistActionTypes;

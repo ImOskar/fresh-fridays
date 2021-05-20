@@ -1,22 +1,26 @@
 import React from "react";
+import { useDispatch } from "react-redux";
+import { selectReleaseType } from "../../redux/releases/release.actions";
 import DateDropdown from "../DateDropdown/DateDropdown";
 import { getFridayList } from "../../utils/functions";
 import "./ContentHeader.styles.css";
 
-const ContentHeader = ({ getReleases, selectReleaseType }) => {
+const ContentHeader = () => {
+  const dispatch = useDispatch();
+
   const handleSelectorButton = (e) => {
     let albumButton = document.querySelector(".left");
     let singleButton = document.querySelector(".right");
     let switchSpan = document.querySelector(".active");
     switch (e.target.value) {
       case "albums":
-        selectReleaseType("album");
+        dispatch(selectReleaseType("album"));
         singleButton.classList.remove("active-case");
         albumButton.classList.add("active-case");
         switchSpan.style.left = "0%";
         break;
       case "singles":
-        selectReleaseType("singles");
+        dispatch(selectReleaseType("singles"));
         albumButton.classList.remove("active-case");
         singleButton.classList.add("active-case");
         switchSpan.style.left = "50%";
@@ -28,7 +32,7 @@ const ContentHeader = ({ getReleases, selectReleaseType }) => {
 
   return (
     <section className="content-header">
-      <DateDropdown getReleases={getReleases} items={getFridayList()} />
+      <DateDropdown items={getFridayList()} />
       <div className="switch-button">
         <span className="active"></span>
         <button

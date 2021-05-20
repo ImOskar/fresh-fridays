@@ -1,70 +1,70 @@
 import React from "react";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import {
-  faPlusCircle,
-  faTimes,
-  faPlayCircle,
-  faPauseCircle,
-} from "@fortawesome/free-solid-svg-icons";
+import { useDispatch, useSelector } from "react-redux";
+import { closeTracklist } from "../../redux/releases/release.actions";
+import { addToPlaylist } from "../../redux/playlist/playlist.actions";
+import { handlePreviewAudio } from "../../redux/preview/preview.actions";
+import SvgButton from "../SvgButton/SvgButton";
 import "./Tracklist.styles.css";
 
-const Tracklist = ({
-  list,
-  handleAdd,
-  handleToggle,
-  handlePreview,
-  isPlaying,
-  playingUrl,
-}) => {
-  const artist = list.artist;
+const Tracklist = () => {
+  const dispatch = useDispatch();
+  const { tracklist } = useSelector((state) => state.releaseList);
+  const { url, playing } = useSelector((state) => state.preview);
+
+  const audioPlaying = (preview) => preview === url && playing;
+
   return (
     <div className="tracklist">
       <div className="tracklist-header">
-        <button
-          onClick={() => handleToggle({})}
-          className="btn close-container"
-        >
-          <FontAwesomeIcon className="close-btn" icon={faTimes} />
-        </button>
+        <SvgButton
+          classes="btn close-container close md"
+          icon="times"
+          click={() => dispatch(closeTracklist())}
+        />
         <span className="tracklist-header-title title-margin">
-          {artist + ":"}
+          {tracklist.artist + ":"}
         </span>
-        <span className="tracklist-header-title">{list.title}</span>
+        <span className="tracklist-header-title">{tracklist.title}</span>
       </div>
       <table className="tracklist-table">
         <tbody>
-          {list.tracks.map((track) => {
+          {tracklist.tracks.map((track) => {
             return (
               <tr className="tracklist-item" key={track.uri}>
                 <td className="tracklist-title">{track.title}</td>
                 <td className="tracklist-play">
                   {track.preview && (
-                    <button
-                      onClick={() => handlePreview(track.preview)}
-                      className={
-                        track.preview === playingUrl && isPlaying
-                          ? "btn pulse-btn"
-                          : "btn"
+                    <SvgButton
+                      title="Play/Pause"
+                      classes={
+                        audioPlaying(track.preview)
+                          ? "btn play md pulse-btn"
+                          : "btn play md"
                       }
-                    >
-                      <FontAwesomeIcon
-                        className="play-svg"
-                        icon={
-                          track.preview === playingUrl && isPlaying
-                            ? faPauseCircle
-                            : faPlayCircle
-                        }
-                      />
-                    </button>
+                      click={() => dispatch(handlePreviewAudio(track.preview))}
+                      icon={
+                        audioPlaying(track.preview)
+                          ? "pause-circle"
+                          : "play-circle"
+                      }
+                    />
                   )}
                 </td>
                 <td className="tracklist-add">
-                  <button
-                    onClick={() => handleAdd(artist, track.title, track.uri)}
-                    className="btn"
-                  >
-                    <FontAwesomeIcon className="add-svg" icon={faPlusCircle} />
-                  </button>
+                  <SvgButton
+                    title="Add to playlist"
+                    classes="btn add md"
+                    click={() =>
+                      dispatch(
+                        addToPlaylist({
+                          artist: track.artist,
+                          title: track.title,
+                          uri: track.uri,
+                        })
+                      )
+                    }
+                    icon="plus-circle"
+                  />
                 </td>
               </tr>
             );

@@ -32,6 +32,13 @@
   letter-spacing: 3px;
 }
 
+.playlist-info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: #ffffff;
+}
+
 .empty-playlist {
   font-weight: 300;
   text-align: center;
@@ -39,5 +46,5 @@
 }
 
 .table-body {
-  color: white;
+  color: #ffffff;
 }

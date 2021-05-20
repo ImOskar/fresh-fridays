@@ -8,22 +8,24 @@ import {
 import "./Toast.styles.css";
 
 const Toast = ({ message, title, type }) => {
+  const getIconType = () => {
+    switch (type) {
+      case "duplicate":
+        return faClone;
+      case "error":
+        return faExclamationCircle;
+      case "success":
+        return faCheckCircle;
+      default:
+        return null;
+    }
+  };
+
   return (
     <div className="toast-box">
       <div className="notification">
         <div className="notification-icon">
-          {type === "duplicate" && (
-            <FontAwesomeIcon className="link-margin" icon={faClone} />
-          )}
-          {type === "error" && (
-            <FontAwesomeIcon
-              className="link-margin"
-              icon={faExclamationCircle}
-            />
-          )}
-          {type === "success" && (
-            <FontAwesomeIcon className="link-margin" icon={faCheckCircle} />
-          )}
+          <FontAwesomeIcon className="link-margin" icon={getIconType()} />
         </div>
         <div className="notification-text">
           <span className="notification-title">{title}</span>

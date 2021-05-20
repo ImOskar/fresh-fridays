@@ -1,17 +1,22 @@
 import React from "react";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faMinusCircle } from "@fortawesome/free-solid-svg-icons";
+import { useDispatch } from "react-redux";
+import { removeFromPlaylist } from "../../redux/playlist/playlist.actions";
+import SvgButton from "../SvgButton/SvgButton";
 import "./PlaylistItem.styles.css";
 
-const PlaylistItem = ({ artist, title, uri, clickHandler }) => {
+const PlaylistItem = ({ artist, title, uri }) => {
+  const dispatch = useDispatch();
   return (
     <tr className="playlist-item" key={uri}>
       <td className="item-title">{title}</td>
       <td className="item-artist">{artist}</td>
       <td className="item-remove">
-        <button onClick={() => clickHandler(uri)} className="btn">
-          <FontAwesomeIcon className="remove-button" icon={faMinusCircle} />
-        </button>
+        <SvgButton
+          title="Remove track"
+          classes="btn sm remove"
+          click={() => dispatch(removeFromPlaylist(uri))}
+          icon="minus-circle"
+        />
       </td>
     </tr>
   );

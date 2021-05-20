@@ -1,0 +1,19 @@
+.footer {
+  height: 20rem;
+  width: 100%;
+  font-size: 1.5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  background: #171717;
+  margin-top: 10rem;
+}
+
+.scrollup {
+  font-size: 5rem;
+}
+
+.footer-text {
+  text-align: center;
+}

@@ -17,27 +17,31 @@ export const getLoginPath = () => {
 };
 
 export default async function savePlaylist(token, uriArray) {
-  let userId = await getUser(token);
-  if (!userId) return "error";
-  let playlistId = await createNewPlaylist(userId, token);
+  try {
+    let userId = await getUser(token);
+    let playlistId = await createNewPlaylist(userId, token);
 
-  let spotifyApiLimit = 100;
-  if (uriArray.length > spotifyApiLimit) {
-    let uriChunks = functions.chunks(uriArray, spotifyApiLimit);
-    let response = [];
-    await Promise.all(
-      uriChunks.map(async (chunk) => {
-        response.push(await addSongsToPlaylist(token, playlistId, chunk));
-      })
-    );
-    return response[0];
+    let spotifyApiLimit = 100;
+    if (uriArray.length > spotifyApiLimit) {
+      let uriChunks = functions.chunks(uriArray, spotifyApiLimit);
+      let response = [];
+      await Promise.all(
+        uriChunks.map(async (chunk) => {
+          response.push(await addSongsToPlaylist(token, playlistId, chunk));
+        })
+      );
+      return response[0];
+    }
+    const response = await addSongsToPlaylist(token, playlistId, uriArray);
+    return response;
+  } catch (error) {
+    console.log("error í save");
   }
-
-  const response = await addSongsToPlaylist(token, playlistId, uriArray);
-  return response;
 }
 
-async function createNewPlaylist(userId, token) {
+export const apiSongLimit = 100;
+
+export async function createNewPlaylist(userId, token) {
   let playlistInfo = {
     name: "Fresh Fridays #" + functions.getFridayNumber(),
     description: "New hip-hop!",
@@ -53,7 +57,7 @@ async function createNewPlaylist(userId, token) {
   return result;
 }
 
-async function addSongsToPlaylist(token, playlistId, uriArray) {
+export async function addSongsToPlaylist(token, playlistId, uriArray) {
   let url = `https://api.spotify.com/v1/playlists/${playlistId}/tracks`;
   let headers = createHeaders("post", url, uriArray, token);
   return axios(headers)
@@ -77,16 +81,12 @@ function createHeaders(method, url, data, token) {
   return headers;
 }
 
-async function getUser(token) {
+export async function getUser(token) {
   let headers = createHeaders(
     "get",
     `https://api.spotify.com/v1/me`,
     "",
     token
   );
-  return axios(headers)
-    .then((res) => res.data.id)
-    .catch((error) => {
-      console.log("error: " + error);
-    });
+  return axios(headers).then((res) => res.data.id);
 }

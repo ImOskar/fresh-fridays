@@ -1,21 +1,17 @@
 import React, { useRef, useCallback, useEffect, useState } from "react";
+import { useSelector } from "react-redux";
 import Release from "../Release/Release";
 import Loader from "../Loader/Loader";
 import "./ReleaseList.styles.css";
 
-const Releaselist = ({
-  releases,
-  handleAdd,
-  handleToggle,
-  handlePreview,
-  isPlaying,
-  playingUrl,
-  releaseType,
-}) => {
+const Releaselist = () => {
   const [releaseArray, setReleaseArray] = useState([]);
   const [rlsList, setRlsList] = useState([]);
   const [batch, setBatch] = useState(10);
   const [loading, setLoading] = useState(false);
+
+  const releaseList = useSelector((state) => state.releaseList);
+  const { releaseType, releases } = releaseList;
 
   useEffect(() => {
     if (releaseType === "album") {
@@ -71,13 +67,8 @@ const Releaselist = ({
           return (
             <Release
               key={release.uri}
-              handleAdd={handleAdd}
+              album={releaseType === "album"}
               {...release}
-              handleToggle={handleToggle}
-              handlePreview={handlePreview}
-              isPlaying={isPlaying}
-              playingUrl={playingUrl}
-              album={releaseType}
             />
           );
         })}

@@ -1,0 +1,8 @@
+.info {
+  display: flex;
+  flex-direction: column;
+  margin: 3rem;
+  justify-content: space-around;
+  height: 35rem;
+  font-size: 2rem;
+}

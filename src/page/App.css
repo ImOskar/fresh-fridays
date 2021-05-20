@@ -63,44 +63,11 @@ main {
   justify-content: center;
 }
 
-.footer {
-  height: 20rem;
-  width: 100%;
-  font-size: 1.5rem;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-around;
-  align-items: center;
-  background: #171717;
-  margin-top: 10rem;
-}
-
-.release-links {
+/* .release-links {
   display: flex;
   flex-direction: column;
   font-size: 4rem;
-}
-
-.btn {
-  cursor: pointer;
-  background: transparent;
-  outline: none;
-  border: 0;
-  padding: 0;
-  margin: 0;
-  height: 3rem;
-}
-
-.playlist-button {
-  position: fixed;
-  font-size: 4rem;
-  right: 2rem;
-  bottom: 2rem;
-  height: fit-content;
-  width: 4rem;
-  z-index: 100;
-  color: inherit;
-}
+} */
 
 .spotify-btn {
   background: #1db954;
@@ -118,22 +85,12 @@ main {
   outline: none;
 }
 
-.scrollup {
-  font-size: 5rem;
-}
-
-.footer-text {
-  text-align: center;
-}
-
 @media (hover: hover) {
   .spotify-btn:hover {
     color: black;
     cursor: pointer;
   }
-  .btn:hover,
-  a:hover,
-  .playlist-button:hover {
+  a:hover {
     color: white;
   }
 }
@@ -142,8 +99,6 @@ main {
   color: black;
   cursor: pointer;
 }
-.btn:active,
-a:active,
-.playlist-button:active {
+a:active {
   color: white;
 }

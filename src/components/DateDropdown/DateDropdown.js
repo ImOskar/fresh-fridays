@@ -1,11 +1,14 @@
 import React, { useEffect, useState } from "react";
-import { faAngleUp, faAngleDown } from "@fortawesome/free-solid-svg-icons";
+import { useDispatch } from "react-redux";
+import { fetchReleases } from "../../redux/releases/release.actions";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import "./DateDropdown.styles.css";
 
-const DateDropdown = ({ getReleases, items }) => {
+const DateDropdown = ({ items }) => {
   const [showItems, setShowItems] = useState(false);
   const [selected, setSelected] = useState(items[items.length - 1].title);
+
+  const dispatch = useDispatch();
 
   useEffect(() => {
     const closeDropdown = () => {
@@ -21,7 +24,7 @@ const DateDropdown = ({ getReleases, items }) => {
 
   const handleSelectItem = (item) => {
     setSelected(item.title);
-    getReleases(item.query);
+    dispatch(fetchReleases(item.query));
     setShowItems(false);
   };
 
@@ -35,7 +38,7 @@ const DateDropdown = ({ getReleases, items }) => {
         <p className="dropdown-text">{selected}</p>
         <FontAwesomeIcon
           className="angle-position"
-          icon={showItems ? faAngleUp : faAngleDown}
+          icon={showItems ? "angle-up" : "angle-down"}
           size="2x"
         />
       </button>
