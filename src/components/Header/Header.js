@@ -10,9 +10,7 @@ const Header = ({ isLoggedIn }) => {
       <div className="bg-gradient"></div>
       <div className="caption">
         <h1 className="title">[FRESH] Fridays</h1>
-        <span className="subtitle bg-color">
-          Discover the latest hip-hop releases
-        </span>
+        <span className="subtitle">Discover the latest hip-hop releases</span>
       </div>
       <a href={getLoginPath()} className="spotify-login spotify-btn selectable">
         {!isLoggedIn ? "Log in to Spotify" : "You're logged in!"}

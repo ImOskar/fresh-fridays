@@ -14,12 +14,14 @@ const Playlist = ({ isLoggedIn }) => {
     <div className="playlist">
       <div className="playlist-heading">
         <span className="playlist-name">[Fresh]Friday#{getFridayNumber()}</span>
-        <button
-          onClick={() => dispatch(savePlaylistToSpotify(tracks))}
-          className="spotify-btn"
-        >
-          Save playlist to Spotify
-        </button>
+        {tracks.length ? (
+          <button
+            onClick={() => dispatch(savePlaylistToSpotify(tracks))}
+            className="spotify-btn"
+          >
+            Save playlist to Spotify
+          </button>
+        ) : null}
       </div>
       {!tracks.length ? (
         <div className="playlist-info">

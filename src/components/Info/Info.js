@@ -13,33 +13,33 @@ const Info = ({ isLoggedIn }) => {
         </a>
       </p>
       <p>
+        To open and close playlist:
         <SvgButton
           classes="plist btn md"
           title="Playlist"
           icon="bars"
           mask="play"
         />{" "}
-        To open and close playlist.
       </p>
       <p>
+        To open tracklist:
         <SvgButton
           classes="add btn md"
           title="Open tracklist"
           icon="list-alt"
         />{" "}
-        To open tracklist.
       </p>
       <p>
+        To add a song to playlist:
         <SvgButton
           classes="add btn md"
           title="Add to playlist"
           icon="plus-circle"
         />{" "}
-        To add a song to playlist.
       </p>
       <p>
-        <SvgButton classes="play btn md" title="Play" icon="play-circle" /> To
-        play a preview.
+        To play a preview:
+        <SvgButton classes="play btn md" title="Play" icon="play-circle" />
       </p>
     </div>
   );

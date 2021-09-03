@@ -6,3 +6,9 @@
   height: 35rem;
   font-size: 2rem;
 }
+
+.info p {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
