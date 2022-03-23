@@ -30,7 +30,7 @@ const Release = ({
         <div className="album-link">
           <a href={url}>
             <SvgButton
-              classes="spotify-link btn links-align"
+              classes="btn-col-white btn links-align"
               title="Open in Spotify"
               icon={["fab", "spotify"]}
             />
@@ -39,8 +39,8 @@ const Release = ({
             <SvgButton
               classes={
                 isPlaying()
-                  ? "play btn links-align pulse-btn"
-                  : "play btn links-align"
+                  ? "btn-col-white btn links-align pulse-btn"
+                  : "btn-col-white btn links-align"
               }
               title="Play"
               click={() => dispatch(handlePreviewAudio(preview))}
@@ -49,14 +49,14 @@ const Release = ({
           )}
           {album ? (
             <SvgButton
-              classes="add btn links-align"
+              classes="btn-col-white btn links-align"
               title="Open tracklist"
               click={() => dispatch(openTracklist({ artist, title, tracks }))}
               icon="list-alt"
             />
           ) : (
             <SvgButton
-              classes="add btn links-align"
+              classes="btn-col-white btn links-align"
               title="Add to playlist"
               icon="plus-circle"
               click={() => dispatch(addToPlaylist({ artist, title, uri }))}

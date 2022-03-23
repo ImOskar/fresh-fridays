@@ -17,7 +17,7 @@ const Tracklist = () => {
     <div className="tracklist">
       <div className="tracklist-header">
         <SvgButton
-          classes="btn close-container close md"
+          classes="btn close-container btn-col-white md"
           icon="times"
           click={() => dispatch(closeTracklist())}
         />
@@ -38,8 +38,8 @@ const Tracklist = () => {
                       title="Play/Pause"
                       classes={
                         audioPlaying(track.preview)
-                          ? "btn play md pulse-btn"
-                          : "btn play md"
+                          ? "btn btn-col-white md pulse-btn"
+                          : "btn btn-col-white md"
                       }
                       click={() => dispatch(handlePreviewAudio(track.preview))}
                       icon={
@@ -53,7 +53,7 @@ const Tracklist = () => {
                 <td className="tracklist-add">
                   <SvgButton
                     title="Add to playlist"
-                    classes="btn add md"
+                    classes="btn btn-col-white md"
                     click={() =>
                       dispatch(
                         addToPlaylist({

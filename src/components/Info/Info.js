@@ -24,7 +24,7 @@ const Info = ({ isLoggedIn }) => {
       <p>
         To open tracklist:
         <SvgButton
-          classes="add btn md"
+          classes="btn-col-white btn md"
           title="Open tracklist"
           icon="list-alt"
         />{" "}
@@ -32,14 +32,18 @@ const Info = ({ isLoggedIn }) => {
       <p>
         To add a song to playlist:
         <SvgButton
-          classes="add btn md"
+          classes="btn-col-white btn md"
           title="Add to playlist"
           icon="plus-circle"
         />{" "}
       </p>
       <p>
         To play a preview:
-        <SvgButton classes="play btn md" title="Play" icon="play-circle" />
+        <SvgButton
+          classes="btn-col-white btn md"
+          title="Play"
+          icon="play-circle"
+        />
       </p>
     </div>
   );

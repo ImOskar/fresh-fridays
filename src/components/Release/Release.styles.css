@@ -45,19 +45,12 @@
 .album-link {
   position: absolute;
   bottom: 0;
-  height: 6rem;
   width: 100%;
   text-align: center;
   transition: 0.2s ease;
   font-size: 5rem;
   display: flex;
-  justify-content: flex-end;
-  align-items: flex-end;
   background: linear-gradient(180deg, rgb(29 29 29 / 50%) 0%, #000 95%);
-}
-
-.spotify-link {
-  color: #1db954;
 }
 
 @media (hover: hover) {
@@ -68,12 +61,4 @@
   .img-hov:hover .album-link {
     opacity: 1;
   }
-
-  .spotify-link:hover {
-    color: #fff;
-  }
-}
-
-.spotify-link:active {
-  color: #fff;
 }

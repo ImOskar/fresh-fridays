@@ -1,17 +1,9 @@
-.play {
-  color: #e9ff70;
-}
-
-.add {
-  color: #40e0d0;
+.btn-col-white {
+  color: #fff;
 }
 
 .remove {
-  color: #ff0000;
-}
-
-.close {
-  color: #fff;
+  color: #ff2626;
 }
 
 .plist {
@@ -53,7 +45,7 @@
 
 .links-align {
   margin: 0.5rem;
-  font-size: 5rem;
+  font-size: 2.5rem;
 }
 
 .pulse-btn {
@@ -84,9 +76,16 @@
   .playlist-btn:hover {
     color: #fff;
   }
+  .btn-col-white:hover {
+    color: #f5deb3;
+  }
 }
 
 .btn:active,
 .playlist-btn:active {
   color: #fff;
+}
+
+.btn-col-white:active {
+  color: #f5deb3;
 }
