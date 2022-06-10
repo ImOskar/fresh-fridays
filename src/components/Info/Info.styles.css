@@ -1,14 +1,53 @@
 .info {
-  display: flex;
-  flex-direction: column;
+  /* display: flex;
+  flex-grow: wrap;
   margin: 3rem;
   justify-content: space-around;
   height: 35rem;
-  font-size: 2rem;
+  font-size: 1.5rem; */
+  flex: 1;
+  display: flex;
+  flex-wrap: wrap;
+  margin: 3rem;
+  justify-content: space-around;
+  font-size: 1.5rem;
 }
 
-.info p {
+/* .info p {
   display: flex;
   justify-content: space-between;
   align-items: center;
+} */
+
+.info h1 {
+  font-weight: 300;
+  text-transform: uppercase;
+  font-size: 2rem;
+  margin-bottom: 1.5rem;
+}
+
+.info-box {
+  /* display: flex;
+  flex-direction: column;
+  background-color: #0000001c;
+  padding: 3rem;
+  margin: 1rem;
+  text-align: center;
+  align-items: center;
+  color: #fff;
+  flex: 1 1 0;
+  min-width: 25rem; */
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  background-color: #f5deb3d1;
+  padding: 2.5rem;
+  margin: 1.5rem;
+  align-items: center;
+  color: #000;
+  flex: 1;
+  min-width: 20rem;
+  max-width: 30rem;
+  max-height: 40rem;
+  min-height: 32rem;
 }

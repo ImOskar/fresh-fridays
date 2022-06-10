@@ -2,11 +2,10 @@ import React from "react";
 import { useSelector, useDispatch } from "react-redux";
 import { savePlaylistToSpotify } from "../../redux/playlist/playlist.actions";
 import { getFridayNumber } from "../../utils/functions";
-import Info from "../Info/Info";
 import PlaylistItem from "../PlaylistItem/PlaylistItem";
 import "./Playlist.styles.css";
 
-const Playlist = ({ isLoggedIn }) => {
+const Playlist = () => {
   const { tracks } = useSelector((state) => state.playlist);
   const dispatch = useDispatch();
 
@@ -26,7 +25,6 @@ const Playlist = ({ isLoggedIn }) => {
       {!tracks.length ? (
         <div className="playlist-info">
           <h1 className="empty-playlist">Your playlist is empty.</h1>
-          <Info isLoggedIn={isLoggedIn} />
         </div>
       ) : (
         <table>

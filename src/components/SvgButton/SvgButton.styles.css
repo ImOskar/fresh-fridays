@@ -2,6 +2,10 @@
   color: #fff;
 }
 
+.btn-col-primary {
+  color: #212121;
+}
+
 .remove {
   color: #ff2626;
 }
@@ -55,6 +59,11 @@
   -webkit-animation: pulse 1.5s infinite;
   animation: pulse 1.5s infinite;
   border-radius: 50%;
+}
+
+.btn-head {
+  margin-top: 2.5rem;
+  margin-bottom: 4rem;
 }
 
 @keyframes pulse {

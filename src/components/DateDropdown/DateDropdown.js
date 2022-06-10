@@ -6,7 +6,7 @@ import "./DateDropdown.styles.css";
 
 const DateDropdown = ({ items }) => {
   const [showItems, setShowItems] = useState(false);
-  const [selected, setSelected] = useState(items[items.length - 1].title);
+  const [selected, setSelected] = useState(items[0].title);
 
   const dispatch = useDispatch();
 

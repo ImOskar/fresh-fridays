@@ -3,6 +3,7 @@ import { getLoginPath } from "../../utils/spotifyApi";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faChevronDown } from "@fortawesome/free-solid-svg-icons";
 import "./Header.styles.css";
+import Info from "../Info/Info";
 
 const Header = ({ isLoggedIn }) => {
   return (
@@ -15,11 +16,12 @@ const Header = ({ isLoggedIn }) => {
       <a href={getLoginPath()} className="spotify-login spotify-btn selectable">
         {!isLoggedIn ? "Log in to Spotify" : "You're logged in!"}
       </a>
-      <span className="chevron selectable">
+      <Info />
+      {/* <span className="chevron selectable">
         <a href="#content">
           <FontAwesomeIcon icon={faChevronDown} />
         </a>
-      </span>
+      </span> */}
     </header>
   );
 };

@@ -43,7 +43,7 @@ function App() {
         ) : (
           <ReleaseList />
         )}
-        {playlistToggle && <Playlist isLoggedIn={isLoggedIn} />}
+        {playlistToggle && <Playlist />}
         <SvgButton
           classes="playlist-btn btn"
           click={() => dispatch(togglePlaylist())}

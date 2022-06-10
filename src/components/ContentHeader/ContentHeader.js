@@ -32,7 +32,7 @@ const ContentHeader = () => {
 
   return (
     <section className="content-header">
-      <DateDropdown items={getFridayList()} />
+      <DateDropdown items={getFridayList().reverse()} />
       <div className="switch-button">
         <span className="active"></span>
         <button
