@@ -8,3 +8,10 @@
 .hide-loader {
   display: none;
 }
+
+@media screen and (min-width: 1500px) {
+  .release-container {
+    width: 140rem;
+    margin: auto;
+  }
+}
