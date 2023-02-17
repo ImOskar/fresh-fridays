@@ -4,7 +4,7 @@ export const getFridayNumber = () => {
   let today = new Date();
   let diffInMs = today.getTime() - firstFridayOf21Ms;
   let fridayNumber = Math.floor(diffInMs / dayMs / 7);
-  if (today.getUTCDay() === 5 && today.getUTCHours() < 18) {
+  if (today.getUTCDay() === 5 && today.getUTCHours() < 8) {
     fridayNumber = fridayNumber - 1;
   }
   return fridayNumber;
